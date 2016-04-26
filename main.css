@@ -1,0 +1,160 @@
+/* CSS Document */
+
+body {
+    position: relative;
+}
+
+
+/* Main content */
+/* Sections Style attributes */
+
+
+/* Navbar */
+
+.navbar-default{
+    margin-bottom: 0;
+}
+
+
+/* Carousel */
+.slideshow {
+
+}
+
+
+/* Programs Section */
+.programs {
+    padding: 40px 20px;
+    background-color: cornflowerblue;
+}
+
+.programs-text{
+    text-align: center;
+}
+
+.programs-text h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* Vision Statement Section */
+.vision{
+    padding: 100px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.vision .header h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.vision .content {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+/* Review Section */
+.review {
+    padding: 30px;
+    background-color: darkgray;
+    text-align: center;
+}
+
+/* Profile Section */
+.profile {
+    padding: 40px;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+.profile .header h1 {
+    padding-bottom: 30px;
+    font-weight: 800;
+}
+
+/* Our Team  Section */
+.team{
+    padding: 100px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.team .header h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.team .content {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+/*  Pitch Paragraph Section */
+.pitch{
+    padding: 100px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.pitch .header h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.pitch .content {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+/*  Apply Section */
+.apply{
+    padding: 100px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.apply .header h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.apply .content {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+/*  News Section */
+.news{
+    padding: 100px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.news .header h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.news .content {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/* Footer */
+
+footer{
+    padding: 50px;
+    background-color: lavender;
+}
+
