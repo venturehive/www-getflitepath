@@ -4,6 +4,18 @@ body {
     position: relative;
 }
 
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
 
 /* Main content */
 /* Sections Style attributes */
@@ -13,6 +25,9 @@ body {
 
 .navbar-default{
     margin-bottom: 0;
+    background-image: linear-gradient(to bottom,#282527 0,#282527 100%);
+    background-color: #282527;
+    border-color: #000;
 }
 
 
@@ -25,7 +40,7 @@ body {
 /* Programs Section */
 .programs {
     padding: 40px 20px;
-    background-color: cornflowerblue;
+    background-color: #fff;
 }
 
 .programs-text{
@@ -33,8 +48,7 @@ body {
 }
 
 .programs-text h3 {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 20px;
 }
 
 
@@ -42,7 +56,8 @@ body {
 .vision{
     padding: 100px;
     text-align: center;
-    background-color: gainsboro;
+    color: #fff;
+    background-color: #3498db;
 }
 
 .vision .header h1 {
@@ -60,15 +75,18 @@ body {
 /* Review Section */
 .review {
     padding: 30px;
-    background-color: darkgray;
-    text-align: center;
+    background-color: #ddd;
+}
+
+blockquote{
+    border-left: none;
 }
 
 /* Profile Section */
 .profile {
     padding: 40px;
     text-align: center;
-    background-color: lightskyblue;
+    background-color: #fff;
 }
 
 .profile .header h1 {
@@ -80,13 +98,18 @@ body {
 .team{
     padding: 100px;
     text-align: center;
-    background-color: gainsboro;
+    color: #fff;
+    background-color: #3498db;
 }
 
 .team .header h1 {
     padding-top: 20px;
     padding-bottom: 20px;
     font-weight: 800;
+}
+
+.team a {
+    color: #fff;
 }
 
 .team .content {
@@ -99,7 +122,7 @@ body {
 .pitch{
     padding: 100px;
     text-align: center;
-    background-color: lightblue;
+    background-color: #fff;
 }
 
 .pitch .header h1 {
@@ -118,7 +141,8 @@ body {
 .apply{
     padding: 100px;
     text-align: center;
-    background-color: lightblue;
+    color: #fff;
+    background-color: #3498db;
 }
 
 .apply .header h1 {
@@ -137,7 +161,7 @@ body {
 .news{
     padding: 100px;
     text-align: center;
-    background-color: lightblue;
+    background-color: #fff;
 }
 
 .news .header h1 {
@@ -154,7 +178,19 @@ body {
 /* Footer */
 
 footer{
-    padding: 50px;
-    background-color: lavender;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    color: #fff;
+    background-color: #000000;
 }
 
+.thumbnail{
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.well{
+    padding: 0;
+    background-image: linear-gradient(to bottom,#000000 0,#000000 100%);
+}
