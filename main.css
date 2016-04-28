@@ -17,180 +17,382 @@ p{
 }
 
 
-/* Main content */
-/* Sections Style attributes */
+/* General Bootstrap styles */
 
-
-/* Navbar */
-
-.navbar-default{
-    margin-bottom: 0;
-    background-image: linear-gradient(to bottom,#282527 0,#282527 100%);
-    background-color: #282527;
-    border-color: #000;
-}
-
-
-/* Carousel */
-.slideshow {
-
-}
-
-
-/* Programs Section */
-.programs {
-    padding: 40px 20px;
-    background-color: #fff;
-}
-
-.programs-text{
-    text-align: center;
-}
-
-.programs-text h3 {
-    font-size: 20px;
-}
-
-
-/* Vision Statement Section */
-.vision{
-    padding: 100px;
-    text-align: center;
-    color: #fff;
-    background-color: #3498db;
-}
-
-.vision .header h1 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: 800;
-}
-
-.vision .content {
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-
-/* Review Section */
-.review {
-    padding: 30px;
-    background-color: #ddd;
-}
-
-blockquote{
-    border-left: none;
-}
-
-/* Profile Section */
-.profile {
-    padding: 40px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.profile .header h1 {
-    padding-bottom: 30px;
-    font-weight: 800;
-}
-
-/* Our Team  Section */
-.team{
-    padding: 100px;
-    text-align: center;
-    color: #fff;
-    background-color: #3498db;
-}
-
-.team .header h1 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: 800;
-}
-
-.team a {
-    color: #fff;
-}
-
-.team .content {
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-
-/*  Pitch Paragraph Section */
-.pitch{
-    padding: 100px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.pitch .header h1 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: 800;
-}
-
-.pitch .content {
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-
-/*  Apply Section */
-.apply{
-    padding: 100px;
-    text-align: center;
-    color: #fff;
-    background-color: #3498db;
-}
-
-.apply .header h1 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: 800;
-}
-
-.apply .content {
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-
-/*  News Section */
-.news{
-    padding: 100px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.news .header h1 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: 800;
-}
-
-.news .content {
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-/* Footer */
-
-footer{
-    padding-top: 20px;
-    padding-bottom: 1px;
-    color: #fff;
-    background-color: #000000;
-}
-
-.thumbnail{
-    padding: 0;
+.nav>li>a:focus, .nav>li>a:hover{
     background-color: transparent;
-    border: none;
 }
 
-.well{
-    padding: 0;
-    background-image: linear-gradient(to bottom,#000000 0,#000000 100%);
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+
+
+
+    /* Main content */
+    /* Sections Style attributes */
+
+
+    /* Navbar */
+
+    .navbar-default{
+        margin-bottom: 0;
+        background-image: linear-gradient(to bottom,#2a2728 0,#2a2728 100%);
+        background-color: #2a2728;
+        border-color: #000;
+        border-radius: 0;
+    }
+
+
+    /* Carousel */
+    .slideshow {
+
+    }
+
+    /* Programs Section */
+    .programs {
+        padding: 20px;
+        background-color: #f3f3f4;
+    }
+
+    .programs-text{
+
+    }
+
+    .programs-text h3 {
+        font-size: 20px;
+    }
+
+
+    /* Vision Statement Section */
+    .vision{
+        padding: 35px;
+        height: 500px;
+        text-align: center;
+        color: #fff;
+        background-color:#00addb;
+    }
+
+    .vision .header h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 800;
+    }
+
+    .vision .content {
+
+    }
+
+
+    /* Review Section */
+    .review {
+        padding: 30px;
+        background-color:#AFB1B1;
+    }
+
+    blockquote{
+        border-left: none;
+    }
+
+    /* Profile Section */
+    .profile {
+        padding: 25px;
+        height: 550px;
+        text-align: center;
+        background-color: #f3f3f4;
+    }
+
+    .profile .header h1 {
+        padding-bottom: 30px;
+        font-weight: 800;
+    }
+
+    /* Our Team  Section */
+    .team{
+        padding: 100px;
+        height:400px;
+        text-align: center;
+        color: #fff;
+        background-color: #00addb;
+    }
+
+    .team .header h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 800;
+    }
+
+    .team a {
+        color: #fff;
+    }
+
+    .team .content{
+
+    }
+
+
+    /*  Pitch Paragraph Section */
+    .pitch{
+        padding: 20px;
+        height: 430px;
+        text-align: center;
+        background-color: #f3f3f4;
+    }
+
+    .pitch .header h1 {
+        padding-bottom: 20px;
+        font-weight: 800;
+    }
+
+    .pitch .content {
+
+    }
+
+
+    /*  Apply Section */
+    .apply{
+        padding: 25px;
+        text-align: center;
+        color: #fff;
+        background-color: #00addb;
+    }
+
+    .apply .header h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 800;
+    }
+
+    .apply .btn {
+        background-color:#2a2728;
+    }
+
+    .apply .btn:hover {
+        background-color:#000;
+        color: #fff;
+    }
+
+
+    /*  News Section */
+    .news{
+        padding: 20px;
+        height: 400px;
+        text-align: center;
+        background-color: #f3f3f4;
+    }
+
+    .news .header h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 800;
+    }
+
+    .news .content {
+    }
+
+    /* FOOTER */
+
+    .footer-nav{
+        padding: 20px;
+        background: #2a2728;
+    }
+
+    .footer .nav>li{
+        font-size: 12px;
+    }
+
+    .social{
+        color: #ffffff;
+    }
+
+    .social h2 {
+        padding-bottom: 25px;
+        font-size: 18px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    .social ul {
+        padding-left: 0;
+        display: inline-block;
+    }
+
+    .social>ul li {
+        float: left;
+        list-style: none;
+        padding-right: 5px;
+    }
+
+    .newsletter h2 {
+        font-size: 18px;
+        font-weight: 800;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    /* Subscription Form  */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+    .cont {
+        /*  width: 300px; */
+        height: 130px;
+        margin: auto;
+    }
+
+    .login_bar {
+        width: 300px;
+        height: 50px;
+        background: white;
+        border-radius: 10px;
+        top: 20%;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+    }
+
+    .login {
+        background: transparent;
+        position: absolute;
+        height: 100%;
+        width: 190px;
+        padding-left: 10px;
+        text-align: left;
+        line-height: 50px;
+        vertical-align: middle;
+        z-index: 10;
+        -webkit-transition: transform 0.2s ease-in-out 0s;
+        -moz-transition: transform 0.2s ease-in-out 0s;
+        -o-transition: transform 0.2s ease-in-out 0s;
+        transition: transform 0.2s ease-in-out 0s;
+    }
+
+    .login_active {
+        -webkit-transform: translateX(300px);
+        -moz-transform: translateX(300px);
+        -ms-transform: translateX(300px);
+        -o-transform: translateX(300px);
+        transform: translateX(300px);
+    }
+
+    .subscribe_button:hover{
+        background-color: #00addb;
+        cursor:pointer;
+    }
+
+    .subscribe_button {
+        background: #00addb;
+        position: absolute;
+        top: -50px;
+        left: 200px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 150px;
+        width: 100px;
+        text-align: center;
+        line-height: 150px;
+        vertical-align: middle;
+        color: white;
+        -webkit-transition: transform 0.5s ease 0s;
+        -moz-transition: transform 0.5s ease 0s;
+        -o-transition: transform 0.5s ease 0s;
+        transition: transform 0.5s ease 0s;
+    }
+
+    .subscribe_button_active{
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+        transform: translateY(50px);
+    }
+
+    .subscribing{
+        background: #CDD4DC;
+        height: 100%;
+        width: 300px;
+        z-index: 5;
+        position: absolute;
+        left:-300px;
+        display: inline-block;
+        -webkit-transition: transform 1s ease 0s ;
+        -moz-transition: transform 1s ease 0s ;
+        -o-transition: transform 1s ease 0s ;
+        transition: transform 1s ease 0s ;
+    }
+
+    .subscribing_active {
+        -webkit-transform: translateX(300px);
+        -moz-transform: translateX(300px);
+        -ms-transform: translateX(300px);
+        -o-transform: translateX(300px);
+        transform: translateX(300px);
+    }
+
+    .thanks{
+        background: transparent;
+        height: 100%;
+        width: 300px;
+        z-index: 5;
+        text-align: left;
+        line-height: 50px;
+        vertical-align: middle;
+        padding-left: 10px;
+        position: absolute;
+        top:50px;
+        display: inline-block;
+        -webkit-transition: transform 0.5s ease 0s ;
+        -moz-transition: transform 0.5s ease 0s ;
+        -o-transition: transform 0.5s ease 0s ;
+        transition: transform 0.5s ease 0s ;
+    }
+
+    .thanks_active {
+        -webkit-transform: translateY(-50px);
+        -moz-transform: translateY(-50px);
+        -ms-transform: translateY(-50px);
+        -o-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+
+
+    .copyright {
+        padding: 20px;
+        color: #ffffff;
+    }
+
+    .btn-navbar a {
+        color: #fff;
+    }
+
+    .btn-navbar a:hover {
+        color: #00addb;
+    }
+
 }
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+
+}
+
