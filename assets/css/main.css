@@ -36,7 +36,6 @@ p{
 
     .nav>li>a {
         color: #fff;
-        font-size: 16px;
     }
 
     .nav>li>a:focus, .nav>li>a:hover{
@@ -44,7 +43,7 @@ p{
     }
 
     .navbar-default .navbar-collapse, .navbar-default .navbar-form{
-        border-color: none;
+        border-color: transparent;
     }
 
     .navbar-form{
@@ -69,6 +68,13 @@ p{
         border-radius: 0;
     }
 
+    .img-thumbnail, .thumbnail{
+        box-shadow: none;
+    }
+
+    .thumbnail{
+        border: none;
+    }
 
 /*==========  Mobile First Method  ==========*/
 
@@ -109,72 +115,128 @@ p{
     }
 
     /* Carousel */
-    .slideshow {
+    .carousel-caption h1{
+        font-size: 43px;
+        text-transform: uppercase;
+    }
+
+
+    /* Simple Parallax */
+    .parallax-window{
 
     }
+
 
     /* Programs Section */
     .programs {
-        padding: 20px;
+        padding: 80px;
         background-color: #f3f3f4;
     }
 
-    .programs-text{
-
-    }
 
     .programs-text h3 {
-        font-size: 20px;
+        font-size: 18px;
+        text-align: center;
     }
 
 
     /* Vision Statement Section */
     .vision{
-        padding: 35px;
+        padding: 50px;
+        background-color: #000000;
+        opacity: 0.7;
         text-align: center;
-        color: #fff;
-        background-image: url("../img2.jpg");
     }
+
 
     .vision .header h1 {
-        padding-top: 20px;
+        padding-top: 80px;
         padding-bottom: 20px;
+        font-size: 48px;
         font-weight: 800;
+        color: #fff;
     }
 
-    .vision .content {
-
+    .vision p {
+        color: #ffffff;
     }
 
 
     /* Review Section */
     .review {
-        padding: 30px;
-        background-image: url("assets/images/");
+        padding: 55px;
+    }
+
+    .review h1{
+        font-size: 20px;
     }
 
     blockquote{
         border-left: none;
+        letter-spacing: 2px;
     }
+
+    .blockquote-reverse, blockquote.pull-right{
+        border-right:none;
+    }
+
+    /* Testimonial Background */
+    #testimonial1{
+        background-color: #FFFF00;
+    }
+
+    #testimonial2{
+        background-color: #F0F8FF;
+    }
+
+    #testimonial3{
+        background-color:#00addb;
+    }
+
+    #testimonial4{
+        background-color:#A9A9A9 ;
+        color: #fff;
+    }
+
 
     /* Profile Section */
     .profile {
         padding: 25px;
-        text-align: center;
-        background-color: #f3f3f4;
+        color: #000000;
+        background-color: #ffffff;
     }
 
     .profile .header h1 {
         padding-bottom: 30px;
         font-weight: 800;
+        text-align: center;
+    }
+
+    .profile h3{
+        font-size: 18px;
+    }
+
+    .profile p{
+        font-size: 12px;
+    }
+
+    .profile .items img:hover{
+        -webkit-filter: grayscale(98%);
+        -webkit-transition: width 2s; /* Safari */
+        transition: all .2s ease-in;
+    }
+
+    .items img:hover {
+        transform: scale(0.95);
+        border: 1px solid #CDD4DC;
     }
 
     /* Our Team  Section */
     .team{
         padding: 100px;
         text-align: center;
-        color: #fff;
-        background-color: #00addb;
+        color: #000000;
+        background-color: #ffffff;
     }
 
     .team .header h1 {
@@ -187,39 +249,37 @@ p{
         color: #fff;
     }
 
-    .team .content{
-
-    }
-
 
     /*  Pitch Paragraph Section */
     .pitch{
         padding: 20px;
+        background-color: #000000;
+        opacity: 0.7;
+        color: #ffffff;
         text-align: center;
-        background-color: #f3f3f4;
     }
 
     .pitch .header h1 {
+        padding-top: 80px;
         padding-bottom: 20px;
+        font-size: 48px;
         font-weight: 800;
     }
 
-    .pitch .content {
-
-    }
 
 
     /*  Apply Section */
     .apply{
         padding: 25px;
         text-align: center;
-        color: #fff;
-        background-color: #00addb;
+        color: #000;
+        background-color: #ffffff;
     }
 
     .apply .header h1 {
         padding-top: 20px;
         padding-bottom: 20px;
+        font-size: 48px;
         font-weight: 800;
     }
 
@@ -257,13 +317,17 @@ p{
         background: #2a2728;
     }
 
+    .footer-nav #logo{
+        padding: 60px;
+    }
+
     .social{
         text-align: center;
         color: #ffffff;
     }
 
     .social h2 {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 800;
         text-transform: uppercase;
     }
@@ -284,7 +348,7 @@ p{
     }
 
     .newsletter h2 {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 800;
         color: #fff;
         text-transform: uppercase;
@@ -418,7 +482,7 @@ p{
     .copyright {
         padding: 20px;
         color: #ffffff;
-        background-color: #1F1D1D;
+        background-color: #252223;
     }
 
     .copyright p {
@@ -426,8 +490,8 @@ p{
     }
 
     .btn-navbar a {
-        font-size: 9px;
         color: #fff;
+        font-size: 9px;
     }
 
     .btn-navbar a:hover {
@@ -520,14 +584,164 @@ p{
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px){
 
+    /* Navbar */
+
+    .navbar-default{
+        margin-bottom: 0;
+        background-image: linear-gradient(to bottom,#2a2728 0,#2a2728 100%);
+        background-color: #2a2728;
+        border-color: #000;
+        border-radius: 0;
+    }
+
+    .navbar-default .navbar-nav>li>a{
+        color: #fff;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover{
+        color:#00addb ;
+    }
+
+    /* Form Control */
+    .form-control{
+        margin-left: 10px;
+        width: 80%;
+        background-color: #fff;
+        border-radius: 0;
+        display: inline-block;
+    }
+
+    /* Carousel */
+    .carousel-caption h1{
+        font-size: 43px;
+    }
+
+
+    /* Programs Section */
+    .programs {
+        padding: 80px;
+        background-color: #f3f3f4;
+    }
+
+    .programs-text h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+
+    /* Vision Statement Section */
+    .vision{
+        padding: 50px;
+        background-color: #000000;
+        opacity: 0.7;
+        text-align: center;
+    }
+
+    .vision .content{
+        padding: 30px 200px 120px 200px;
+    }
+
+    .vision .header h1 {
+        padding-top: 80px;
+        padding-bottom: 20px;
+        font-size: 48px;
+        font-weight: 800;
+        color: #fff;
+    }
+
+    .vision p {
+        color: #ffffff;
+    }
+
+
+    /* Review Section */
+    .review {
+        padding: 63px;
+    }
+
+    .review h1{
+        padding-right: 17px;
+    }
+
+
+    /* Profile Section */
+    .profile {
+        padding: 90px;
+    }
+
+    .profile .header h1 {
+        padding-bottom: 30px;
+        font-size: 37px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .profile h3{
+        font-size: 18px;
+    }
+
+    .profile p{
+        font-size: 12px;
+    }
+
+    /* Our Team  Section */
+    .team{
+        padding: 100px;
+        text-align: center;
+    }
+
+    .team .header h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 800;
+    }
+
+    .team a {
+        color: #fff;
+    }
+
+
+    /*  Pitch Paragraph Section */
+    .pitch{
+        padding: 20px;
+    }
+
+    .pitch .header h1 {
+        padding-top: 80px;
+        padding-bottom: 20px;
+        font-size: 48px;
+        font-weight: 800;
+    }
+
+    .pitch .content {
+        padding: 30px 200px 120px 200px;
+    }
+
+    /*  Apply Section */
+    .apply .content{
+        padding: 30px 200px 120px 200px;
+    }
+
+
+    /*  News Section */
+    .news{
+        padding: 20px;
+        height: 400px;
+        text-align: center;
+        background-color: #f3f3f4;
+    }
+
+    .news .header h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 800;
+    }
+
 
     /* FOOTER */
 
 
     .social h2 {
-        font-size: 12px;
-        font-weight: 800;
-        text-transform: uppercase;
     }
 
     .social ul {
@@ -542,10 +756,7 @@ p{
     }
 
     .newsletter h2 {
-        font-size: 12px;
-        font-weight: 800;
-        color: #fff;
-        text-transform: uppercase;
+
     }
 
     .btn-navbar {
@@ -559,12 +770,11 @@ p{
     }
 
     .copyright p {
-        font-size: 10px;
         text-align: center;
     }
 
     .btn-navbar a {
-        font-size: 12px;
+        font-size: 10px;
         color: #fff;
     }
     .btn-navbar a:hover {

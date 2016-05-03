@@ -17,10 +17,20 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+    <!-- Simple Parallax Scrolling JS -->
+    <script src="assets/js/parallax.js"></script>
+
+    <!-- Mansonry -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.0/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script>
+
+    <!-- Google Font link -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
     <!-- CSS Document -->
     <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Carousel Css -->
     <link href="assets/css/carousel.css" rel="stylesheet">
 
 
@@ -46,7 +56,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img src="assets/images/W-logo.png" alt=""></a>
+                        <a class="navbar-brand" href="#"><img src="assets/images/VentureHive_Wordmark_WHITE.png" class="img-responsive" alt="Venture Hive Logo"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
@@ -77,32 +87,30 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="item">
-                <img class="first-slide" src="assets/images/img20.jpg" alt="First slide">
+                <img class="first-slide" src="assets/images/img20.jpg" class="img-responsive" alt="First slide">
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Example headline.</h1>
-                        <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                        <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com/examples/carousel/#" role="button">Sign up today</a></p>
+                        <p>Note: If you're viewing this page via a URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
                     </div>
                 </div>
             </div>
             <div class="item active">
-                <img class="second-slide" src="assets/images/img2.jpg" alt="Second slide">
+                <img class="second-slide" src="assets/images/Sergi%20Alexander%20Venture%20Hive%209.jpg" class="img-responsive" alt="Second slide">
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Another example headline.</h1>
                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com/examples/carousel/#" role="button">Learn more</a></p>
                     </div>
                 </div>
             </div>
             <div class="item">
-                <img class="third-slide" src="assets/images/img1.jpg" alt="Third slide">
+                <img class="third-slide" src="assets/images/Susan%20Amat%20Venture%2014.jpg" class="img-responsive" alt="Third slide">
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>One more for good measure.</h1>
                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com/examples/carousel/#" role="button">Browse gallery</a></p>
+
                     </div>
                 </div>
             </div>
@@ -112,10 +120,11 @@
 
 
 
-    <!-- Sub-Pages Section -->
+    <!-- Sub-Pages Section
+     ================================================== -->
     <div class="row programs">
 
-    <div class="col-xs-12 col-md-6 programs-text center-block">
+    <div class="col-xs-12 col-md-6 programs-text">
 
         <div class="col-xs-12 col-md-6">
             <img src="assets/images/img5.jpg" class="img-responsive" alt="Responsive image">
@@ -162,94 +171,115 @@
     </div> <!-- /col-xs-12 col-md-6 programs-text -->
 
 
-    </div><!-- /row -->
+    </div><!-- /row programs-->
 
 
     <!-- Vision Statement Section -->
+    <div class="parallax-window" data-parallax="scroll" data-image-src="assets/images/img2a.jpg">
 
-    <div class="row vision">
+        <div class="row vision">
 
+            <div class="col-xs-12">
+                <div class="header">
+                    <h1>WHY STARTUPS WORK WITH US</h1>
+                </div>
 
-        <div class="col-xs-12">
-            <div class="header">
-                <h1>WHY STARTUPS WORK WITH US</h1>
-            </div>
+                <div class="content">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged. It was popularised in
+                        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including
+                        versions of Lorem Ipsum.</p>
+                </div>
+            </div><!-- col-xs-12 -->
+        </div><!-- /row -->
 
-            <div class="content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type
-                    specimen book. It has survived not only five centuries, but also the leap into
-                    electronic typesetting, remaining essentially unchanged. It was popularised in
-                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus PageMaker including
-                    versions of Lorem Ipsum.</p>
-            </div>
-        </div><!-- col-xs-12 -->
-    </div><!-- /row -->
+    </div><!-- /parallax-window -->
+
 
 
     <!-- Testimonial No.1 -->
-    <div class="row review">
-        <div class="header">
-            <h1>TESTIMONIAL </h1>
-            <blockquote>
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type
-                    specimen book.</p>
-                <p> - Someone famous in <cite title="Source Title">Source Title</cite></p>
-            </blockquote>
-        </div>
-    </div> <!-- /row -->
+    <div class="row" id="testimonial1">
 
+        <div class="col-xs-12 col-sm-6">
+            <img src="assets/images/SergiAlexander1.jpg" class="img-responsive" alt="Photo">
+        </div><!-- /col-xs-6 -->
 
-
-    <!--  Users Profile Section -->
-    <div class="row profile">
+        <div class="col-xs-12 col-sm-6 review">
             <div class="header">
-                <h1>PARTNERS PROFILE</h1>
-
-            </div>
-
-            <div class="col-xs-6">
-                <div class="item">
-                    <img src="assets/images/img5.jpg" class="img-responsive" alt="Responsive image">
-                    <div class="text">
-                        <h3> PARTNER </h3>
-                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of</p>
-                    </div>
-                </div>
-            </div><!-- col-xs-6 -->
-
-            <div class="col-xs-6">
-                <div class="item">
-                    <img src="assets/images/img10.jpg" class="img-responsive" alt="Responsive image">
-                    <div class="text">
-                        <h3> PARTNER </h3>
-                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of</p>
-                    </div>
-                </div>
-            </div><!-- /col-xs-6 -->
-    </div><!-- /row -->
-
-
-    <!-- Testimonial No.2 -->
-    <div class="row review">
-            <div class="header">
-                <blockquote class="blockquote-reverse">
-                    <h1>TESTIMONIAL </h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                <h1>TESTIMONIAL </h1>
+                <blockquote>
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         when an unknown printer took a galley of type and scrambled it to make a type
                         specimen book.</p>
                     <p> - Someone famous in <cite title="Source Title">Source Title</cite></p>
                 </blockquote>
             </div>
+        </div><!-- /col-xs-6 -->
+
+    </div> <!-- /row -->
+
+
+
+    <!--  Users Profile Section -->
+        <div class="row profile">
+                <div class="header">
+                    <h1>PARTNER PROFILE</h1>
+                </div>
+
+                <div class="col-xs-6">
+                    <div class="items">
+                        <img src="assets/images/img5.jpg" class="img-responsive" alt="Responsive image">
+                        <div class="text">
+                            <h3> PARTNER </h3>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of</p>
+                        </div>
+                    </div>
+                </div><!-- col-xs-6 -->
+
+                <div class="col-xs-6">
+                    <div class="items">
+                        <img src="assets/images/partner.jpg" class="img-responsive" alt="Responsive image">
+                        <div class="text">
+                            <h3> PARTNER </h3>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of</p>
+                        </div>
+                    </div>
+                </div><!-- /col-xs-6 -->
+        </div><!-- /row -->
+
+
+
+
+    <!-- Testimonial No.2 -->
+    <div class="row" id="testimonial2">
+        <div class="col-xs-12 col-sm-6">
+            <div class="header review">
+                <blockquote class="blockquote-reverse">
+                <h1>TESTIMONIAL </h1>
+                <blockquote>
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.</p>
+                    <p> - Someone famous in <cite title="Source Title">Source Title</cite></p>
+                </blockquote>
+            </div>
+        </div><!-- /col-xs-6 -->
+
+
+        <div class="col-xs-12 col-sm-6" style="padding: 0;">
+            <img src="assets/images/SergeiA.jpg" class="img-responsive" alt="Photo">
+        </div><!-- /col-xs-6 -->
+
     </div> <!-- /row -->
 
 
@@ -266,11 +296,319 @@
                 </div>
             </div> <!-- /col-xs-12 -->
 
+
+
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Project name</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+
+        <div class="container main-container">
+
+            <div role="tabpanel">
+
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+
+                    <div role="tabpanel" class="tab-pane active" id="panel-1">
+                        <div class="row masonry-container">
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/abstract" alt="">
+                                    <div class="caption">
+                                        <h3>Susan Amat</h3>
+                                        <p>Founder / CEO</p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                        <h3>Luis Amat</h3>
+                                        <p>Co-Founder / CTO</p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/abstract" alt="">
+                                    <div class="caption">
+                                        <h3>JOHN DANTZLERl</h3>
+                                        <p>COO</p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/abstract" alt="">
+                                    <div class="caption">
+                                        <h3>MIKE PACIFICOl</h3>
+                                        <p>CFO</p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/abstract" alt="">
+                                    <div class="caption">
+                                        <h3>BOB FOSTER</h3>
+                                        <p>Venture Hive Fort Walton Beach</p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/abstract" alt="">
+                                    <div class="caption">
+                                        <h3>DUSTIN GAUTNEY</h3>
+                                        <p>Venture Hive Fort Walton Beach</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> <!--/.masonry-container  -->
+                    </div><!--/.tab-panel -->
+
+                    <div role="tabpanel" class="tab-pane" id="panel-2">
+
+                        <div class="row masonry-container">
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/city" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, illum voluptates consectetur consequatur ducimus. Necessitatibus, nobis consequatur hic eaque laborum laudantium. Adipisci, explicabo, asperiores molestias deleniti unde dolore enim quas.</p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/city" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, illum voluptates consectetur consequatur ducimus. Necessitatibus, nobis consequatur hic eaque laborum laudantium. Adipisci, explicabo, asperiores molestias deleniti unde dolore enim quas.</p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/city" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/city" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, illum voluptates consectetur consequatur ducimus. Necessitatibus, nobis consequatur hic eaque laborum laudantium. Adipisci, explicabo, asperiores molestias deleniti unde dolore enim quas.</p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/city" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, illum voluptates consectetur consequatur ducimus. Necessitatibus, nobis consequatur hic eaque laborum laudantium. Adipisci, explicabo, asperiores molestias deleniti unde dolore enim quas.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> <!--/.masonry-container  -->
+
+                    </div><!--/.tab-panel -->
+
+                    <div role="tabpanel" class="tab-pane" id="panel-3">
+                        <div class="row masonry-container">
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/nature" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, illum voluptates consectetur consequatur ducimus. Necessitatibus, nobis consequatur hic eaque laborum laudantium. Adipisci, explicabo, asperiores molestias deleniti unde dolore enim quas.</p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/nature" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, illum voluptates consectetur consequatur ducimus. Necessitatibus, nobis consequatur hic eaque laborum laudantium. Adipisci, explicabo, asperiores molestias deleniti unde dolore enim quas.</p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/nature" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/nature" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, illum voluptates consectetur consequatur ducimus. Necessitatibus, nobis consequatur hic eaque laborum laudantium. Adipisci, explicabo, asperiores molestias deleniti unde dolore enim quas.</p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/nature" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, illum voluptates consectetur consequatur ducimus. Necessitatibus, nobis consequatur hic eaque laborum laudantium. Adipisci, explicabo, asperiores molestias deleniti unde dolore enim quas.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> <!--/.masonry-container  -->
+                    </div><!--/.tab-panel -->
+
+                    <div role="tabpanel" class="tab-pane" id="panel-4">
+                        <div class="row masonry-container">
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/cats" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, illum voluptates consectetur consequatur ducimus. Necessitatibus, nobis consequatur hic eaque laborum laudantium. Adipisci, explicabo, asperiores molestias deleniti unde dolore enim quas.</p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/cats" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, illum voluptates consectetur consequatur ducimus. Necessitatibus, nobis consequatur hic eaque laborum laudantium. Adipisci, explicabo, asperiores molestias deleniti unde dolore enim quas.</p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/cats" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/cats" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, illum voluptates consectetur consequatur ducimus. Necessitatibus, nobis consequatur hic eaque laborum laudantium. Adipisci, explicabo, asperiores molestias deleniti unde dolore enim quas.</p>
+                                    </div>
+                                </div>
+                            </div><!--/.item  -->
+
+                            <div class="col-md-4 col-sm-6 item">
+                                <div class="thumbnail">
+                                    <img src="http://lorempixel.com/200/200/cats" alt="">
+                                    <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, illum voluptates consectetur consequatur ducimus. Necessitatibus, nobis consequatur hic eaque laborum laudantium. Adipisci, explicabo, asperiores molestias deleniti unde dolore enim quas.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> <!--/.masonry-container  -->
+                    </div><!--/.tab-panel -->
+
+                </div> <!--/.tab-content -->
+
+            </div> <!--/.tab-panel  -->
+
+        </div><!-- /.container -->
+
+
+
+        <!-- Repeat two more times ... -->
+
+
+
+
     </div><!-- /row -->
 
 
     <!-- Testimonial No.3 -->
-    <div class="row review">
+    <div class="row" id="testimonial3" >
+        <div class="col-xs-12 col-sm-6">
+            <img src="assets/images/SergiAlexander1.jpg" class="img-responsive" alt="Photo">
+        </div><!-- /col-xs-6 -->
+        <div class="col-xs-12 col-sm-6 review">
             <div class="header">
                 <h1>TESTIMONIAL </h1>
                 <blockquote>
@@ -281,43 +619,56 @@
                     <p> - Someone famous in <cite title="Source Title">Source Title</cite></p>
                 </blockquote>
             </div>
+        </div><!-- /col-xs-6 -->
     </div> <!-- /row -->
 
 
     <!-- Pitch Paragraph Section -->
-    <div class="row pitch">
+    <div class="parallax-window" data-parallax="scroll" data-image-src="assets/images/img2a.jpg">
+        <div class="row pitch">
 
-                <div class="col-xs-12">
-                    <div class="header">
-                        <h1>PITCH PARAGRAPH</h1>
-                    </div>
+                    <div class="col-xs-12">
+                        <div class="header">
+                            <h1>PITCH PARAGRAPH</h1>
+                        </div>
 
-                    <div class="content">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type
-                            specimen book. It has survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was popularised in
-                            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                            and more recently with desktop publishing software like Aldus PageMaker including
-                            versions of Lorem Ipsum.</p>
-                    </div>
-                </div><!-- col-xs-12 -->
-    </div><!-- /row -->
+                        <div class="content">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived not only five centuries, but also the leap into
+                                electronic typesetting, remaining essentially unchanged. It was popularised in
+                                the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                and more recently with desktop publishing software like Aldus PageMaker including
+                                versions of Lorem Ipsum.</p>
+                        </div>
+                    </div><!-- col-xs-12 -->
+        </div><!-- /row -->
+    </div><!-- /parallax-window -->
+
 
 
     <!-- Testimonial No.4 -->
-    <div class="row review">
+    <div class="row" id="testimonial4">
+        <div class="col-xs-12 col-sm-6 review">
             <div class="header">
-
                 <blockquote class="blockquote-reverse">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type
-                    specimen book.</p>
-                    <p> - Someone famous in <cite title="Source Title">Source Title</cite></p>
-                </blockquote>
+                    <h1>TESTIMONIAL </h1>
+                    <blockquote>
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                        <p> - Someone famous in <cite title="Source Title">Source Title</cite></p>
+                    </blockquote>
             </div>
+        </div><!-- /col-xs-6 -->
+
+        <div class="col-xs-12 col-sm-6" style="padding:0;">
+            <img src="assets/images/SergiAlexander.jpg" class="img-responsive" alt="Photo">
+        </div><!-- /col-xs-6 -->
+
+
     </div> <!-- /row -->
 
 
@@ -339,7 +690,7 @@
                     </div><!-- /col-xs-12 -->
 
                 <!-- Secondary, outline button -->
-                <button type="button" class="btn btn-secondary">Apply Now</button>
+                <!-- <button type="button" class="btn btn-secondary">Apply Now</button> -->
 
         <!--
             <div class="">
@@ -437,7 +788,10 @@
 
 
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-8 btn-navbar">
+                <div class="col-xs-12 col-sm-4">
+                    <img src="assets/images/VentureHive_Wordmark_WHITE.png"  class="img-responsive" alt="Venture Hive Logo" id="logo">
+                </div>
+                <div class="col-xs-12 col-sm-4 btn-navbar">
                     <nav class="navbar">
                         <div class="col-xs-4">
                             <ul  class="nav">
@@ -464,7 +818,9 @@
                         </div>
                     </nav>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
+                <!-- Optional: clear the XS cols if their content doesn't match in height -->
+                <div class="clearfix visible-xs-block"></div>
+                <div class="col-xs-12 col-sm-4">
                     <div class="row">
                         <div class="col-xs-12 social">
                             <h2>Follow us on Social Media</h2>
@@ -493,18 +849,10 @@
                             </div>
                         </div><!-- /col-xs-12 col-md-6 -->
                     </div><!-- /row -->
-
                 </div>
             </div>
 
-
-
-
-            <div class="col-xs-6  col-md-4">
-
-
-            </div>
-
+        </footer>
     </div> <!-- row footer-nav -->
 
 
@@ -547,6 +895,42 @@
             }, 4000);
         });
 
+    </script>
+
+    <script>
+        /* Demo Scripts for Making Twitter Bootstrap 3 Tab Play Nicely With The Masonry Library
+         * on SitePoint by Maria Antonietta Perna
+         */
+
+        //Initialize Masonry inside Bootstrap 3 Tab component
+
+        (function( $ ) {
+
+            var $container = $('.masonry-container');
+            $container.imagesLoaded( function () {
+                $container.masonry({
+                    columnWidth: '.item',
+                    itemSelector: '.item'
+                });
+            });
+
+            //Reinitialize masonry inside each panel after the relative tab link is clicked -
+            $('a[data-toggle=tab]').each(function () {
+                var $this = $(this);
+
+                $this.on('shown.bs.tab', function () {
+
+                    $container.imagesLoaded( function () {
+                        $container.masonry({
+                            columnWidth: '.item',
+                            itemSelector: '.item'
+                        });
+                    });
+
+                }); //end shown
+            });  //end each
+
+        })(jQuery);
     </script>
 
 <!-- Bootstrap core JavaScript
