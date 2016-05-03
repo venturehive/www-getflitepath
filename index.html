@@ -21,7 +21,9 @@
     <script src="assets/js/parallax.js"></script>
 
     <!-- Mansonry -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.0/masonry.pkgd.min.js"></script>
+    <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>
+    <!-- or -->
+    <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script>
 
     <!-- Google Font link -->
@@ -43,36 +45,64 @@
 
     <!-- NAVBAR
  ================================================== -->
-    <body>
-    <div class="navbar-wrapper">
+<!--
+    <nav class="navbar navbar-default">
         <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+           <!-- <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="assets/images/VentureHive_Wordmark_WHITE.png" class="img-responsive" alt="Venture Hive Logo"></a>
+            </div>-->
 
-            <nav class="navbar navbar-static-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#"><img src="assets/images/VentureHive_Wordmark_WHITE.png" class="img-responsive" alt="Venture Hive Logo"></a>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+           <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class=""><a href="#">APPLY<span class="sr-only">(current)</span></a></li>
+                    <li><a href="https://blog.venturehive.com">BLOG</a></li>
+                    <!--    <li><a href="#">EN</a></li> -->
+                    <!--<li><a href="#">SPANISH</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        <!--</div><!-- /.container-fluid -->
+    <!--</nav> -->
+
+     <div class="navbar-wrapper"> 
+        <div class="container-fluid">  
+            <nav class="navbar navbar-static-top"> 
+                <div class="container"> 
+                    <div class="navbar-header"> 
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> 
+                            <span class="sr-only">Toggle navigation</span> 
+                            <span class="icon-bar"></span> 
+                            <span class="icon-bar"></span> 
+                            <span class="icon-bar"></span> 
+                        </button> 
+                        <a class="navbar-brand" href="#"><img src="assets/images/VentureHive_Wordmark_WHITE.png" class="img-responsive" alt="Venture Hive Logo"></a> 
+                    </div>  
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             <li class=""><a href="#">APPLY<span class="sr-only">(current)</span></a></li>
                             <li><a href="https://blog.venturehive.com">BLOG</a></li>
                             <!--    <li><a href="#">EN</a></li> -->
-                            <li><a href="#">SP</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="#">SPANISH</a></li>
                         </ul>
-                    </div>
-                </div>
-            </nav>
-
+                    </div><!-- /.navbar-collapse -->
+                </div> 
+            </nav>  
         </div>
-    </div>
+         </div>
+
+
+
+
+
+
 
 
     <!-- Carousel
@@ -210,7 +240,7 @@
 
         <div class="col-xs-12 col-sm-6 review">
             <div class="header">
-                <h1>TESTIMONIAL </h1>
+                <h1 style="padding-left: 15px;">TESTIMONIAL </h1>
                 <blockquote>
                     <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -264,7 +294,7 @@
         <div class="col-xs-12 col-sm-6">
             <div class="header review">
                 <blockquote class="blockquote-reverse">
-                <h1>TESTIMONIAL </h1>
+                <h1 style="padding-right: 17px;">TESTIMONIAL </h1>
                 <blockquote>
                     <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -298,28 +328,6 @@
 
 
 
-
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Project name</a>
-                </div>
-                <div id="navbar" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
-            </div>
-        </nav>
-
         <div class="container main-container">
 
             <div role="tabpanel">
@@ -333,7 +341,7 @@
 
                             <div class="col-md-4 col-sm-6 item">
                                 <div class="thumbnail">
-                                    <img src="http://lorempixel.com/200/200/abstract" alt="">
+                                    <img src="assets/images/headshots/Luis%20Amat_RT_BW.jpg" alt="">
                                     <div class="caption">
                                         <h3>Susan Amat</h3>
                                         <p>Founder / CEO</p>
@@ -343,6 +351,7 @@
 
                             <div class="col-md-4 col-sm-6 item">
                                 <div class="thumbnail">
+                                    <img src="assets/images/headshots/VentureHive040813_0359.JPG" alt="">
                                     <div class="caption">
                                         <h3>Luis Amat</h3>
                                         <p>Co-Founder / CTO</p>
@@ -352,7 +361,7 @@
 
                             <div class="col-md-4 col-sm-6 item">
                                 <div class="thumbnail">
-                                    <img src="http://lorempixel.com/200/200/abstract" alt="">
+                                    <img src="assets/images/headshots/Luis%20Amat_RT_BW.jpg" alt="">
                                     <div class="caption">
                                         <h3>JOHN DANTZLERl</h3>
                                         <p>COO</p>
@@ -362,7 +371,7 @@
 
                             <div class="col-md-4 col-sm-6 item">
                                 <div class="thumbnail">
-                                    <img src="http://lorempixel.com/200/200/abstract" alt="">
+                                    <img src="assets/images/headshots/VentureHive040813_0359.JPG" alt="">
                                     <div class="caption">
                                         <h3>MIKE PACIFICOl</h3>
                                         <p>CFO</p>
@@ -372,7 +381,7 @@
 
                             <div class="col-md-4 col-sm-6 item">
                                 <div class="thumbnail">
-                                    <img src="http://lorempixel.com/200/200/abstract" alt="">
+                                    <img src="assets/images/headshots/Luis%20Amat_RT_BW.jpg" alt="">
                                     <div class="caption">
                                         <h3>BOB FOSTER</h3>
                                         <p>Venture Hive Fort Walton Beach</p>
@@ -382,7 +391,7 @@
 
                             <div class="col-md-4 col-sm-6 item">
                                 <div class="thumbnail">
-                                    <img src="http://lorempixel.com/200/200/abstract" alt="">
+                                    <img src="assets/images/headshots/VentureHive040813_0359.JPG" alt="">
                                     <div class="caption">
                                         <h3>DUSTIN GAUTNEY</h3>
                                         <p>Venture Hive Fort Walton Beach</p>
@@ -399,7 +408,7 @@
 
                             <div class="col-md-4 col-sm-6 item">
                                 <div class="thumbnail">
-                                    <img src="http://lorempixel.com/200/200/city" alt="">
+                                    <img src="assets/images/headshots/Luis%20Amat_RT_BW.jpg" alt="">
                                     <div class="caption">
                                         <h3>Thumbnail label</h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
@@ -610,7 +619,7 @@
         </div><!-- /col-xs-6 -->
         <div class="col-xs-12 col-sm-6 review">
             <div class="header">
-                <h1>TESTIMONIAL </h1>
+                <h1 style="color: #ADD8E6; padding-left: 15px;">TESTIMONIAL </h1>
                 <blockquote>
                     <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -653,8 +662,7 @@
         <div class="col-xs-12 col-sm-6 review">
             <div class="header">
                 <blockquote class="blockquote-reverse">
-                    <h1>TESTIMONIAL </h1>
-                    <blockquote>
+                    <h1 style="color: #696969">TESTIMONIAL </h1>
                         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             when an unknown printer took a galley of type and scrambled it to make a type
@@ -743,17 +751,6 @@
                     </div>
 
                 </div>
-
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
     </div> <!--/slideshow -->
     </div> <!-- /row -->
@@ -864,7 +861,6 @@
                 <br>See more at: https://www.venturehive.com/</p>
           </div>
     </div>
-
 
     <!-- Scripts -->
 

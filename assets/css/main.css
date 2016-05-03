@@ -99,6 +99,7 @@ p{
 
     .navbar-default .navbar-nav>li>a{
         color: #fff;
+        text-align: center;
     }
 
     .navbar-default .navbar-nav>li>a:hover{
@@ -190,6 +191,7 @@ p{
     }
 
     #testimonial3{
+        color: #ffffff;
         background-color:#00addb;
     }
 
@@ -240,13 +242,17 @@ p{
     }
 
     .team .header h1 {
-        padding-top: 20px;
-        padding-bottom: 20px;
         font-weight: 800;
     }
 
     .team a {
         color: #fff;
+    }
+
+
+    /* Mansory Grid */
+    .main-container{
+        padding-top: 80px;
     }
 
 
@@ -514,14 +520,6 @@ p{
         border-radius: 0;
     }
 
-    .social{
-        text-align:left;
-    }
-
-    .newsletter h2{
-        text-align: left;
-    }
-
     .login {
         background: transparent;
         position: absolute;
@@ -659,10 +657,6 @@ p{
         padding: 63px;
     }
 
-    .review h1{
-        padding-right: 17px;
-    }
-
 
     /* Profile Section */
     .profile {
@@ -688,12 +682,6 @@ p{
     .team{
         padding: 100px;
         text-align: center;
-    }
-
-    .team .header h1 {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        font-weight: 800;
     }
 
     .team a {
@@ -739,7 +727,9 @@ p{
 
 
     /* FOOTER */
-
+    .social{
+        text-align:left;
+    }
 
     .social h2 {
     }
@@ -755,8 +745,8 @@ p{
         padding-right: 5px;
     }
 
-    .newsletter h2 {
-
+    .newsletter h2{
+        text-align: left;
     }
 
     .btn-navbar {
