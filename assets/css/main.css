@@ -42,6 +42,10 @@ p{
         background-color: transparent;
     }
 
+    .navbar{
+        margin-bottom: 0;
+    }
+/*
     .navbar-default .navbar-collapse, .navbar-default .navbar-form{
         border-color: transparent;
     }
@@ -51,10 +55,12 @@ p{
         border-bottom: none;
     }
 
+    */
     .btn-default{
         background-image: linear-gradient(to bottom,#00addb 0,#00addb 100%);
         text-shadow: none;
     }
+
 
     .btn-default:focus, .btn-default:hover{
         background-color: #00ADDB;
@@ -75,7 +81,6 @@ p{
     .thumbnail{
         border: none;
     }
-
 
 
 /*==========  Mobile First Method  ==========*/
