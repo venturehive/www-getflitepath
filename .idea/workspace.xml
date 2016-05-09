@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb3d019c-d927-4fa5-800b-1a9cb8606f9d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/VentureHive_Wordmark_WHITE.png" afterPath="$PROJECT_DIR$/assets/images/VentureHive_Wordmark_WHITE.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beekeeper/assets/images/VentureHive_Wordmark_WHITE.png" afterPath="$PROJECT_DIR$/beekeeper/assets/images/VentureHive_Wordmark_WHITE.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beekeeper/.idea/workspace.xml" afterPath="$PROJECT_DIR$/beekeeper/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beekeeper/assets/css/main.css" afterPath="$PROJECT_DIR$/beekeeper/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beekeeper/index.html" afterPath="$PROJECT_DIR$/beekeeper/index.html" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -255,12 +254,12 @@
       <workItem from="1462224138302" duration="20453000" />
       <workItem from="1462458197497" duration="311000" />
       <workItem from="1462568355866" duration="1318000" />
-      <workItem from="1462803484059" duration="4091000" />
+      <workItem from="1462803484059" duration="4197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38267000" />
+    <option name="totallyTimeSpent" value="38373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="23" width="1241" height="709" extended-state="0" />
