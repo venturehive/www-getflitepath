@@ -3,11 +3,14 @@
 /** Base structure */
 
 
+
 /* General Bootstrap styles */
 
-.nav>li>a{
-    color: #ffffff;
+
+.main-container {
+    padding: 40px 15px;
 }
+
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
@@ -20,6 +23,18 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px){
+
+    /* Navbar */
+    .nav>li>a{
+        color: #000000;
+        font-weight: 100;
+    }
+
+    .nav>li>a:focus, .nav>li>a:hover{
+        background-color: transparent;
+        border-top: 3px solid #EEE;
+    }
+
     .intro{
         position: absolute;
         z-index: -1;
@@ -27,19 +42,50 @@
     }
 
     /* Menu */
-    .menu-list ul {
-        position: absolute;
+    .menu-list{
+        margin-top:320px;
     }
 
-    .menu-list li{
-        float: left;
-        list-style: none;
+    .menu-list a {
+        font-family: 'Cabin', sans-serif;
+        color: #000;
+        font-size: 18px;
+        font-weight: 800;
     }
 
-    .btn-link{
-        color: #ffffff;
+    /* Programs */
+    .programs{
+        margin-top: 150px;
+        background-color: lightblue;
     }
 
+    .squareA{
+        padding-left:0px;
+        padding-right: 0;
+    }
+
+    .squareB{
+        padding: 50px;
+        height: 300px;
+        background-color: crimson;
+    }
+
+    .squareC{
+        padding: 80px;
+        height: 280px;
+        background-color: aliceblue;
+    }
+
+    .squareD{
+
+    }
+
+
+    /* Programs Masonry */
+
+    .text p{
+        padding:50px;
+    }
 }
 
 /* Extra Small Devices, Phones */
