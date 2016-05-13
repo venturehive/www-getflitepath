@@ -1,11 +1,43 @@
 /* CSS Document */
 
 /** Base structure */
+h1,h2,h3, a {
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 24px;
+    font-weight: 700;
+}
 
+h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
 
 
 /* General Bootstrap styles */
 
+.btn{
+    padding: 9px 29px;
+    border-radius: 0;
+    transition: opacity 1.35s, transform 0.35s;
+}
+.btn-default{
+    background-image: linear-gradient(to bottom,#000 0,#000000 100%);
+    border-color: #000;
+    text-shadow: none;
+}
+
+.btn-default:focus, .btn-default:hover{
+    background-color: #000;
+}
 
 
 
@@ -19,9 +51,9 @@
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px){
 
-    /* NAVBAR */
+    /* =================== NAVBAR ============== */
     .nav>li>a{
-        color: #fff;
+        color: #000;
         font-weight: 100;
     }
 
@@ -31,35 +63,52 @@
     }
 
     .intro{
-        position: absolute;
         z-index: -1;
-        top: 0;
+        /* top: 0; */
     }
 
-    /* MENU */
+    .intro img{
+        position: absolute;
+    }
+
+    .intro-header{
+        margin-top: 160px;
+    }
+
+    /* ================ MENU  ============= */
     .menu-list{
-        margin-top:320px;
+        margin-top:80px;
     }
 
     .menu-list a {
-        font-family: 'Cabin', sans-serif;
-        color: #000;
+        color: #fff;
         font-size: 18px;
         font-weight: 800;
+        text-decoration: none;
     }
 
     .menu-list a:hover {
-   
+        color: #00aced;
+
     }
 
     .links{
-        padding-bottom: 15px;
+        padding-bottom: 105px;
     }
 
-    /* PROGRAMS*/
+    /* ============= PROGRAMS ============ */
     .programs{
         margin-top: 150px;
 
+    }
+
+    .column {
+        padding: 0;
+    }
+
+    .column .btn-default{
+        background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.2) 100%);
+        border-color: rgba(0, 0, 0, 0);
     }
 
     .squareA{
@@ -98,7 +147,7 @@
     }
 
 
-    /* TECH OVERVIEW */
+    /* =============== TECH OVERVIEW =============== */
 
     .tech {
         margin: 50px 30px;
@@ -106,15 +155,60 @@
         text-align: center;
     }
 
-    .glyphicon{
-        font-size: 30px;
+
+    /* ================ FEATURES  ================= */
+
+    .features{
+        padding: 100px;
+        height: 500px;
+        background-color: silver;
     }
 
-    /* FOOTER */
+    .features h1{
+        font-size: 2.4em;
+        color: #000000;
+    }
+
+    .header{
+        padding-bottom: 60px;
+    }
+
+    .glyphicon{
+        padding-right: 15px;
+        font-size: 1.4em;
+    }
+
+    /* ================ CONTACT ================= */
+
+    .contact{
+        padding: 92px;
+        height: 500px;
+        color: #fff;
+        background-color: #2e5d5a;
+    }
+
+    .contact h1{
+        font-size: 2.4em;
+    }
+
+    .contact p{
+        padding-bottom: 60px;
+    }
+
+    .contact a{
+        color: #fff;
+    }
+
+
+    /* ================ FOOTER  ================= */
 
     .footer-nav{
         padding: 20px;
         background: #2a2728;
+    }
+
+    .footer-nav .nav>li>a{
+        color: #fff;
     }
 
     .footer-nav #logo{
@@ -310,8 +404,7 @@
     /* TECH OVERVIEW */
 
     .tech {
-        margin: 150px 100px;
-        padding: 55px;
+        margin: 130px 20px;
     }
 
 
