@@ -49,7 +49,7 @@
     }
 
     .menu-list a:hover {
-        background-color: darkorange;
+   
     }
 
     .links{
@@ -70,13 +70,31 @@
     .squareB{
         padding: 50px;
         height: 300px;
-        background-color: crimson;
+        background-color: rgb(51, 122, 183);
+    }
+
+    .squareB p {
+        font-size: 1.2em;
+        color: #fff;
+        padding:35px;
     }
 
     .squareC{
         padding: 80px;
         height: 280px;
-        background-color: mediumaquamarine;
+        background-color: #D9EBF7;
+    }
+
+    .squareD {
+        padding: 50px;
+        height: 300px;
+        background-color: #5C9AB8;
+    }
+
+    .squareD p {
+        padding: 50px;
+        font-size: 1.2em;
+        color: #ffffff;
     }
 
 
@@ -361,6 +379,11 @@
         margin-top: 20px;
     }
 
+    .menu-list a{
+        font-size: 1.4em;
+        font-weight: 900;
+    }
+
     /* FOOTER */
     .social{
         text-align:left;
@@ -404,6 +427,13 @@
     }
     .btn-navbar a:hover {
         color: #00addb;
+    }
+
+
+    /* Programs */
+
+    .squareD {
+        height: 395px;
     }
 
 
