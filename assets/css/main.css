@@ -132,6 +132,7 @@ p{
     .programs {
         padding: 80px;
         background-color: #f3f3f4;
+        text-align: center;
     }
 
     .programs h1{
@@ -139,25 +140,27 @@ p{
         font-size: 48px;
         font-weight: 800;
         color: #000000;
-        text-align: center;
-        bor
     }
 
 
     .programs-text h3 {
         font-size: 18px;
-        text-align: center;
     }
 
+    .programs img {
+        -webkit-filter: grayscale(95%);
+    }
+
+    .programs img:hover{
+        -webkit-filter: grayscale(0%);
+    }
 
     /* Vision Statement Section */
     .vision{
         padding: 50px;
-        background-color: #424242;
-        opacity: 0.8;
+        background-color: rgba(0, 0, 0, 0);
         text-align: center;
     }
-
 
     .vision .header h1 {
         padding-top: 80px;
@@ -192,7 +195,7 @@ p{
 
     /* Testimonial Background */
     #testimonial1{
-        background-color: rgba(0, 173, 220, 0.64);
+        background-color: #A9A9A9;
     }
 
     #testimonial1 p{
@@ -201,7 +204,7 @@ p{
     }
 
     #testimonial2{
-        background-color: rgb(0, 82, 206);
+        background-color: #A9A9A9;
         color: #ffffff;
     }
 
@@ -212,7 +215,7 @@ p{
 
     #testimonial3{
         color: #ffffff;
-        background-color:#00addb;
+        background-color:#A9A9A9;
     }
 
      #testimonial3 p{
@@ -235,6 +238,7 @@ p{
         padding: 25px;
         color: #000000;
         background-color: #ffffff;
+        text-align: center;
     }
 
     .profile .header h1 {
@@ -251,16 +255,16 @@ p{
         font-size: 12px;
     }
 
-    .profile .items img:hover{
-        -webkit-filter: grayscale(98%);
-        -webkit-transition: width 2s; /* Safari */
-        transition: all .2s ease-in;
+    .profile .items img{
+        -webkit-filter: grayscale(90%);
     }
 
-    .items img:hover {
-        transform: scale(0.95);
-        border: 1px solid #CDD4DC;
+    .profile .items img:hover{
+        -webkit-filter: grayscale(0%);
+      /*  -webkit-transition: width 2s; /* Safari */
+       /* transition: all .2s ease-in; */
     }
+
 
     /* Our Team  Section */
     .team{
@@ -271,6 +275,8 @@ p{
     }
 
     .team .header h1 {
+        padding-bottom: 20px;
+        font-size: 48px;
         font-weight: 800;
     }
 
@@ -281,15 +287,14 @@ p{
 
     /* Mansory Grid */
     .main-container{
-        padding-top: 80px;
+        padding-top: 180px;
     }
 
 
     /*  Pitch Paragraph Section */
     .pitch{
         padding: 20px;
-        background-color: #424242;
-        opacity: 0.8;
+        background-color: rgba(0, 0, 0, 0);
         color: #ffffff;
         text-align: center;
     }
@@ -625,10 +630,8 @@ p{
     /* Owl Carousel */
 
     .owl-carousel{
-        padding: 20px;
+        padding: 80px 152px;
     }
-
-
 
 
 }
@@ -671,7 +674,7 @@ p{
 
     /* Programs Section */
     .programs {
-        padding: 80px 40px;
+        padding: 80px 110px;
         background-color: #f3f3f4;
     }
 
@@ -712,14 +715,13 @@ p{
 
     /* Profile Section */
     .profile {
-        padding: 90px;
+        padding: 90px 140px;
     }
 
     .profile .header h1 {
         padding-bottom: 30px;
-        font-size: 37px;
+        font-size: 48px;
         font-weight: 800;
-        text-align: center;
     }
 
     .profile h3{
@@ -766,7 +768,7 @@ p{
     /*  News Section */
     .news{
         padding: 20px;
-        height: 400px;
+        height: 500px;
         text-align: center;
     }
 
