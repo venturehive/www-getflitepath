@@ -125,7 +125,6 @@ p{
     /* Carousel */
     .carousel-caption h1{
         font-size: 43px;
-        text-transform: uppercase;
     }
 
 
@@ -133,6 +132,15 @@ p{
     .programs {
         padding: 80px;
         background-color: #f3f3f4;
+    }
+
+    .programs h1{
+        padding-bottom: 30px;
+        font-size: 48px;
+        font-weight: 800;
+        color: #000000;
+        text-align: center;
+        bor
     }
 
 
@@ -145,8 +153,8 @@ p{
     /* Vision Statement Section */
     .vision{
         padding: 50px;
-        background-color: #000000;
-        opacity: 0.7;
+        background-color: #424242;
+        opacity: 0.8;
         text-align: center;
     }
 
@@ -184,11 +192,22 @@ p{
 
     /* Testimonial Background */
     #testimonial1{
-        background-color: #FFFF00;
+        background-color: rgba(0, 173, 220, 0.64);
+    }
+
+    #testimonial1 p{
+        padding-bottom: 35px;
+        font-size: 19px;
     }
 
     #testimonial2{
-        background-color: #F0F8FF;
+        background-color: rgb(0, 82, 206);
+        color: #ffffff;
+    }
+
+     #testimonial2 p{
+        padding-bottom: 35px;
+        font-size: 19px;
     }
 
     #testimonial3{
@@ -196,11 +215,20 @@ p{
         background-color:#00addb;
     }
 
+     #testimonial3 p{
+        padding-bottom: 35px;
+        font-size: 19px;
+    }
+
     #testimonial4{
         background-color:#A9A9A9 ;
         color: #fff;
     }
 
+    #testimonial4 p{
+        padding-bottom: 35px;
+        font-size: 19px;
+    }
 
     /* Profile Section */
     .profile {
@@ -260,8 +288,8 @@ p{
     /*  Pitch Paragraph Section */
     .pitch{
         padding: 20px;
-        background-color: #000000;
-        opacity: 0.7;
+        background-color: #424242;
+        opacity: 0.8;
         color: #ffffff;
         text-align: center;
     }
@@ -306,11 +334,13 @@ p{
         height: 400px;
         text-align: center;
         background-color: #ffffff;
+        color: #000000;
     }
 
     .news .header h1 {
         padding-top: 20px;
         padding-bottom: 20px;
+        font-size: 48px;
         font-weight: 800;
     }
 
@@ -641,7 +671,7 @@ p{
 
     /* Programs Section */
     .programs {
-        padding: 80px;
+        padding: 80px 40px;
         background-color: #f3f3f4;
     }
 
@@ -654,8 +684,6 @@ p{
     /* Vision Statement Section */
     .vision{
         padding: 50px;
-        background-color: #000000;
-        opacity: 0.7;
         text-align: center;
     }
 
