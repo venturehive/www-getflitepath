@@ -116,7 +116,6 @@ p{
 
     /* ========== Programs Section ========== */
     .programs {
-        padding: 80px;
         background-color: #f3f3f4;
         text-align: center;
     }
@@ -163,6 +162,7 @@ p{
     .v-content h1 {
         font-family: 'Open Sans', sans-serif;
         font-size: 33px;
+        font-weight: 500;
         color: #000;
     }
 
@@ -188,6 +188,7 @@ p{
     .pa-content  h1 {
         font-family: 'Open Sans', sans-serif;
         font-size: 33px;
+        font-weight: 500;
     }
 
     .pa-content h3{
@@ -236,45 +237,50 @@ p{
     }
 
 
-    /* ======== Review Section ========= */
+    /* ======== Testimonial Section ========= */
 
-    /* Testimonial Background */
     .testimanial-section{
         height: 400px;
     }
 
     .ts-content-left {
-        width: 600px;
-        padding-left: 180px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .ts-content-right{
-        width: 600px;
-        padding-right: 100px;
-        color: #fff;
-        float: right;
-        text-align: right;
-    }
-
-    .ts-content-left, .ts-content-right h1 {
-        padding-top: 80px;
-        padding-bottom: 20px;
-        font-size: 33px;
+        padding-left: 40px;
+        padding-right: 40px;
+        color: #000;
+        font-size: 16px;
         font-weight: 100;
     }
 
+    .ts-content-left{
+        font-size: 16px;
+        font-weight: 100;
+    }
 
+    .ts-content-left h1{
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    .ts-content-right h1 {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
 
     /*  ======== Pitch Paragraph Section ========= */
     .pitch{
-        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
         color: #000;
         text-align: center;
     }
 
     .pt-content {
-        padding-left: 180px;
-        padding-right: 180px;
+        padding-bottom: 80px;
     }
 
     .pt-content h1 {
@@ -283,16 +289,17 @@ p{
     }
 
 
-    /*  Apply Section */
+    /*  ========= Contact Section ========= */
     .contact{
         height: 400px;
         color: #000;
         text-align: center;
+        background-color: #E2E8EB;
     }
 
     .c-content{
-        padding-left: 180px;
-        padding-right: 180px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .c-content h1 {
@@ -305,20 +312,17 @@ p{
     }
 
 
-    /*  News Section */
+    /*  ======= News Section ======== */
     .news{
-        padding: 20px;
         height: 400px;
         text-align: center;
         background-color: #ffffff;
         color: #000000;
     }
 
-    .news .header h1 {
+    .n-content h1 {
         padding-top: 20px;
         padding-bottom: 20px;
-        font-size: 48px;
-        font-weight: 800;
     }
 
 
@@ -328,17 +332,31 @@ p{
         padding: 20px;
     }
 
+    .owl-nav{
+        font-weight: 100;
+    }
+
     .owl-prev {
         padding-right: 10px;
         display: inline-block;
-        font-weight: 500;
         text-transform: uppercase;
+    }
+
+    .owl-prev:hover{
+        font-weight: 500;
     }
 
     .owl-next {
         display: inline;
         text-transform: uppercase;
     }
+
+    .owl-next:hover{
+        font-weight: 500;
+    }
+
+
+
 
     /* =========== FOOTER ============ */
 
@@ -604,7 +622,7 @@ p{
     /* Owl Carousel */
 
     .owl-carousel{
-        padding: 80px 152px;
+        padding: 79px 55px;
     }
 
 
@@ -704,13 +722,23 @@ p{
         color: #fff;
         float: right;
         text-align: right;
-    }
-
-    .ts-content-left, .ts-content-right h1 {
-        padding-top: 80px;
-        padding-bottom: 20px;
         font-size: 33px;
         font-weight: 100;
+    }
+
+    .ts-content-left{
+        font-size: 33px;
+        font-weight: 100;
+    }
+
+    .ts-content-left h1{
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    .ts-content-right h1 {
+        padding-top: 80px;
+        padding-bottom: 20px;
     }
 
     /* Profile Section */
@@ -791,26 +819,60 @@ p{
     }
 
 
-    /*  Pitch Paragraph Section */
+    /*  ======== Pitch Paragraph Section ========= */
+    .pitch{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #000;
+        text-align: center;
+        border-bottom: 0.7px solid rgba(169, 169, 169, 0.22);
+    }
 
+    .pt-content {
+        padding-bottom: 80px;
+    }
 
-    /*  Apply Section */
-    .apply .content{
-        padding: 30px 200px 120px 200px;
+    .pt-content h1 {
+        padding-top: 80px;
+        padding-bottom: 20px;
     }
 
 
-    /*  News Section */
+    /*  ========= Contact Section ========= */
+    .contact{
+        height: 400px;
+        color: #000;
+        text-align: center;
+        background-color: #E2E8EB;
+    }
+
+    .c-content{
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    .c-content h1 {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    .c-content .btn {
+        background-color:#2a2728;
+    }
+
+
+    /*  ======= News Section ======== */
     .news{
-        padding: 20px;
         height: 500px;
         text-align: center;
+        background-color: #ffffff;
+        color: #000000;
     }
 
-    .news .header h1 {
-        padding-top: 20px;
+    .n-content h1 {
+        padding-top: 80px;
         padding-bottom: 20px;
-        font-weight: 800;
     }
 
 
