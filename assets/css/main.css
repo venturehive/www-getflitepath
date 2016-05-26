@@ -8,19 +8,15 @@ body {
     position: relative;
 }
 
-h1,h2,h3, a {
-    font-family: 'Montserrat', sans-serif;
-}
-h1{
-    font-size: 24px;
-    font-weight: 700;
+h1, h2, h3, a {
+  font-family: 'Montserrat', sans-serif;
 }
 
- h2, h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
+h1{
+    font-size: 33px;
+    font-weight: 100;
 }
+
 
 p{
     font-family: 'Open Sans', sans-serif;
@@ -28,12 +24,7 @@ p{
     font-weight: 300;
 }
 
-
-
-
 /* General Bootstrap styles */
-
-
     .nav>li>a {
         color: #000000;
     }
@@ -64,6 +55,7 @@ p{
         border-radius: 0;
     }
 
+
     .img-thumbnail, .thumbnail{
         box-shadow: none;
     }
@@ -83,7 +75,7 @@ p{
     /* Main content */
     /* Sections Style attributes */
 
-    /* Navbar */
+    /* ============ Navbar =========== */
 
     .navbar-default{
         margin-bottom: 0;
@@ -106,7 +98,7 @@ p{
     }
 
 
-    /* Form Control */
+    /* ============== Form Control =========== */
     .form-control{
         margin-left: 10px;
         width: 80%;
@@ -115,28 +107,26 @@ p{
         display: inline-block;
     }
 
-    /* Carousel */
+
+    /* =======  Carousel ======== */
     .carousel-caption h1{
-        font-size: 43px;
+        font-size: 20px;
     }
 
 
-    /* Programs Section */
+    /* ========== Programs Section ========== */
     .programs {
         padding: 80px;
         background-color: #f3f3f4;
         text-align: center;
     }
 
-    .programs h1{
+    .p-content h1{
         padding-bottom: 30px;
-        font-size: 48px;
-        font-weight: 800;
         color: #000000;
     }
 
-
-    .programs-text h3 {
+    .p-content h3 {
         font-size: 18px;
     }
 
@@ -148,13 +138,14 @@ p{
         -webkit-filter: grayscale(0%);
     }
 
-    /* Vision Statement Section */
+
+    /* =======  Vision  Section ======= */
     .vision {
-        margin-top: 80px;
+        margin-top: 5px;
     }
 
-    .vision-section{
-        width: 750px;
+    .v-section{
+        width:352px;
         margin-left: auto;
         margin-right: auto;
         height: 100%;
@@ -166,21 +157,22 @@ p{
 
     .v-content{
         padding-top: 50px;
-        padding-bottom: 60px;
+        padding-bottom: 30px;
     }
 
     .v-content h1 {
+        font-family: 'Open Sans', sans-serif;
         font-size: 33px;
-        font-weight: 100;
+        color: #000;
     }
 
-    /* Profile Section */
+
+    /* ====== Our Partners Section ========== */
     .profile {
-        padding-top: 80px;
+        padding-top: 40px;
     }
 
     .profile-section {
-        width: 980px;
         margin-left: auto;
         margin-right: auto;
         height: 100%;
@@ -189,118 +181,50 @@ p{
         text-align: center;
     }
 
-    .p-content{
+    .pa-content{
         margin-bottom: 50px;
     }
 
-    .p-content  h1 {
+    .pa-content  h1 {
+        font-family: 'Open Sans', sans-serif;
         font-size: 33px;
-        font-weight: 100;
     }
 
-    .p-content h3{
+    .pa-content h3{
+        font-family: 'Open Sans', sans-serif;
         font-size: 18px;
     }
 
-    .p-content p{
+    .pa-content p{
         font-size: 12px;
     }
 
-    .profile .items img{
-        -webkit-filter: grayscale(90%);
-    }
 
-    .profile .items img:hover{
-        -webkit-filter: grayscale(0%);
-        /*  -webkit-transition: width 2s; /* Safari */
-        /* transition: all .2s ease-in; */
-    }
-
-
-
-    /* Review Section */
-    .review {
-        padding: 55px;
-    }
-
-    .review h1{
-        font-size: 20px;
-    }
-
-    blockquote{
-        font-size:;
-        border-left: none;
-        letter-spacing: 2px;
-    }
-
-    .blockquote-reverse, blockquote.pull-right{
-        border-right:none;
-    }
-
-    /* Testimonial Background */
-    #testimonial1{
-        background-color: #A9A9A9;
-    }
-
-    #testimonial1, #testimonial2, #testimonial3, #testimonial4 p{
-        padding-bottom: 0;
-        font-size: 19px;
-        color: #ffffff;
-    }
-
-    #testimonial2{
-        background-color: #A9A9A9;
-        color: #ffffff;
-    }
-
-    #testimonial3{
-        color: #ffffff;
-        background-color:#A9A9A9;
-    }
-
-
-    #testimonial4{
-        background-color:#A9A9A9 ;
-        color: #fff;
-    }
-
-    .credit {
-        margin-top: -27px;
-        margin-left: 10px;
-        font-size: 10px;
-        color: #000000;
-    }
-
-
-
-    /* Our Team  Section */
+    /* ======== Our Team  Section ========== */
     .team{
-        padding: 100px;
+        padding: 32px;
         text-align: center;
         color: #000000;
-        background-color: #ffffff;
+        background-color: #f3f3f4;
     }
 
-    .team .header h1 {
+    .t-section h1 {
         padding-bottom: 20px;
-        font-size: 48px;
         font-weight: 800;
     }
 
-    .team a {
-        color: #fff;
+    .t-section a {
+        padding: 15px;
+        color: #5FA8C3;
+    }
+
+    .t-gallery{
+        margin-top: 10px;
     }
 
     .headshots{
         padding-top: 2px;
         padding-bottom: 2px;
-        margin-right:110px;
-        margin-left:110px;
-    }
-
-    .head-img{
-        padding-right: 0;
-        padding-left: 0;
     }
 
     .headshots img {
@@ -308,56 +232,76 @@ p{
     }
 
     .head-text{
-        padding: 20px 200px;
-        text-align: center;
+        padding-top: 20px;
     }
 
 
-    /* Mansory Grid */
-    .main-container{
-        padding-top: 180px;
+    /* ======== Review Section ========= */
+
+    /* Testimonial Background */
+    .testimanial-section{
+        height: 400px;
     }
 
-
-    /*  Pitch Paragraph Section */
-    .pitch{
-        padding: 20px;
-        background-color: rgba(0, 0, 0, 0);
-        color: #ffffff;
-        text-align: center;
+    .ts-content-left {
+        width: 600px;
+        padding-left: 180px;
     }
 
-    .pitch .header h1 {
+    .ts-content-right{
+        width: 600px;
+        padding-right: 100px;
+        color: #fff;
+        float: right;
+        text-align: right;
+    }
+
+    .ts-content-left, .ts-content-right h1 {
         padding-top: 80px;
         padding-bottom: 20px;
-        font-size: 48px;
-        font-weight: 800;
+        font-size: 33px;
+        font-weight: 100;
     }
 
+
+
+    /*  ======== Pitch Paragraph Section ========= */
+    .pitch{
+        height: 400px;
+        color: #000;
+        text-align: center;
+    }
+
+    .pt-content {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    .pt-content h1 {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
 
 
     /*  Apply Section */
-    .apply{
-        padding: 25px;
-        text-align: center;
+    .contact{
+        height: 400px;
         color: #000;
-        background-color: #ffffff;
+        text-align: center;
     }
 
-    .apply .header h1 {
-        padding-top: 20px;
+    .c-content{
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    .c-content h1 {
+        padding-top: 80px;
         padding-bottom: 20px;
-        font-size: 48px;
-        font-weight: 800;
     }
 
-    .apply .btn {
+    .c-content .btn {
         background-color:#2a2728;
-    }
-
-    .apply .btn:hover {
-        background-color:#000;
-        color: #fff;
     }
 
 
@@ -390,12 +334,13 @@ p{
         font-weight: 500;
         text-transform: uppercase;
     }
+
     .owl-next {
         display: inline;
         text-transform: uppercase;
     }
 
-    /* FOOTER */
+    /* =========== FOOTER ============ */
 
     .footer-nav{
         padding: 20px;
@@ -439,6 +384,29 @@ p{
         text-transform: uppercase;
         text-align: center;
     }
+
+    .copyright {
+        padding: 20px;
+        color: #ffffff;
+        background-color: #252223;
+    }
+
+    .copyright p {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    /* btn */
+
+    .btn-navbar a {
+        color: #fff;
+        font-size: 9px;
+    }
+
+    .btn-navbar a:hover {
+        color: #00addb;
+    }
+
 
     /* Subscription Form  */
 
@@ -563,27 +531,6 @@ p{
         transform: translateY(-50px);
     }
 
-
-    .copyright {
-        padding: 20px;
-        color: #ffffff;
-        background-color: #252223;
-    }
-
-    .copyright p {
-        font-size: 8px;
-        text-align: center;
-    }
-
-    .btn-navbar a {
-        color: #fff;
-        font-size: 9px;
-    }
-
-    .btn-navbar a:hover {
-        color: #00addb;
-    }
-
 }
 
 /* Extra Small Devices, Phones */
@@ -666,7 +613,7 @@ p{
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px){
 
-    /* Navbar */
+    /* ====== Navbar ======= */
 
     .navbar-default{
         margin-bottom: 0;
@@ -701,30 +648,25 @@ p{
         display: inline-block;
     }
 
-    /* Carousel */
-    .carousel-caption h1{
-        font-size: 43px;
-    }
+    /* ====== Carousel ======= */
 
 
-    /* Programs Section */
+    /* ======== Programs Section ====== */
     .programs {
-        padding: 80px 110px;
+        padding: 80px 78px;
         background-color: #f3f3f4;
     }
 
-    .programs-text h3 {
-        font-size: 18px;
-        text-align: center;
+    .p-text h3 {
     }
 
 
-    /* Vision Statement Section */
+    /* ===== Vision Section ====== */
     .vision {
         margin-top: 80px;
     }
 
-    .vision-section{
+    .v-section{
         width: 750px;
         margin-left: auto;
         margin-right: auto;
@@ -735,33 +677,45 @@ p{
     }
 
     .v-content{
-        padding-top: 50px;
+        padding-top: 30px;
         padding-bottom: 50px;
     }
 
     .v-content h1 {
-        font-size: 30px;
+        font-size: 35px;
     }
 
 
-    /* Review Section */
-    .review {
-        padding: 86px 99px 1px 41px;
-    }
+    /* ===== Review Section  ========= */
 
     /* Testimonial Background */
-
-    #testimonial1, #testimonial2, #testimonial3, #testimonial4 p{
-        font-size: 16px;
+    .testimanial-section{
+        height: 400px;
     }
 
-    blockquote{
-        font-size: 13.5px;
+    .ts-content-left {
+        width: 600px;
+        padding-left: 180px;
+    }
+
+    .ts-content-right{
+        width: 600px;
+        padding-right: 100px;
+        color: #fff;
+        float: right;
+        text-align: right;
+    }
+
+    .ts-content-left, .ts-content-right h1 {
+        padding-top: 80px;
+        padding-bottom: 20px;
+        font-size: 33px;
+        font-weight: 100;
     }
 
     /* Profile Section */
     .profile {
-        padding-top: 80px;
+        padding-top: 60px;
 
     }
 
@@ -775,40 +729,51 @@ p{
         text-align: center;
     }
 
-    .p-content{
+    .pa-content{
         padding-bottom: 80px;
     }
 
-    .p-content  h1 {
+    .pa-content  h1 {
         padding-bottom: 40px;
-        font-size: 30px;
+        font-size: 35px;
     }
 
-    .p-content h3{
+    .pa-content h3{
         font-size: 18px;
     }
 
-    .p-content p{
+    .pa-content p{
         font-size: 12px;
     }
 
 
-    /* Our Team  Section */
+    /* ===== Our Team Section ====== */
     .team{
         padding: 100px;
         text-align: center;
-        background-color: #f3f3f4;
+        color: #000000;
     }
 
-    .team a {
-        color: #fff;
+    .t-section h1 {
+        padding-bottom: 20px;
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .t-section a {
+        padding: 15px;
+        color: #5FA8C3;
+    }
+
+    .t-gallery{
+        margin-top: 30px;
     }
 
     .headshots{
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-right:150px;
-        margin-left:150px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        margin-right:110px;
+        margin-left:110px;
     }
 
     .head-img{
@@ -821,26 +786,13 @@ p{
     }
 
     .head-text{
-        padding: 80px 200px;
+        padding: 20px 200px;
         text-align: center;
     }
 
 
     /*  Pitch Paragraph Section */
-    .pitch{
-        padding: 20px;
-    }
 
-    .pitch .header h1 {
-        padding-top: 80px;
-        padding-bottom: 20px;
-        font-size: 48px;
-        font-weight: 800;
-    }
-
-    .pitch .content {
-        padding: 30px 200px 120px 200px;
-    }
 
     /*  Apply Section */
     .apply .content{
