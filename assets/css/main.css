@@ -26,7 +26,7 @@ p{
 
 /* General Bootstrap styles */
     .nav>li>a {
-        color: #000000;
+        color: #FFFFFF;
     }
 
     .nav>li>a:focus, .nav>li>a:hover{
@@ -48,29 +48,16 @@ p{
     }
 
     .btn{
-        margin-top:-2px;
-        margin-left: -50px;
         color: #fff;
-        border: 1px solid #00ADDB;
         border-radius: 0;
     }
 
-
-    .img-thumbnail, .thumbnail{
-        box-shadow: none;
-    }
-
-    .thumbnail{
-        border: none;
-    }
 
 
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px){
-
-
 
     /* Main content */
     /* Sections Style attributes */
@@ -98,16 +85,6 @@ p{
     }
 
 
-    /* ============== Form Control =========== */
-    .form-control{
-        margin-left: 10px;
-        width: 80%;
-        background-color: #fff;
-        border-radius: 0;
-        display: inline-block;
-    }
-
-
     /* =======  Carousel ======== */
     .carousel-caption h1{
         font-size: 20px;
@@ -116,11 +93,19 @@ p{
 
     /* ========== Programs Section ========== */
     .programs {
+
         background-color: #f3f3f4;
         text-align: center;
     }
 
+    .p-text p{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
     .p-content h1{
+        padding-top: 40px;
         padding-bottom: 30px;
         color: #000000;
     }
@@ -139,27 +124,20 @@ p{
 
 
     /* =======  Vision  Section ======= */
-    .vision {
-        margin-top: 5px;
-    }
-
     .v-section{
-        width:352px;
-        margin-left: auto;
         margin-right: auto;
-        height: 100%;
-        color: #000;
+        margin-left: auto;
         text-align: center;
-        z-index: 1;
-        border-bottom: 0.7px solid rgba(169, 169, 169, 0.22);
     }
 
     .v-content{
         padding-top: 50px;
-        padding-bottom: 30px;
+        padding-bottom: 60px;
+        border-bottom: 0.7px solid rgba(169, 169, 169, 0.22);
     }
 
     .v-content h1 {
+        padding-bottom: 20px;
         font-family: 'Open Sans', sans-serif;
         font-size: 33px;
         font-weight: 500;
@@ -169,20 +147,15 @@ p{
 
     /* ====== Our Partners Section ========== */
     .profile {
-        padding-top: 40px;
-    }
-
-    .profile-section {
-        margin-left: auto;
-        margin-right: auto;
-        height: 100%;
-        z-index: 1;
-        color: #000;
         text-align: center;
     }
 
     .pa-content{
-        margin-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    .items{
+        padding-bottom: 15px;
     }
 
     .pa-content  h1 {
@@ -203,13 +176,13 @@ p{
 
     /* ======== Our Team  Section ========== */
     .team{
-        padding: 32px;
         text-align: center;
         color: #000000;
         background-color: #f3f3f4;
     }
 
     .t-section h1 {
+        padding-top: 10px;
         padding-bottom: 20px;
         font-weight: 800;
     }
@@ -284,14 +257,14 @@ p{
     }
 
     .pt-content h1 {
-        padding-top: 80px;
+        padding-top: 40px;
         padding-bottom: 20px;
     }
 
 
     /*  ========= Contact Section ========= */
     .contact{
-        height: 400px;
+        height: 325px;
         color: #000;
         text-align: center;
         background-color: #E2E8EB;
@@ -303,7 +276,7 @@ p{
     }
 
     .c-content h1 {
-        padding-top: 80px;
+        padding-top: 40px;
         padding-bottom: 20px;
     }
 
@@ -314,14 +287,14 @@ p{
 
     /*  ======= News Section ======== */
     .news{
-        height: 400px;
+        height: 430px;
         text-align: center;
         background-color: #ffffff;
         color: #000000;
     }
 
     .n-content h1 {
-        padding-top: 20px;
+        padding-top: 40px;
         padding-bottom: 20px;
     }
 
@@ -329,7 +302,8 @@ p{
     /* Owl Carousel */
 
     .owl-carousel{
-        padding: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .owl-nav{
@@ -356,8 +330,6 @@ p{
     }
 
 
-
-
     /* =========== FOOTER ============ */
 
     .footer-nav{
@@ -366,7 +338,10 @@ p{
     }
 
     .footer-nav #logo{
-        padding: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .social{
@@ -403,6 +378,15 @@ p{
         text-align: center;
     }
 
+
+    /* = Form Control = */
+    .form-control{
+        background-color: #fff;
+        border-radius: 0;
+        display: inline-block;
+        border:1px solid rgba(204, 204, 204, 0);
+    }
+
     .copyright {
         padding: 20px;
         color: #ffffff;
@@ -410,7 +394,7 @@ p{
     }
 
     .copyright p {
-        font-size: 8px;
+        font-size: 9px;
         text-align: center;
     }
 
@@ -555,30 +539,10 @@ p{
 @media only screen and (min-width : 480px){
 
 
-    .btn{
-        margin-top:0px;
+    .btn {
+        margin-top: 0px;
         margin-left: -50px;
-        color: #fff;
-        border: 1px solid #00ADDB;
-        border-radius: 0;
     }
-
-    .login {
-        background: transparent;
-        position: absolute;
-        height: 100%;
-        width: 190px;
-        padding-left: 11px;
-        text-align: left;
-        line-height: 42px;
-        vertical-align: middle;
-        z-index: 10;
-        -webkit-transition: transform 0.2s ease-in-out 0s;
-        -moz-transition: transform 0.2s ease-in-out 0s;
-        -o-transition: transform 0.2s ease-in-out 0s;
-        transition: transform 0.2s ease-in-out 0s;
-    }
-
 
     /* Subscription Input */
     .subscribe_button {
@@ -600,29 +564,15 @@ p{
         transition: transform 0.5s ease 0s;
     }
 
-    .thanks{
-        background: transparent;
-        height: 100%;
-        width: 300px;
-        z-index: 5;
-        text-align: left;
-        line-height: 50px;
-        vertical-align: middle;
-        padding-left: 10px;
-        position: absolute;
-        top:46px;
-        display: inline-block;
-        -webkit-transition: transform 0.5s ease 0s ;
-        -moz-transition: transform 0.5s ease 0s ;
-        -o-transition: transform 0.5s ease 0s ;
-        transition: transform 0.5s ease 0s ;
-    }
 
+    .news{
+        height: 430px;
+    }
 
     /* Owl Carousel */
 
     .owl-carousel{
-        padding: 79px 55px;
+        padding: 0 55px;
     }
 
 
@@ -657,21 +607,12 @@ p{
         margin-right: 0;
     }
 
-    /* Form Control */
-    .form-control{
-        margin-left: 10px;
-        width: 80%;
-        background-color: #fff;
-        border-radius: 0;
-        display: inline-block;
-    }
-
     /* ====== Carousel ======= */
 
 
     /* ======== Programs Section ====== */
     .programs {
-        padding: 80px 78px;
+        padding-bottom: 50px;
         background-color: #f3f3f4;
     }
 
@@ -680,24 +621,14 @@ p{
 
 
     /* ===== Vision Section ====== */
-    .vision {
-        margin-top: 80px;
-    }
-
     .v-section{
-        width: 750px;
-        margin-left: auto;
-        margin-right: auto;
-        height: 100%;
-        color: #000;
-        text-align: center;
-        border-bottom: 0.7px solid rgba(169, 169, 169, 0.22);
+        width: 850px;
     }
 
     .v-content{
-        padding-top: 30px;
         padding-bottom: 50px;
     }
+
 
     .v-content h1 {
         font-size: 35px;
@@ -741,24 +672,10 @@ p{
         padding-bottom: 20px;
     }
 
-    /* Profile Section */
-    .profile {
-        padding-top: 60px;
-
-    }
-
-    .profile-section {
-        width: 980px;
-        margin-left: auto;
-        margin-right: auto;
-        height: 100%;
-        z-index: 1;
-        color: #000;
-        text-align: center;
-    }
+    /* ===== Our Partners Section ===== */
 
     .pa-content{
-        padding-bottom: 80px;
+        padding-bottom: 30px;
     }
 
     .pa-content  h1 {
@@ -776,13 +693,9 @@ p{
 
 
     /* ===== Our Team Section ====== */
-    .team{
-        padding: 100px;
-        text-align: center;
-        color: #000000;
-    }
 
     .t-section h1 {
+        padding-top: 40px;
         padding-bottom: 20px;
         font-size: 30px;
         font-weight: 800;
@@ -805,7 +718,6 @@ p{
     }
 
     .head-img{
-        padding-right: 0;
         padding-left: 0;
     }
 
@@ -814,7 +726,7 @@ p{
     }
 
     .head-text{
-        padding: 20px 200px;
+        padding: 40px 200px;
         text-align: center;
     }
 
@@ -899,16 +811,13 @@ p{
         text-align: left;
     }
 
+    /* Form Control */
+
+
+
     .btn-navbar {
         padding-top: 10px;
     }
-
-
-    .copyright {
-        padding: 20px;
-        color: #ffffff;
-    }
-
 
 
     .btn-navbar a {
