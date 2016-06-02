@@ -42,7 +42,7 @@
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 213px;
+  height: 648px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -88,6 +88,15 @@
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media (min-width: 320px){
+  /* Bump up size of carousel content */
+  .carousel .item {
+    height: 200px;
+    background-color: #777;
+  }
+
+}
+
 
 @media (min-width: 768px) {
   /* Navbar positioning foo */
@@ -110,7 +119,7 @@
 
   /* Bump up size of carousel content */
   .carousel .item {
-    height: 500px;
+    height: 510px;
     background-color: #777;
   }
   .carousel-inner > .item > img {
@@ -121,8 +130,8 @@
 
   }
   .carousel-caption p {
-    margin-bottom: 30px;
-    font-size: 16px;
+    font-size: 22px;
+    font-weight: 400;
     line-height: 1.6;
   }
 
@@ -135,4 +144,12 @@
   .featurette-heading {
     margin-top: 120px;
   }
+
+  /* Bump up size of carousel content */
+  .carousel .item {
+    height: 648px;
+    background-color: #777;
+  }
+
+
 }

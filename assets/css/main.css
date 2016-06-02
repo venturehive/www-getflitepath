@@ -52,6 +52,14 @@ p{
         border-radius: 0;
     }
 
+    .thumbnail{
+        border: 1px solid #FFF;
+    }
+
+    .img-thumbnail, .thumbnail{
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0);
+    }
+
 
 
 /*==========  Mobile First Method  ==========*/
@@ -93,9 +101,26 @@ p{
 
     /* ========== Programs Section ========== */
     .programs {
-
-        background-color: #f3f3f4;
         text-align: center;
+    }
+
+    .p-content h1{
+        padding-bottom: 30px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 50px;
+        font-weight: 100;
+        color: #000000;
+        text-transform: uppercase;
+    }
+
+    .p-content h1>span{
+        border-bottom: 1px solid #777;
+        padding-bottom: 10px;
+    }
+
+    .p-content h3 {
+        padding: 20px 0 10px 0;
+        font-size: 18px;
     }
 
     .p-text p{
@@ -104,17 +129,7 @@ p{
         padding-bottom: 10px;
     }
 
-    .p-content h1{
-        padding-top: 40px;
-        padding-bottom: 30px;
-        color: #000000;
-    }
-
-    .p-content h3 {
-        font-size: 18px;
-    }
-
-    .programs img {
+   /* .programs img {
         -webkit-filter: grayscale(95%);
     }
 
@@ -124,34 +139,33 @@ p{
 
 
     /* =======  Vision  Section ======= */
-    .v-section{
+    .vision{
         margin-right: auto;
         margin-left: auto;
         text-align: center;
     }
 
     .v-content{
-        padding-top: 50px;
-        padding-bottom: 60px;
-        border-bottom: 0.7px solid rgba(169, 169, 169, 0.22);
+        padding: 160px 0;
+
     }
 
     .v-content h1 {
         padding-bottom: 20px;
         font-family: 'Open Sans', sans-serif;
-        font-size: 33px;
-        font-weight: 500;
+        font-size: 30px;
+        font-weight: 700;
         color: #000;
+    }
+
+    .v-content p {
+
     }
 
 
     /* ====== Our Partners Section ========== */
-    .profile {
+    .partners {
         text-align: center;
-    }
-
-    .pa-content{
-        padding-top: 30px;
     }
 
     .items{
@@ -160,13 +174,20 @@ p{
 
     .pa-content  h1 {
         font-family: 'Open Sans', sans-serif;
-        font-size: 33px;
-        font-weight: 500;
+        font-size: 40px;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+
+    .pa-content h1>span{
+        border-bottom: 1px solid #777;
+        padding-bottom: 10px;
     }
 
     .pa-content h3{
         font-family: 'Open Sans', sans-serif;
         font-size: 18px;
+        font-weight: 100;
     }
 
     .pa-content p{
@@ -178,13 +199,18 @@ p{
     .team{
         text-align: center;
         color: #000000;
-        background-color: #f3f3f4;
     }
 
     .t-section h1 {
-        padding-top: 10px;
         padding-bottom: 20px;
-        font-weight: 800;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+
+    .t-section h1>span{
+        border-bottom: 1px solid #777;
+        padding-bottom: 10px;
     }
 
     .t-section a {
@@ -267,7 +293,6 @@ p{
         height: 325px;
         color: #000;
         text-align: center;
-        background-color: #E2E8EB;
     }
 
     .c-content{
@@ -608,30 +633,40 @@ p{
     }
 
     /* ====== Carousel ======= */
+    .carousel-caption{
+        padding-bottom: 60px;
+    }
 
 
     /* ======== Programs Section ====== */
     .programs {
-        padding-bottom: 50px;
-        background-color: #f3f3f4;
+        padding: 80px 100px 0;
+    }
+
+    .p-content h1{
+        font-size: 30px;
     }
 
     .p-text h3 {
+        font-weight: 800;
+    }
+
+    .p-content p {
+        padding-bottom: 20px;
     }
 
 
     /* ===== Vision Section ====== */
-    .v-section{
+    .vision{
         width: 850px;
     }
 
-    .v-content{
-        padding-bottom: 50px;
+    .v-content h1 {
+        font-size: 23px;
     }
 
-
-    .v-content h1 {
-        font-size: 35px;
+    .v-content p {
+        font-size: 30px;
     }
 
 
@@ -673,14 +708,13 @@ p{
     }
 
     /* ===== Our Partners Section ===== */
-
     .pa-content{
-        padding-bottom: 30px;
+        padding: 60px 240px 0;
     }
 
     .pa-content  h1 {
-        padding-bottom: 40px;
-        font-size: 35px;
+        padding-bottom: 30px;
+        font-size: 30px;
     }
 
     .pa-content h3{
@@ -688,17 +722,24 @@ p{
     }
 
     .pa-content p{
-        font-size: 12px;
+        font-size: 14px;
+        padding-bottom: 30px;
     }
 
 
     /* ===== Our Team Section ====== */
 
+    .team{
+        padding: 100px 0;
+    }
+
     .t-section h1 {
-        padding-top: 40px;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
         font-size: 30px;
-        font-weight: 800;
+    }
+
+    .t-section p {
+        font-size: 16px;
     }
 
     .t-section a {
@@ -711,10 +752,7 @@ p{
     }
 
     .headshots{
-        padding-top: 2px;
-        padding-bottom: 2px;
-        margin-right:110px;
-        margin-left:110px;
+        margin: 0 200px;
     }
 
     .head-img{
@@ -726,23 +764,24 @@ p{
     }
 
     .head-text{
-        padding: 40px 200px;
-        text-align: center;
+        padding: 0 200px;
+
     }
 
 
     /*  ======== Pitch Paragraph Section ========= */
     .pitch{
-        width: 600px;
+        width: 800px;
         margin-left: auto;
         margin-right: auto;
+        padding: 50px;
         color: #000;
         text-align: center;
         border-bottom: 0.7px solid rgba(169, 169, 169, 0.22);
     }
 
     .pt-content {
-        padding-bottom: 80px;
+
     }
 
     .pt-content h1 {
@@ -756,7 +795,6 @@ p{
         height: 400px;
         color: #000;
         text-align: center;
-        background-color: #E2E8EB;
     }
 
     .c-content{
