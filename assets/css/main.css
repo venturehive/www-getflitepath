@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, a {
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif; */
 }
 
 h1{
@@ -19,10 +19,11 @@ h1{
 
 
 p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 1px;
 }
+
+
 
 /* General Bootstrap styles */
     .nav>li>a {
@@ -105,17 +106,31 @@ p{
     }
 
     .p-content h1{
-        padding-bottom: 30px;
+        margin: auto;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+        position: relative;
+        display: table;
         font-family: 'Open Sans', sans-serif;
         font-size: 50px;
-        font-weight: 100;
+        font-weight: 800;
         color: #000000;
+        background-color: #FFFFFF;
+        z-index: 1;
         text-transform: uppercase;
     }
 
-    .p-content h1>span{
-        border-bottom: 1px solid #777;
-        padding-bottom: 10px;
+    .p-content line{
+        display: block;
+        height: 1px;
+        left: 76px;
+        width: 90%;
+        margin-top:-66px;
+        background-color: #e8e8e8;
+        position: absolute;
+        z-index: -1;
+
     }
 
     .p-content h3 {
@@ -129,7 +144,7 @@ p{
         padding-bottom: 10px;
     }
 
-   /* .programs img {
+   .programs img {
         -webkit-filter: grayscale(95%);
     }
 
@@ -146,25 +161,31 @@ p{
     }
 
     .v-content{
-        padding: 160px 0;
-
+        padding: 80px 0 120px;
+        border-top: 1px solid #ddd;
     }
 
     .v-content h1 {
         padding-bottom: 20px;
         font-family: 'Open Sans', sans-serif;
-        font-size: 30px;
-        font-weight: 700;
+        font-size: 23px;
         color: #000;
     }
 
     .v-content p {
+        font-size: 35px;
+        font-weight: 800;
+    }
 
+    .v-content span{
+        color: #00addb;
     }
 
 
     /* ====== Our Partners Section ========== */
     .partners {
+        background-color: #2a2728;
+        color: #DDD;
         text-align: center;
     }
 
@@ -173,21 +194,14 @@ p{
     }
 
     .pa-content  h1 {
-        font-family: 'Open Sans', sans-serif;
         font-size: 40px;
         font-weight: 100;
         text-transform: uppercase;
     }
 
-    .pa-content h1>span{
-        border-bottom: 1px solid #777;
-        padding-bottom: 10px;
-    }
-
     .pa-content h3{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 18px;
-        font-weight: 100;
+        font-size: 14px;
+        font-weight: 900;
     }
 
     .pa-content p{
@@ -202,20 +216,35 @@ p{
     }
 
     .t-section h1 {
-        padding-bottom: 20px;
+        margin: auto;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+        position: relative;
+        display: table;
         font-family: 'Open Sans', sans-serif;
-        font-weight: 100;
+        font-size: 50px;
+        font-weight: 800;
+        color: #000000;
+        background-color: #FFFFFF;
+        z-index: 1;
         text-transform: uppercase;
     }
 
-    .t-section h1>span{
-        border-bottom: 1px solid #777;
-        padding-bottom: 10px;
+    .t-section line{
+        display: block;
+        height: 1px;
+        left: 76px;
+        width: 90%;
+        margin-top:-46px;
+        background-color: #e8e8e8;
+        position: absolute;
+        z-index: -1;
     }
 
     .t-section a {
         padding: 15px;
-        color: #5FA8C3;
+        color: #00addc;
     }
 
     .t-gallery{
@@ -278,15 +307,29 @@ p{
         text-align: center;
     }
 
-    .pt-content {
-        padding-bottom: 80px;
-    }
-
     .pt-content h1 {
-        padding-top: 40px;
-        padding-bottom: 20px;
+        padding-bottom: 70px;
+        font-size: 50px;
+        font-weight: 100;
+        text-transform: uppercase;
     }
 
+    .pt-content h1>span {
+        padding-bottom: 7px;
+ /*       border-bottom: 3px solid #000; */
+    }
+
+    .pt-content h1>span>a {
+        color: #000000;
+    }
+
+    .pt-content h1>span>a:hover {
+       text-decoration: none;
+    }
+
+    .pt-content p {
+        text-align: left;
+    }
 
     /*  ========= Contact Section ========= */
     .contact{
@@ -301,8 +344,30 @@ p{
     }
 
     .c-content h1 {
-        padding-top: 40px;
-        padding-bottom: 20px;
+        margin: auto;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+        position: relative;
+        display: table;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        color: #000000;
+        background-color: #FFFFFF;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+
+    .c-section line{
+        display: block;
+        height: 1px;
+        left: 76px;
+        width: 90%;
+        margin-top:-36px;
+        background-color: #e8e8e8;
+        position: absolute;
+        z-index: -1;
     }
 
     .c-content .btn {
@@ -319,8 +384,30 @@ p{
     }
 
     .n-content h1 {
-        padding-top: 40px;
-        padding-bottom: 20px;
+        margin: auto;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+        position: relative;
+        display: table;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        color: #000000;
+        background-color: #FFFFFF;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+
+    .n-section line{
+        display: block;
+        height: 1px;
+        left: 76px;
+        width: 90%;
+        margin-top:-66px;
+        background-color: #e8e8e8;
+        position: absolute;
+        z-index: -1;
     }
 
 
@@ -634,13 +721,13 @@ p{
 
     /* ====== Carousel ======= */
     .carousel-caption{
-        padding-bottom: 60px;
+        padding-bottom: 210px;
     }
 
 
     /* ======== Programs Section ====== */
     .programs {
-        padding: 80px 100px 0;
+        padding: 90px 140px;
     }
 
     .p-content h1{
@@ -709,7 +796,7 @@ p{
 
     /* ===== Our Partners Section ===== */
     .pa-content{
-        padding: 60px 240px 0;
+        padding: 90px 240px 60px;
     }
 
     .pa-content  h1 {
@@ -718,7 +805,7 @@ p{
     }
 
     .pa-content h3{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .pa-content p{
@@ -730,7 +817,7 @@ p{
     /* ===== Our Team Section ====== */
 
     .team{
-        padding: 100px 0;
+        padding: 100px 65px;
     }
 
     .t-section h1 {
@@ -748,7 +835,7 @@ p{
     }
 
     .t-gallery{
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     .headshots{
@@ -771,24 +858,12 @@ p{
 
     /*  ======== Pitch Paragraph Section ========= */
     .pitch{
-        width: 800px;
         margin-left: auto;
         margin-right: auto;
-        padding: 50px;
+        padding: 100px;
         color: #000;
         text-align: center;
-        border-bottom: 0.7px solid rgba(169, 169, 169, 0.22);
     }
-
-    .pt-content {
-
-    }
-
-    .pt-content h1 {
-        padding-top: 80px;
-        padding-bottom: 20px;
-    }
-
 
     /*  ========= Contact Section ========= */
     .contact{
