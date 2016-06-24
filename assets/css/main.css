@@ -109,7 +109,7 @@ p{
 
     /* ========== Programs Section ========== */
     .programs {
-        padding: 50px 40px;
+        padding: 50px 30px;
         text-align: center;
     }
 
@@ -129,7 +129,7 @@ p{
     .p-content line{
         display: block;
         height: 1px;
-        left: 76px;
+        left: 16px;
         width: 90%;
         margin-top:-66px;
         background-color: #e8e8e8;
@@ -230,9 +230,9 @@ p{
     .t-section line{
         display: block;
         height: 1px;
-        left: 76px;
+        left: 16px;
         width: 90%;
-        margin-top:-46px;
+        margin-top:-66px;
         background-color: #e8e8e8;
         position: absolute;
         z-index: -1;
@@ -342,6 +342,7 @@ p{
 
     .c-content h1 {
         margin: auto;
+        margin-top: 35px;
         padding-bottom: 50px;
         padding-right: 20px;
         padding-left: 20px;
@@ -355,9 +356,9 @@ p{
     .c-section line{
         display: block;
         height: 1px;
-        left: 76px;
+        left: 16px;
         width: 90%;
-        margin-top:-36px;
+        margin-top:-66px;
         background-color: #e8e8e8;
         position: absolute;
         z-index: -1;
@@ -632,6 +633,10 @@ p{
         -ms-transform: translateY(-50px);
         -o-transform: translateY(-50px);
         transform: translateY(-50px);
+    }
+
+    #mc-embedded-subscribe{
+        margin-left: -13px;
     }
 
 }
