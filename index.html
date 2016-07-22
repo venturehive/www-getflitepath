@@ -22,12 +22,14 @@
 
     <!-- Google Font link -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Francois+One|Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Raleway" rel="stylesheet">
+
 
     <!-- CSS Document -->
     <link rel="stylesheet" href="assets/css/main.css">
-
-    <!-- Carousel Css -->
-    <link href="assets/css/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css" />
 
     <!-- Owl CSS file -->
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
@@ -35,13 +37,15 @@
     <!-- Simple Parallax Scrolling JS -->
     <script src="assets/js/parallax.js"></script>
 
-    <!-- Mansonry -->
-    <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
     <!-- ImagesLoaded -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
 
 
@@ -50,10 +54,11 @@
 <body>
 
 <div class="container-fluid">
+
+
+    <!-- start: navbar-->
     <div class="row">
-        <!-- NAVBAR
-             ================================================== -->
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -68,387 +73,354 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
                     <ul class="nav navbar-nav navbar-right">
-                        <li class=""><a href="#">APPLY<span class="sr-only">(current)</span></a></li>
-                        <li><a href="https://blog.venturehive.com" target="_blank">BLOG</a></li>
-                        <!--    <li><a href="#">EN</a></li> -->
-                        <li><a href="#">SPANISH</a></li>
+                        <button type="button" class="btn btn-default btn-request"><a href="#">REQUEST A DEMO</a></button>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
+    </div>
+    <!-- end -->
 
 
-        <!-- Carousel
-                ================================================== -->
-
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-
-            <div class="carousel-inner" role="listbox">
-                <div class="item">
-                    <img class="first-slide" src="assets/images/montage.jpg" class="img-responsive" alt="First slide">
-                    <div class="container">
-                        <!--<div class="carousel-caption">-->
-                            <!--<p>"Venture Hive was a great partner to help us structure and set benchmarks-->
-                                <!--for our entrepreneurship program.  Their platform is engaging and easily-->
-                                <!--extensible to a broad range of stakeholders."</p>-->
-                            <!--<cite>- XXXXX, Program Manager, Microsoft Innovation Centers</cite>-->
-                        <!--</div>-->
-                    </div>
-                </div>
-                <div class="item active">
-                    <img class="second-slide" src="assets/images/montage2.jpg" class="img-responsive" alt="Second slide">
-                    <div class="container">
-                        <!--<div class="carousel-caption">-->
-                            <!--<p>"Venture Hive was a great partner to help us structure and set benchmarks-->
-                                <!--for our entrepreneurship program.  Their platform is engaging and easily-->
-                                <!--extensible to a broad range of stakeholders."</p>-->
-                            <!--<cite>- XXXXX, Program Manager, Microsoft Innovation Centers</cite>-->
-                        <!--</div>-->
-                    </div>
-                </div>
-                <div class="item">
-                    <img class="third-slide" src="assets/images/montage.jpg" class="img-responsive" alt="Third slide">
-                    <div class="container">
-                        <!--<div class="carousel-caption">-->
-                            <!--<p>"Venture Hive was a great partner to help us structure and set benchmarks-->
-                                <!--for our entrepreneurship program.  Their platform is engaging and easily-->
-                                <!--extensible to a broad range of stakeholders."</p>-->
-                            <!--<cite>- XXXXX, Program Manager, Microsoft Innovation Centers</cite>-->
-                        <!--</div>-->
-                    </div>
-                </div>
-            </div>
-        </div><!-- /.carousel -->
-    </div><!-- /row -->
-
+    <!-- start: Jumbotron -->
+    <div class="row">
+        <div class="jumbotron">
+            <h1>Simplify operations and facilitate communications and sharing
+                of information between startups, mentors, investors  and partners
+            </h1>
+            <p>Our secret is BEEKEEPER, an integrated approach to managing entrepreneurship education and programs.</p>
+            <p><a class="btn btn-primary btn-lg btn-request2" href="#" role="button">REQUEST A DEMO</a></p>
+        </div>
+    </div>
+    <!-- end -->
 
 
     <!-- Sub-Pages Section
-     ================================================== -->
-    <!-- Programs Section -->
-    <div class="row programs">
-        <div class="p-content">
-            <h1>Programs</h1>
-            <line></line>
-            <p>Venture Hive has democratized entrepreneurship education.
-                Our programs can be customized to work with a broad range of stakeholders
-                in both real and virtual settings.</p>
-
-            <div class="col-xs-12 col-md-4 p-text">
-                <img src="assets/images/img5.jpg" class="img-responsive" alt="Responsive image">
-
-                <h3>Government</h3>
-                <p>Silicon Valley is no longer a place. It's a state of mind that can
-                    be exported to any location given the right combination of factors.
-                    Our government programs speed the economic development process by fostering
-                    a strong community of entrepreneurs and branding your location as an innovation hotspot.
-                </p>
-            </div>
-
-            <div class="col-xs-12 col-md-4 p-text">
-                <img src="assets/images/img9.jpg" class="img-responsive" alt="Responsive image">
-
-                <h3>Corporate Partners</h3>
-                <p>How do we stimulate engagement? How do we start a process that attracts the brightest minds?
-                    We know what fosters a culture of entrepreneurship inside your organization because we've done
-                    it for so many corporate partners.
-                </p>
-            </div>
-
-            <div class="col-xs-12 col-md-4 p-text">
-                <img src="assets/images/img17.jpg" class="img-responsive" alt="Responsive image" >
-
-                <h3>Startups</h3>
-                <p>A new generation of business owners is making the jump from students to entrepreneurs.
-                    Many of them come to us with MBAs from Harvard and Columbia.  We get them to the next
-                    level with customized mentorship that teaches bottom-line business principles and
-                    gut-check training.
-                </p>
-            </div>
-
-        </div><!-- /p-content -->
-    </div><!-- /row  programs-->
-
-
-    <!-- Vision Section -->
-    <div class="row vision">
-        <div class="v-content col-xs-12">
-            <h1>Why Entrepreneurs work with us</h1>
-            <p>We put entrepreneurs first. Always.  Our approach is based on programs
-                 <span> we've hosted around the world with partners like Microsoft and the
-                World Bank</span>. We believe in getting entrepreneurs to the next level with content specially
-                curated to their needs. We don't believe in equity.</p>
-        </div><!-- v-content col-xs-12 -->
-    </div><!-- /row v-section-->
-
-
-    <!-- Partners & Sponsors Section -->
-    <!-- <div class="row partners">
-        <!-- Our Partners&Sponsors Section
-        <div class="pa-content col-xs-12">
-            <h1><span>Our Partners</span></h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of erfdgtm ohytredo.</p>
-
-            <div class="col-xs-12 col-sm-6">
-                <div class="items">
-                    <img src="assets/images/Microsoft.JPG" class="img-responsive" alt="Responsive image">
-                    <div class="text">
-                        <h3> Microsoft  </h3>
-                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of erfdgtm ohytredo.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-6">
-                <div class="items">
-                    <img src="assets/images/partner.jpg" class="img-responsive" alt="Responsive image">
-                    <div class="text">
-                        <h3> The World Bank </h3>
-                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of</p>
-                    </div><!-- /text
-                </div><!-- /items
-            </div><!-- /col-xs-12 col-sm-6
-        </div><!-- / pa-content
-    </div><!-- /patners -->
-
-
-
-    <!-- Testimonial No.1 -->
-    <div class="row parallax-window" data-parallax="scroll" data-image-src="assets/images/SergeiA2.jpg">
-        <div class="testimanial-section">
-            <div class="ts-content-left col-xs-12">
-                <h1>Sergei Alexander</h1>
-
-                <p>From our first interaction, FOUNDER.org believed we could transform industrial
-                    automation by taking a radical approach to smart sensors. With their support,
-                    we are on our way to enabling billions of intelligence machines to act autonomously.</p>
-                <cite title="Source Title">- Andreas Kunze, Konux</cite>
-            </div><!-- col-xs-12 -->
-        </div><!-- /testimonial-section -->
-    </div><!-- /parallax-window -->
-
-
-    <!-- Pitch Section -->
-    <div class="row pitch">
-        <div class="pt-content">
-            <h1><span><a href="#">GLOBAL EXECUTION + LATAM EXPERTISE</a></span></h1>
-
-            <img src="assets/images/map.jpg" alt="map" class="img-responsive center-block">
-
-            <div class="col-xs-12 col-md-6">
-                <p>Thanks to the input of private beta clients like Microsoft,
-                    the World Bank and the US Department of State, we have developed
-                    the only platform that empowers entrepreneurs to customize their learning experience.  </p>
-            </div>
-
-            <div class="col-xs-12 col-md-6">
-                <p>Thanks to the input of private beta clients like Microsoft,
-                    the World Bank and the US Department of State, we have developed
-                    the only platform that empowers entrepreneurs to customize their learning experience. </p>
+    ================================================== -->
+    <!-- start: Partners & Sponsors -->
+    <div class="row sponsors">
+        <div class="s-content col-xs-12">
+            <div class="owl-carousel">
+                <div> <img src="assets/images/partners/VAIN_color.png" alt="Logo"> </div>
+                <div><img src="assets/images/partners/USdepartment.png" alt="Logo"> </div>
+                <div> <img src="assets/images/partners/microsoft.png" alt="Logo"> </div>
+                <div> <img src="assets/images/partners/WB.png" alt="Logo"> </div>
+                <div> <img src="assets/images/partners/Old_DominionBW.png" alt="Logo"> </div>
+                <div> <img src="assets/images/partners/VA.png" alt="Logo"> </div>
+                <div> <img src="assets/images/partners/VC.png" alt="Logo"> </div>
+                <div> <img src="assets/images/partners/cherry.png" alt="Logo"> </div>
             </div>
         </div><!-- col-xs-12 -->
-    </div><!-- /row pitch -->
+    </div>
+    <!-- end-->
 
-    <!-- Testimonial No.3 -->
-    <div class="row parallax-window" data-parallax="scroll" data-image-src="assets/images/SergiAlexanderA.jpg">
-        <div class="testimanial-section" style="color: #FFFFFF">
-
-            <div class="ts-content-left col-xs-12" id="test3">
-                <h1>Sergei Alexander</h1>
-
-                <p>I kid you not, Michael Baum knows how to build a great team. He did it as
-                    Splunk and now again at FOUNDER.org and this time, he's putting his weight
-                    behind some of the best ideas I've ever seen.</p>
-                <cite title="Source Title">— Lindsay Stewart, Stringr</cite>
-            </div><!-- col-xs-12 -->
-        </div><!-- /row -->
-    </div><!-- /parallax-window -->
-
-    <!-- Our Team Section -->
-    <div class="row team">
-
-        <div class="col-xs-12 t-section">
-            <h1>Our Team</h1>
-            <line></line>
-            <p>We have been saluted by the White House, <span>consulted for the Knight Foundation,
-                worked for Oracle and IBM</span>, and helped create billions of dollars in investor value.
-                Now, at Venture Hive, we empower the next generation of entrepreneurs through hands-on
-                mentorship coupled with our BEEKEEPER education platform. </p>
-            <a href="#">Meet the Venture Hive Team.</a>
-        </div> <!-- /t-section  col-xs-12 -->
-
-        <div class="t-gallery col-xs-12">
-            <div class="headshots">
-                <div class="col-xs-12 col-sm-3 head-img">
-                    <div class="thumbnail"></a>
-                        <img src="assets/images/headshots/Susan.png" alt="" class="img-responsive">
-                        <div class="caption">
-                            <h5>Susan Amat</h5>
-                            <p>Founder / CEO</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3 head-img">
-                    <div class="thumbnail"></a>
-                        <img src="assets/images/headshots/Luis.png" alt="" class="img-responsive">
-                        <div class="caption">
-                            <h5>Luis Amat</h5>
-                            <p>Co-Founder / CTO</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3 head-img">
-                    <div class="thumbnail"></a>
-                        <img src="assets/images/headshots/JohnDantzler.png" alt="" class="img-responsive">
-                        <div class="caption">
-                            <h5>John Dantzler</h5>
-                            <p>COO</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3 head-img">
-                    <div class="thumbnail"></a>
-                        <img src="assets/images/headshots/MikePacifico.png" alt="" class="img-responsive">
-                        <div class="caption">
-                            <h5>Mike Pacifico</h5>
-                            <p>CFO</p>
-                        </div>
-                    </div>
-                </div>
+    <!-- start: Testimonials -->
+    <div class="row">
+        <div id="da-slider" class="da-slider">
+            <div class="da-slide">
+                <div class="da-img"><img src="assets/images/partners/VAIN_logo_2color-1.png" alt="image01" class="img-responsive" /></div>
+                <p>“The Beekeeper platform solves several of the challenges we have in running a large
+                    scale innovation program. Now we can run a virtual cohort with all the educational
+                    content and resources they need and have the KPIs and level of assessment we need
+                    with our innovators and mentors spread across the country.”  </p>
+                <h3><strong>Andrea Ippolito</strong>, VA Innovators Network Lead, U.S. Department of Veterans Affairs</h3>
             </div>
+            <div class="da-slide">
+                <p>“Their educational platform and program resources are world class.”</p>
+                <h3><strong>James Lant</strong>, Interim Director
+                    Strome Entrepreneurial Center</h3>
+                <div class="da-img"><img src="assets/images/partners/ODU_logo.png" alt="image01"  class="img-responsive"/></div>
+            </div>
+            <div class="da-slide">
+                <p>"The main difference is that Venture Hive really cares about the companies
+                    they're helping. It's not about equity or publicity."</p>
+                <h3><strong>Carlos Esnal</strong>, LugLoc, CEO</h3>
+                <div class="da-img"><img src="assets/images/partners/lugloc.png" alt="image01" class="img-responsive"/></div>
+            </div>
+            <div class="da-slide">
+                <p>"Venture Hive made we aware of things not written about in the Harvard Business Review.
+                    I didn't get them from my corporate experience. I didn't get them from my Harvard MBA curriculum."</p>
+                <h3><strong>Gustavo Souss</strong> Einsof BioHealth, CEO</h3>
+                <div class="da-img"><img src="assets/images/partners/EBlogo.png" alt="image01" class="img-responsive"/></div>
+            </div>
+            <nav class="da-arrows">
+                <span class="da-arrows-prev"></span>
+                <span class="da-arrows-next"></span>
+            </nav>
+        </div>
+    </div>
+    <!-- end -->
 
-            <div class="headshots">
-                <div class="col-xs-12 col-sm-3 head-img">
-                    <div class="thumbnail"></a>
-                        <img src="assets/images/headshots/BobFoster.jpg" alt="" class="img-responsive">
-                        <div class="caption">
-                            <h5>Bob Foster</h5>
-                            <p>Venture Hive Fort Walton Beach</p>
-                        </div>
-                    </div>
+
+    <!-- start: Platform -->
+    <div class="container">
+        <div class="row platform">
+            <div class="col-xs-12 p-content">
+                <h1>Why BeeKeeper?</h1>
+                <p id="p-body">Thanks to the input of private beta clients like <em>Microsoft</em>,
+                    the <em>World Bank</em> and the <italic>US Department of State</italic>,
+                    we have developed the only platform that empowers entrepreneurs
+                    to formalize their learning experience</p>
+
+                <div class="col-xs-12 col-sm-6 p-content">
+                    <img src="assets/images/icons/mess.png" alt="" class="img-responsive center-block">
+                    <h2>Existing Approach</h2>
+                    <p>Improvised, ad hoc,stringing together a variety of tools</p>
                 </div>
-                <div class="col-xs-12 col-sm-3 head-img">
-                    <div class="thumbnail"></a>
-                        <img src="assets/images/headshots/JaimeSr.png" alt="" class="img-responsive">
-                        <div class="caption">
-                            <h5>Jaime Alejandro Silva</h5>
-                            <p>Venture Hive Latam</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3 head-img">
-                    <div class="thumbnail"></a>
-                        <img src="assets/images/headshots/LuisMata.png" alt="" class="img-responsive">
-                        <div class="caption">
-                            <h5>Luis Mata</h5>
-                            <p>Videography</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3 head-img">
-                    <div class="thumbnail"></a>
-                        <img src="assets/images/headshots/Carlos.png" alt="" class="img-responsive">
-                        <div class="caption">
-                            <h5>Carlos Iñiguez</h5>
-                            <p>Curriculum</p>
-                        </div>
-                    </div>
+
+
+                <div class="col-xs-12 col-sm-6 p-content">
+                    <img src="assets/images/icons/org.png" alt="" class="img-responsive center-block">
+                    <h2>BeeKeeper</h2>
+                    <p> Unified solution that brings together exclusive
+                        content from top mentors, best-of-breed applications
+                    </p>
                 </div>
             </div>
         </div>
+        <!-- end -->
+    </div><!-- end: container -->
 
-    </div><!-- /team -->
+
+    <!-- start: Integrated Management -->
+    <div class="row key-functions">
+        <div class="col-xs-12 k-content">
+            <h1>Integrated Management Platform</h1>
+            <p>Complete cloud platform to manage participation and progress.</p>
+        </div>
+
+        <div class="col-xs-12 col-md-4 keys">
+            <a href="#" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+            sagittis lacus vel augue laoreet rutrum faucibus.">
+                <img src="assets/images/icons/application1.png" alt="" class="img-responsive center-block"></a>
+            <p>APPLICATION MANAGEMENT</p>
+        </div>
+        <div class="col-xs-12 col-md-4 keys">
+            <a href="#" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">
+                <img src="assets/images/icons/program1.png" alt="" class="img-responsive center-block">
+            </a>
+            <p>PROGRAM MANAGEMENT</p>
+        </div>
+        <div class="col-xs-12 col-md-4 keys">
+            <a href="#" id="trigger1"></a><img src="assets/images/icons/content1.png" alt="" class="img-responsive center-block">
+            <p>CONTENT</42>
+        </div>
+
+        <div class="col-xs-12 col-md-4 keys">
+            <a href="#" id="trigger"><img src="assets/images/icons/portfolio1.png" alt="" class="img-responsive center-block"></a>
+            <p>PORTFOLIO MANAGEMENT</p>
+        </div>
+
+        <div class="col-xs-12 col-md-4 keys">
+            <a href="#" id="trigger"><img src="assets/images/icons/mentoring1.png" alt="" class="img-responsive center-block"></a>
+            <p>MENTORING</p>
+        </div>
+        <div class="col-xs-12 col-md-4 keys">
+            <a href="#" id="trigger"><img src="assets/images/icons/reporting1.png" alt="" class="img-responsive center-block"></a>
+            <p>REPORTING</p>
+        </div>
+    </div>
+    <!-- end -->
 
 
+    <!-- start: BeeKeeper -->
+    <div class="row beekeeper">
+        <div class="col-xs-12 col-sm-6" style="padding-left:0;">
+            <img src="assets/images/mockup.png" class="img-responsive" alt="placeholder1">
+        </div>
 
-    <!-- Testimonial No.2 -->
-    <div class="row parallax-window" data-parallax="scroll" data-image-src="assets/images/Susan03.jpg">
-        <div class="testimanial-section" style="color: #FFFFFF">
+        <div class="col-xs-12 col-sm-6 b-content">
+            <h1>BeeKeeper simplifies accelerator and incubator operations by providing end-to-end,
+                seamless management and support for:
+            </h1>
+            <ul>
+                <li>Application processes</li>
+                <li>Venture profile creation and setup</li>
+                <li>Educational content and usage</li>
+                <li>Portfolio management</li>
+                <li>Management of mentor network</li>
+                <li>Reporting and Analytics</li>
+                <li><a class="btn btn-primary btn-lg btn-request2" href="#" role="button" style="margin-left: -18px">REQUEST A DEMO</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end -->
 
-            <div class="ts-content-right col-xs-12" id="test2">
-                <h1>Sergei Alexander</h1>
 
-                <p>The FOUNDER team pushed us from the beginning to dream bigger, take more
-                    risks and challenge the ophthalmology industry. Now our mobile device
-                    is delivering instant digital vision correction to patients in first world
-                    and developing countries.</p>
-                <cite title="Source Title">- Yaopeng Zhou, Smart Vision Labs</cite>
-            </div><!-- col-xs-12 -->
-        </div><!-- /row -->
-    </div><!-- /parallax-window -->
-
-    <!-- Pitch Section -->
-    <div class="row bee" style="padding: 40px; text-align: center">
-        <div class="pt-content">
-            <h1><span><a href="#">BEEKEEPER</a></span></h1>
-
-            <div class="col-xs-12">
-                <p>Thanks to the input of private beta clients like Microsoft,
-                    the World Bank and the US Department of State, we have developed
-                    the only platform that empowers entrepreneurs to customize their learning experience.  </p>
+    <!-- start: Benefits -->
+    <div class="row benefits">
+        <div class="col-xs-12 be-content">
+            <h1>BeeKeeper simplifies operations by providing end-to-end, seamless management and support
+                for educational content, venture profile creation/setup/management, mentor engagement,
+                and reporting/analytics.
+            </h1>
+            <div class="col-xs-12 col-sm-3 be-features">
+                <h3>Calendar</h3>
+                <p>Manage speaking engagements, mentoring sessions events and meetings with mail
+                    notification and syncing to external calendars such as Google and Outlook
+                </p>
             </div>
-        </div><!-- col-xs-12 -->
-    </div><!-- /row pitch -->
+            <div class="col-xs-12 col-sm-3 be-features">
+                <h3>Reporting</h3>
+                <p>Tracking of venture metrics including burn rate, run rate, funds raised,
+                    milestone attainment (planned vs actual)
+
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-3 be-features">
+                <h3>Repository</h3>
+                <p>Central location for educational and program content and resources
+                    (videos, course overviews, slides, etc.)
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-3 be-features">
+                <h3>Directory</h3>
+                <p>Facilitate communications and knowledge sharing between startups, mentors,
+                    partners, investors and key stack holders
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
 
 
-    <!-- Contact Section -->
-    <div class="row contact">
-        <div class="c-section">
-            <div class="c-content col-xs-12">
-                <h1>Contact Us</h1>
-                <line></line>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type
-                    specimen book. </p>
-                <a href="">Apply now to our Entrepreneurship Programs</a>
-            </div><!-- / c-content col-xs-12 -->
+    <!-- start: Personas -->
+    <div class="row">
+            <div class="col-xs-12 personas text-center">
+                <h1>Benefits</h1>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#developers" aria-controls="home" role="tab" data-toggle="tab">PROGRAM DIRECTORS
+                    </a></li>
+                    <li role="presentation"><a href="#educators" aria-controls="profile" role="tab" data-toggle="tab">MENTORS
+                    </a></li>
+                    <li role="presentation"><a href="#entrepreneurs" aria-controls="messages" role="tab" data-toggle="tab">BOARDS AND OVERSIGHT
+                    </a></li>
+                    <li role="presentation"><a href="#programs" aria-controls="settings" role="tab" data-toggle="tab">INVESTORS</a></li>
+                    <li role="presentation"><a href="#investors" aria-controls="settings" role="tab" data-toggle="tab">PARTNERS AND SPONSORS
+                    </a></li>
+                </ul>
 
-            <!-- Secondary, outline button -->
-            <!-- <button type="button" class="btn btn-secondary">Apply Now</button> -->
-            <!--
-                <div class="">
-                    <div class="btn-group" role="group" aria-label="...">
-                        <button type="button" class="btn btn-default">Apply Now</button>
-                        <button type="button" class="btn btn-default">Refer a Team</button>
-                        <button type="button" class="btn btn-default">Ask a Question</button>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="developers">
+                        <p>1Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining essentially unchanged. It was popularised in
+                            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                    </div>
+                    <div role="tabpane1" class="tab-pane fade" id="educators">
+                        <p>1Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining essentially unchanged. It was popularised in
+                            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="entrepreneurs">
+                        <p>1Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining essentially unchanged. It was popularised in
+                            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="programs">
+                        <p>1Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining essentially unchanged. It was popularised in
+                            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="investors">
+                        <p>1Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining essentially unchanged. It was popularised in
+                            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
                     </div>
                 </div>
-            -->
-        </div><!-- /c-section row -->
-    </div><!-- /contact -->
-
-
-
-    <!-- News Section -->
-    <div class="row news">
-        <div class="n-content col-xs-12">
-            <h1>News</h1>
-            <line></line>
-            <div class="owl-carousel">
-                <div> <img src="assets/images/partners/USATodayLogo.jpeg" alt="Logo"> </div>
-                <div><img src="assets/images/partners/pulsosocial.jpg" alt="Logo"> </div>
-                <div> <img src="assets/images/partners/NYtimes.jpg" alt="Logo"> </div>
-                <div> <img src="assets/images/partners/Swol.png" alt="Logo"> </div>
-                <div> <img src="assets/images/partners/The%20Miami%20Herald.png" alt="Logo"> </div>
-                <div> <img src="assets/images/partners/TVNoticias.png" alt="Logo"> </div>
-                <div> <img src="assets/images/partners/WSJ.jpg" alt="Logo"> </div>
             </div>
-        </div><!-- col-xs-12 -->
-    </div><!-- /row news -->
 
+    </div>
+    <!-- end -->
 
+    <!-- start: Services -->
+    <div class="row features">
 
+        <div class=" col-xs-12 service" style="padding: 0;">
+            <div class="col-xs-12 col-sm-6" style="padding: 0;">
+                <img src="assets/images/screen.png" alt="Image" class="img-responsive">
+            </div>
 
+            <div class="col-xs-12 col-sm-6 se-content">
+                <h1>Venture Hive Services</h1>
+                <ul>
+                    <li>Accelerator</li>
+                    <li>Incubator</li>
+                    <li>Soft Landing</li>
+                    <li>Workshops</li>
+                    <li>Innovation Management</li>
+                    <li>Training</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-xs-12 support">
+            <div class="col-xs-12 col-sm-6 su-content">
+                <h1>Support Services</h1>
+                <ul>
+                    <li>Access to recorded, written,and live content delivered by world-class presenters</li>
+                    <li> Access to critical document samples and templates through executives-only file system</li>
+                    <li>Ability to organize venture-specific meetings, program follow up, coaching meetings</li>
+                </ul>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6">
+                <img src="assets/images/ilustration5.gif" class="img-responsive" alt="Animation">
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!-- start: Video -->
+    <div class="row">
+        <!-- 16:9 aspect ratio -->
+        <div class="embed-responsive embed-responsive-4by3">
+            <iframe src="https://player.vimeo.com/video/166805954" width="640" height="360"
+                    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+            </iframe>
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/GHhFtkGfaWU" frameborder="0" allowfullscreen></iframe>
+            <p>Beekeeper_Calendar and iCal from <a href="https://vimeo.com/venturehive">Venture Hive</a> -->
+            on <a href="https://vimeo.com">Vimeo</a>.</p>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!-- start: Contact -->
+    <div class="row contact">
+        <h1>Contact us for more information</h1>
+        <p>Get a taste of our accelerator programs experience by signing
+            up for our starter course. Apply now to our accelerator programs. </p>
+        <p><a class="btn btn-primary btn-lg btn-request2" href="#" role="button">REQUEST A DEMO</a></p>
+    </div>
+    <!-- end -->
 
     <!-- FOOTER -->
     <div class="row footer-nav">
@@ -548,73 +520,54 @@
     </div> <!-- /copyright -->
 
 
-
-
-
-</div><!-- /container -fluid -->
+</div><!-- end: container -fluid -->
 
 <!-- ======================== Scripts ==================== -->
 
-
-<!-- Masonry -->
-<script>
-    //Initialize Masonry inside Bootstrap 3 Tab component
-
-    (function( $ ) {
-
-        var $container = $('.masonry-container');
-        $container.imagesLoaded( function () {
-            $container.masonry({
-                columnWidth: '.item',
-                itemSelector: '.item'
-            });
-        });
-
-        //Reinitialize masonry inside each panel after the relative tab link is clicked -
-        $('a[data-toggle=tab]').each(function () {
-            var $this = $(this);
-
-            $this.on('shown.bs.tab', function () {
-
-                $container.imagesLoaded( function () {
-                    $container.masonry({
-                        columnWidth: '.item',
-                        itemSelector: '.item'
-                    });
-                });
-
-            }); //end shown
-        });  //end each
-
-    })(jQuery);
-</script>
-
-<!-- Owl Carousel -->
-
-<script>
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-                nav:true
-            },
-            600:{
-                items:3,
-                nav:false
-            },
-            1000:{
-                items:5,
-                nav:true,
-                loop:false
+    <!-- Owl Carousel -->
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                300:{
+                    items:3
+                },
+                600:{
+                    items:5
+                }
             }
-        }
-    })
-</script>
+        })
+    </script>
 
+    <!-- Parallax -->
+    <script type="text/javascript">
+        $(function() {
 
+            $('#da-slider').cslider({
+                autoplay	: true,
+                bgincrement	: 450
+            });
+
+        });
+    </script>
+
+    <!-- Tab.js -->
+    <script type="text/javascript">
+        $('#myTabs a').click(function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
+    </script>
+
+    <!-- Popup -->
+    <script type="text/javascript">
+
+    </script>
 
 <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -622,6 +575,8 @@
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="assets/js/holder.min.js"></script>
 <script src="assets/js/form-validation.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/jquery.cslider.js"></script>
 
 
 </body>
