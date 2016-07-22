@@ -2,52 +2,32 @@
 
 /** Base structure  **/
 
-    h1, h2, h3, a {
-      /*font-family: 'Montserrat', sans-serif; */
+    h1, h2, h3, h4, p, a, ul {
+        font-family: 'Open Sans Condensed', sans-serif;
     }
 
     h1{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 30px;
-        font-weight: 800;
-        text-transform: uppercase;
+        padding-bottom: 15px;
+        font-weight: 900;
     }
 
-    p{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 13px;
-        letter-spacing: 1px;
+
+    p, li{  padding-bottom: 15px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        font-weight: 100;
     }
 
+    li {
+       list-style-type: none;
+    }
 /* General Bootstrap styles */
-    .nav>li>a {
-        color: #FFFFFF;
-    }
-
-    .nav>li>a:focus, .nav>li>a:hover{
-        background-color: transparent;
-    }
-
-    .navbar{
-        margin-bottom: 0;
-    }
-
     .btn-default{
         background-image: linear-gradient(to bottom,#FFFFFF 0,#FFFFFF 100%);
         text-shadow: none;
     }
 
-    .btn-default:focus, .btn-default:hover{
-        background-color: #00ADDB;
-    }
-
-    .btn{
-        color: #fff;
-        border-radius: 0;
-    }
-
 /*  Burger Menu */
-
     .navbar-default .navbar-toggle{
         border-color: #FFFFFF;
     }
@@ -56,18 +36,6 @@
         background-color: #f5f5f5;
     }
 
-/* Team Thumbnails */
-    .thumbnail{
-        border: 1px solid #FFF;
-    }
-
-    .img-thumbnail, .thumbnail{
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0);
-    }
-
-
-
-
 
 /*==========  Mobile First Method  ==========*/
 
@@ -75,318 +43,84 @@
 @media only screen and (min-width : 320px){
 
     /* Main content */
-    /* Sections Style attributes */
 
-    /* ============ Navbar =========== */
+    /* === Navbar === */
 
-    .navbar-default{
-        margin-bottom: 0;
-        background-image: linear-gradient(to bottom,#FFFFFF 0,#FFFFFF 100%);
-        background-color: #FFFFFF;
-        border-color: #FFFFFF;
+    .navbar-header{
+        padding: 10px;
+    }
+
+    .btn-request {
+         margin: 0 auto;
+         padding: 7px 80px;
+         display: block;
+         border-radius: 20px;
+         background-color: #2a2728;
+         background-image: none;
+     }
+
+    .btn-request> a{
+         font-size: 12px;
+         color: #ffffff;
+         text-decoration: none;
+     }
+
+    .btn-request:hover {
+        background-color: #00addb;
+        border-color: #00addb;
+      }
+
+    /* === Jumbotron === */
+
+    .container .jumbotron, .container-fluid .jumbotron{
         border-radius: 0;
     }
-
-    .navbar-default .navbar-nav>li>a{
-        color: #000000;
+      
+    .jumbotron {
+          margin: 50px 0;
+          color: #ffffff;
+          background-image: url("../images/slide.jpg");
+          background-size: cover;
     }
 
-    .navbar-default .navbar-nav>li>a:hover{
-        color:#00addb ;
+    .jumbotron h1{
+        font-family: 'Francois One', sans-serif;
+        font-size: 25px;
+        line-height: 36px;
     }
 
-    .btn-default:focus, .btn-default:hover{
-        background-color: #00ADDB;
+    .jumbotron p {
+        font-size: 15px;
     }
 
-
-    /* =======  Carousel ======== */
-    .carousel-caption p{
-        font-size: 10px;
-    }
-
-    .carousel-caption cite{
-        font-size: 10px;
-    }
-
-
-    /* ========== Programs Section ========== */
-    .programs {
-        padding: 50px 7px;
-        text-align: center;
-    }
-
-    .p-content h1{
-        margin: auto;
-        padding-bottom: 30px;
-        padding-right: 20px;
-        padding-left: 20px;
-        position: relative;
-        display: table;
-        color: #000000;
-        background-color: #FFFFFF;
-        z-index: 1;
-        text-transform: uppercase;
-    }
-
-    .p-content line{
+     .btn-request2 {
+        margin: 0 auto;
+        padding: 10px 80px;
+        font-size: 12px;
         display: block;
-        height: 1px;
-        left: 16px;
-        width: 90%;
-        margin-top:-43px;
-        background-color: #e8e8e8;
-        position: absolute;
-        z-index: -1;
+        border-radius: 20px;
+        background-color: #2a2728;
+        background-image: none;
     }
 
-    .p-content h3 {
-        padding: 20px 0 10px 0;
-        font-size: 18px;
-        text-transform: uppercase;
-    }
+     .btn-request2:hover{
+         background-color: #000;
+         border-color: #000;
+     }
 
-    .p-content p{
-        padding-bottom: 20px;
-        font-weight: 100;
-    }
-
-    .p-text p{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-    }
-
-   .programs img {
-        -webkit-filter: grayscale(95%);
-    }
-
-    .programs img:hover{
-        -webkit-filter: grayscale(0%);
-    }
-
-
-    /* =======  Vision  Section ======= */
-    .vision{
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
-    }
-
-    .v-content{
-        padding: 50px 0 60px;
-        border-top: 1px solid #ddd;
-    }
-
-    .v-content h1 {
-        padding-bottom: 20px;
-        color: #000;
-    }
-
-    .v-content p {
-        font-size: 20px;
-        font-weight: 100;
-    }
-
-    .v-content span{
-        font-weight: 500;
-        color: #00addb;
-    }
-
-    /* ======== Testimonial Section ========= */
-
-    .testimanial-section{
-        height: 400px;
-    }
-
-    .ts-content-left {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-
-    .ts-content-right{
-        padding-left: 40px;
-        padding-right: 40px;
-        color: #000;
-        font-size: 16px;
-        font-weight: 100;
-    }
-
-    .ts-content-left{
-        font-size: 16px;
-        font-weight: 100;
-    }
-
-    .ts-content-left h1{
-        padding-top: 50px;
-        padding-bottom: 20px;
-    }
-
-    .ts-content-right h1 {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-
-    /*  ======== Pitch Paragraph Section ========= */
-    .pitch{
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 60px;
-        color: #000;
-        text-align: center;
-    }
-
-    .pt-content h1 {
-        padding-top: 50px;
-        padding-bottom: 20px;
-    }
-
-    .pt-content h1>span {
-        padding-bottom: 7px;
-        /*       border-bottom: 3px solid #000; */
-    }
-
-    .pt-content h1>span>a {
-        color: #000000;
-    }
-
-    .pt-content h1>span>a:hover {
+    .btn-request2> a{
+        font-size: 12px;
+        color: #ffffff;
         text-decoration: none;
     }
 
-    .pt-content p {
-        font-weight: 100;
+    /*  === Sponsors Section === */
+
+    .sponsors{
+        margin: -45px -12px;
     }
 
-
-    /* ======== Our Team  Section ========== */
-    .team{
-        text-align: center;
-        color: #000000;
-    }
-
-    .t-section{
-        padding: 0 30px;
-    }
-
-    .t-section h1 {
-        margin: auto;
-        padding: 50px 20px 20px 20px;
-        position: relative;
-        display: table;
-        color: #000000;
-        background-color: #FFFFFF;
-        z-index: 1;
-    }
-
-    .t-section line{
-        display: block;
-        height: 1px;
-        left: 16px;
-        width: 90%;
-        margin-top:-35px;
-        background-color: #e8e8e8;
-        position: absolute;
-        z-index: -1;
-    }
-
-    .t-section p{
-        padding-bottom: 20px;
-        font-weight: 100;
-    }
-
-    .t-section span{
-        color:#00addb;
-    }
-
-    .t-section a {
-        padding: 15px;
-        color: #00addb;
-    }
-
-    .t-gallery{
-        margin-top: 10px;
-    }
-
-    .headshots{
-        padding-top: 2px;
-        padding-bottom: 2px;
-    }
-
-    .headshots img {
-        padding: 1px;
-    }
-
-    .head-img{
-        margin-bottom: -20px;
-    }
-
-
-
-    /*  ========= Contact Section ========= */
-    .contact{
-        height: 375px;
-        color: #000;
-        background-color: #f9f9f9;
-        text-align: center;
-    }
-
-    .c-content{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .c-content h1 {
-        margin: auto;
-        margin-top: 50px;
-        padding-bottom: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
-        position: relative;
-        display: table;
-        color: #000000;
-        z-index: 1;
-    }
-
-    .c-section line{
-        display: block;
-        height: 1px;
-        left: 16px;
-        width: 90%;
-        margin-top:-36px;
-        background-color: #e8e8e8;
-        position: absolute;
-        z-index: -1;
-    }
-
-    .c-content p {
-        font-weight: 100;
-    }
-
-    .c-content .btn {
-        background-color:#2a2728;
-    }
-
-    /*  ======= News Section ======== */
-    .news{
-        height: 370px;
-        text-align: center;
-    }
-
-    .n-content h1 {
-        margin: auto;
-        padding: 50px 20px 40px 50px;
-        border-top: 1px solid #ddd;
-        position: relative;
-        display: table;
-        color: #000000;
-        background-color: #FFFFFF;
-        z-index: 1;
-    }
-
-
-    /* Owl Carousel */
+    /*  Owl Carousel  */
 
     .owl-carousel{
         padding-left: 15px;
@@ -394,26 +128,142 @@
     }
 
     .owl-nav{
-        font-weight: 100;
+        display: none;
     }
 
-    .owl-prev {
-        padding-right: 10px;
+    /*  Platform  */
+    .p-content{
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .p-content h1 {
+        font-size: 25px;
+    }
+
+    .p-content h2 {
+        font-size: 18px;
+    }
+
+    /*  Key Functions */
+    .key-functions{
+        background-color:rgba(33, 173, 227, 0.04);
+        text-align: center;
+    }
+
+    .k-content h1{
+        font-size: 25px;
+    }
+
+    .keys h2{
+        font-size: 16px;
+    }
+
+    /* HOVER STYLES */
+    #pop-up {
+
+    }
+
+    /*  Beekeeper  */
+    .beekeeper{
+        padding: 30px 0;
+    }
+
+    .b-content li{
+        padding-bottom: 5px;
+        list-style-type: disc;
+    }
+
+    .b-content li:last-child{
+        list-style-type: none;
+    }
+
+
+    /*  Benefits */
+    .benefits {
+        background-color: #1462bf;
+        color: #fff;
+        text-align: center;
+    }
+
+    .be-content{
+
+    }
+
+    .be-content h1{
+
+    }
+
+    .be-features{
+    }
+
+    .be-features p{
+    }
+
+
+    /* Personas */
+    .personas{
+        background-color: rgba(23, 114, 223, 0.79);
+    }
+    
+    .personas h1 {
+        color: #fff;
+    }
+
+    .nav-tabs {
         display: inline-block;
-        text-transform: uppercase;
     }
 
-    .owl-prev:hover{
-        font-weight: 500;
+    .nav-tabs>li>a{
+        color: #fff;
     }
 
-    .owl-next {
-        display: inline;
-        text-transform: uppercase;
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+        background-color: transparent;
+        color: #fff;
+
     }
 
-    .owl-next:hover{
-        font-weight: 500;
+    .nav>li>a:focus, .nav>li>a:hover{
+        background: rgba(238, 238, 238, 0.08);
+        border-bottom: none;
+    }
+
+    .tab-content{
+        background-color: #fff;
+    }
+
+
+    /* Features */
+    .features{
+
+    }
+
+    .service li:before
+    {
+        content: '✔';
+        margin-left: -1em;
+        margin-right: 1.0em;
+        color: #7fff00;
+    }
+
+    .support ul{
+
+
+    }
+
+    /* Contact  */
+    .contact{
+        padding: 25px;
+        text-align: center;
+    }
+
+    .contact h1{
+        font-size: 22px;
+    }
+
+    .contact p {
+        font-size: 14px;
     }
 
 
@@ -656,15 +506,8 @@
     }
 
 
-    .news{
-        height: 430px;
-    }
-
     /* Owl Carousel */
 
-    .owl-carousel{
-        padding: 0 55px;
-    }
 
 
 }
@@ -672,7 +515,7 @@
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px){
 
-    /* ====== Navbar ======= */
+    /*  Navbar  */
 
     .navbar-default{
         margin-bottom: 0;
@@ -682,233 +525,193 @@
         border-radius: 0;
     }
 
-    .navbar-default .navbar-nav>li>a{
-        color: #000000;
-    }
-
-    .navbar-default .navbar-nav>li>a:hover{
-        color:#00addb ;
-    }
-
     .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
         margin-left: 20px;
     }
 
-    .navbar-right{
-        margin-right: 0;
+    .btn-request {
+        margin: 17px;
+        padding: 7px 20px;
+        display: inline-block;
     }
 
-    /* ====== Carousel ======= */
-    .carousel-caption{
-        padding-bottom: 210px;
+    .btn-request> a {
+        font-size: 17px;
     }
 
-
-    /* ======== Programs Section ====== */
-    .programs {
-        padding: 90px 140px;
+    .btn-request2 {
+        margin: 17px 0;
+        padding: 10px 20px;
+        display: inline-block;
+        font-size: 17px;
     }
 
+    /*  Jumbotron  */
+    .jumbotron h1{
+        width: 550px;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .jumbotron p {
+        width: 550px;
+        font-size: 20px;
+    }
+
+    /*  Sponsors Section  */
+    .sponsors{
+        margin: -45px 30px;
+    }
+
+    /* Platform  */
+    .p-content{
+        padding: 30px 35px;
+    }
     .p-content h1{
-        font-size: 45px;
-    }
-
-    .p-content line{
-        display: block;
-        height: 1px;
-        left: 16px;
-        width: 90%;
-        margin-top:-52px;
-        background-color: #e8e8e8;
-        position: absolute;
-        z-index: -1;
-
-    }
-
-    .p-text h3 {
+        font-size: 40px;
         font-weight: 800;
     }
 
+    .p-content h2 {
+        font-size: 18px;
+    }
+
     .p-content p {
-        padding-bottom: 20px;
-        font-size: 18px;
+        font-size: 25px;
     }
 
-    .p-text p {
-        font-size: 14px;
-    }
-
-
-    /* ===== Vision Section ====== */
-    .vision{
-        width: 850px;
-    }
-
-    .v-content h1 {
-        font-size: 30px;
-    }
-
-    .v-content p {
-        font-size: 35px;
-    }
-
-
-    /* ===== Review Section  ========= */
-
-    /* Testimonial Background */
-    .testimanial-section{
-        height: 400px;
-    }
-
-    .ts-content-left {
-        width: 600px;
-        padding-left: 180px;
-    }
-
-    .ts-content-right{
-        width: 600px;
-        padding-right: 100px;
-        color: #fff;
-        float: right;
-        text-align: right;
-        font-size: 33px;
-        font-weight: 100;
-    }
-
-    .ts-content-left{
-        font-size: 33px;
-        font-weight: 100;
-    }
-
-    .ts-content-left h1{
-        padding-top: 80px;
-        padding-bottom: 20px;
-    }
-
-    .ts-content-right h1 {
-        padding-top: 80px;
-        padding-bottom: 20px;
-    }
-
-    /* ===== Our Partners Section ===== */
-    .pa-content{
-        padding: 90px 240px 60px;
-    }
-
-    .pa-content  h1 {
-        padding-bottom: 30px;
-        font-size: 45px;
-    }
-
-    .pa-content h3{
-        font-size: 16px;
-    }
-
-    .pa-content p{
-        font-size: 18px;
+    #p-body  {
+        padding-right: 130px;
+        padding-left: 130px;
         padding-bottom: 30px;
     }
 
 
-    /* ===== Our Team Section ====== */
-
-    .team{
-        padding: 100px 65px;
+    /*  Key Functions */
+    .key-functions{
+        padding: 90px 160px;
+        background-color:#f2f2f2;
+        text-align: center;
+    }
+    .k-content h1{
+        font-size: 40px;
     }
 
-    .t-section h1 {
-        padding: 0px 20px 20px 20px;
-        font-size: 45px;
+    .k-content p {
+        font-size: 25px;
     }
 
-    .t-section line{
-        margin-top: -45px;
+    /* Beekeeper */
+    .beekeeper{
+        padding: 90px 0;
+    }
+    .b-content {
+        padding-right: 240px;
+        padding-left: 80px;
+        line-height: 45px;
     }
 
-    .t-section p {
-        font-size: 18px;
+    .b-content h1 {
+        font-size: 40px;
     }
 
-    .t-section a {
-        padding: 15px;
-        font-size: 18px;
+    .b-content li{
+        font-size: 25px;
     }
 
-    .t-gallery{
-        margin-top: 50px;
-    }
-
-    .headshots{
-        margin: 0 200px;
-    }
-
-    .head-img{
-        padding-left: 0;
-    }
-
-    .headshots img {
-        padding: 1px;
-    }
-
-    .head-text{
-        padding: 0 200px;
-
-    }
-
-
-    /*  ======== Pitch Paragraph Section ========= */
-    .pitch{
-        margin-left: auto;
-        margin-right: auto;
-        padding: 100px;
-        color: #000;
+    /*  Benefits */
+    .benefits {
+        padding: 90px 160px;
         text-align: center;
     }
 
-    .pt-content h1{
-        padding-top: 0;
+    .be-content{
+        padding-bottom: 30px;
     }
 
-    /*  ========= Contact Section ========= */
+    .be-content h1{
+        font-size: 40px;
+        padding: 0 150px 80px 150px;
+    }
+
+    .be-features{
+        padding-right: 30px;
+        padding-left: 30px;
+        text-align: left;
+    }
+
+    .be-features p{
+        padding-top: 8px;
+        font-size: 25px;
+    }
+
+    /* Personas */
+    .personas{
+        padding: 90px 120px;
+    }
+
+    .personas h1 {
+        font-size: 40px;
+    }
+
+    .nav-tabs {
+        padding: 30px 20px 0 62px;
+        border-bottom: none;
+    }
+
+    .tab-content{
+        margin: 0 235px;
+        padding: 50px 120px;
+        border:1px solid #fff;
+    }
+
+    /* Features */
+    .features{
+        padding: 30px 0;
+    }
+
+    .service, .support>h1 {
+        font-size: 40px;
+    }
+
+    .se-content{
+        padding: 51px 70px 0 160px
+    }
+
+    .se-content>ul>li, .su-content li{
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .support{
+        padding: 20px 0 0 0;
+    }
+
+    .support li{
+        list-style-type: disc;
+    }
+
+    .su-content{
+        padding: 20px 84px;
+    }
+
+    /* Contact */
     .contact{
-        height: 500px;
-        color: #000;
-        text-align: center;
+        padding: 60px 390px;
     }
 
-    .c-content{
-        padding-left: 180px;
-        padding-right: 180px;
+    .contact h1{
+        font-size: 40px;
     }
 
-    .c-content h1 {
-        padding-top: 50px;
-        padding-bottom: 30px;
-        font-size: 45px;
-    }
-
-    .c-content p {
-        font-size: 18px;
-    }
-
-    .c-content .btn {
-        background-color:#2a2728;
+    .contact p {
+        font-size: 25px;
     }
 
 
-    /*  ======= News Section ======== */
-    .news{
-        height: 500px;
-        text-align: center;
-        background-color: #ffffff;
-        color: #000000;
-    }
 
-    .n-content h1 {
-        padding-top: 80px;
-        padding-bottom: 20px;
-        font-size: 45px;
-    }
+
+
 
 
     /* FOOTER */
@@ -936,13 +739,9 @@
 
     /* Form Control */
 
-
-
     .btn-navbar {
         padding-top: 10px;
     }
-
-
     .btn-navbar a {
         font-size: 10px;
         color: #fff;
