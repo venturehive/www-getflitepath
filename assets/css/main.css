@@ -157,7 +157,6 @@
 
     .keys h2{
         font-size: 16px;
-<<<<<<< HEAD
     }
 
     /* HOVER STYLES */
@@ -179,31 +178,6 @@
         list-style-type: none;
     }
 
-
-=======
-    }
-
-    /* HOVER STYLES */
-    #pop-up {
-
-    }
-
-    /*  Beekeeper  */
-    .beekeeper{
-        padding: 30px 0;
-    }
-
-    .b-content li{
-        padding-bottom: 5px;
-        list-style-type: disc;
-    }
-
-    .b-content li:last-child{
-        list-style-type: none;
-    }
-
-
->>>>>>> master
     /*  Benefits */
     .benefits {
         background-color: #1462bf;
@@ -241,7 +215,6 @@
 
     .nav-tabs>li>a{
         color: #fff;
-<<<<<<< HEAD
     }
 
     .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
@@ -273,12 +246,7 @@
         color: #7fff00;
     }
 
-=======
-    }
-
-    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-        background-color: transparent;
-        color: #fff;
+    
 
     }
 
@@ -309,7 +277,6 @@
         color: #7fff00;
     }
 
->>>>>>> master
     .support ul{
 
 
@@ -631,16 +598,11 @@
         padding: 30px 35px;
     }
     .p-content h1{
-<<<<<<< HEAD
-        font-size: 40px;
-=======
         font-size: 28px;
->>>>>>> master
         font-weight: 800;
     }
 
     .p-content h2 {
-<<<<<<< HEAD
         font-size: 18px;
     }
 
@@ -766,7 +728,6 @@
     /* Contact */
     .contact{
         padding: 60px 390px;
-=======
         font-size: 18px;
     }
 
@@ -998,10 +959,22 @@
     .platform{
         margin-right: -100px;
         margin-left: -100px;
+        padding: 40px 0;
     }
-    .p-content{
-        padding: 30px 0;
+
+    .p-content {
+        padding: 0;
     }
+
+    .p-content:nth-of-type(1){
+        right: 80px;
+    }
+
+      .p-content:nth-of-type(2){
+        left: 90px;
+    }
+
+    
     .p-content h1{
         font-size: 95px;
         font-weight: 800;
@@ -1027,13 +1000,11 @@
         padding: 90px 160px;
         background-color:#f2f2f2;
         text-align: center;
->>>>>>> master
     }
     .k-content h1{
         font-size: 75px;
     }
 
-<<<<<<< HEAD
     .contact h1{
         font-size: 40px;
     }
@@ -1043,7 +1014,6 @@
     }
 
 
-=======
     .k-content p {
         font-size: 40px;
     }
@@ -1059,22 +1029,20 @@
 
     /* Beekeeper */
     .beekeeper{
+        background-color: #f0f8ff;
      
     }
     .b-content {
         padding-right: 167px;
         padding-left: 120px;
-        line-height: 60px;
+        line-height: 75px;
     }
->>>>>>> master
 
     .b-content h1 {
         font-size: 75px;
     }
 
-<<<<<<< HEAD
 
-=======
     .b-content li{
         font-size: 35px;
     }
@@ -1104,7 +1072,6 @@
     .be-features h3 {
         font-size: 45px;
     }
->>>>>>> master
 
     .be-features p{
         padding-top: 8px;
@@ -1127,7 +1094,7 @@
     }
 
     .nav-tabs li>a {
-        font-size: 35px;
+        font-size: 25px;
         padding-right: 55px;
     }
 
@@ -1141,14 +1108,13 @@
         font-size: 35px;
     }
 
-<<<<<<< HEAD
     .btn-navbar {
         padding-top: 10px;
     }
     .btn-navbar a {
         font-size: 10px;
         color: #fff;
-=======
+    }    
     /* Features */
     .features{
         padding: 30px 0;
@@ -1169,7 +1135,6 @@
     .se-content>ul>li, .su-content li{
         font-size: 35px;
         line-height: 60px;
->>>>>>> master
     }
 
     .support{
