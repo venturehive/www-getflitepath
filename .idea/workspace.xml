@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb3d019c-d927-4fa5-800b-1a9cb8606f9d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/partners/EBlogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/partners/Swol.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/partners/TVNoticias.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/partners/The Miami Herald.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/partners/USATodayLogo.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/partners/dda.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/partners/dlapiper.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/partners/dos.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/partners/ey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/partners/linkx48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/partners/mwc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/partners/pulsosocial.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/partners/sba.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/partners/usaid.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="91" column="92" selection-start-line="91" selection-start-column="92" selection-end-line="91" selection-end-column="92" />
+            <state relative-caret-position="60">
+              <caret line="11" column="93" selection-start-line="11" selection-start-column="93" selection-end-line="11" selection-end-column="93" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -61,7 +49,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8865">
+            <state relative-caret-position="9945">
               <caret line="663" column="18" selection-start-line="663" selection-start-column="18" selection-end-line="663" selection-end-column="18" />
               <folding>
                 <element signature="e#13652#13705#0" expanded="false" />
@@ -69,16 +57,6 @@
                 <element signature="e#13800#13846#0" expanded="false" />
                 <element signature="e#13882#13929#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="owl.carousel.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/owl.carousel.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -114,6 +92,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="39" />
     <option name="y" value="23" />
     <option name="width" value="1241" />
     <option name="height" value="709" />
@@ -172,6 +151,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -281,18 +278,21 @@
       <workItem from="1465576215773" duration="477000" />
       <workItem from="1466785867015" duration="8182000" />
       <workItem from="1467038235385" duration="5185000" />
-      <workItem from="1469225034570" duration="933000" />
+      <workItem from="1469225034570" duration="1262000" />
+      <workItem from="1469226839814" duration="55000" />
+      <workItem from="1469382493902" duration="322000" />
+      <workItem from="1469461566116" duration="233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143162000" />
+    <option name="totallyTimeSpent" value="144101000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1241" height="709" extended-state="0" />
-    <editor active="false" />
+    <frame x="39" y="23" width="1241" height="709" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23770492" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23770492" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -344,26 +344,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#footer#0;n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#footer#0;n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#footer#0;n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#footer#0;n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#footer#0;n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#footer#0;n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2355">
@@ -818,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,9 +832,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8865">
+        <state relative-caret-position="9945">
           <caret line="663" column="18" selection-start-line="663" selection-start-column="18" selection-end-line="663" selection-end-column="18" />
           <folding>
             <element signature="e#13652#13705#0" expanded="false" />
@@ -868,8 +854,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" column="92" selection-start-line="91" selection-start-column="92" selection-end-line="91" selection-end-column="92" />
+        <state relative-caret-position="60">
+          <caret line="11" column="93" selection-start-line="11" selection-start-column="93" selection-end-line="11" selection-end-column="93" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

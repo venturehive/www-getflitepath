@@ -1,7 +1,7 @@
 .da-slider{
 	width: 100%;
 	min-width: 520px;
-	height: 315px;
+	height: 400px;
 	position: relative;
 	margin: 30px auto;
 	overflow: hidden;
@@ -51,7 +51,7 @@
 }
 .da-slide h3{
 	color: #000;
-	font-size: 18px;
+	font-size: 35px;
 	width: 50%;
 	top: 230px;
 	white-space: nowrap;
@@ -63,10 +63,10 @@
 	width: 45%;
 	top: 66px;
 	color: #000;
-	font-size: 16px;
-	font-weight: 100;
-	line-height: 26px;
-	height: 160px;
+	font-size: 30px;
+	font-weight: 00;
+	line-height: 45px;
+	height: 190px;
 	overflow: hidden;
 }
 .da-slide .da-img{
