@@ -13,7 +13,8 @@
 
 
     p, li{  padding-bottom: 15px;
-        font-family: 'Raleway', sans-serif;
+       /* font-family: 'Montserrat', sans-serif; */
+        font-family: 'Raleway', sans-serif; 
         font-size: 20px;
         font-weight: 100;
     }
@@ -170,75 +171,52 @@
     /* Personas */
      /* Personas */
     .personas{
-        color:#fff;
+        color: #fff;
+        background-color: #2c8aaa;
+    }
+
+    .p-head h1{
+           text-align: center;
     }
 
     .pe-content{
         padding: 80px 127px;
     }
 
+    .pe-content a{
+        font-size: 14px;
+
+    }
+
     .pe-content h2 {
         font-size: 18px;
     }
 
-    .pe-content h3{
-        font-size: 16px;
-    }
+        .pe-content h3{
+            font-size: 16px;
+        }
 
-    .pe-content p{
-        font-size: 14px;
-    }
+        .pe-content p{
+            font-size: 14px;
+        }
 
-    .pe-content3 {
-        padding: 50px;
-    }
+        .pe-content3 {
+            padding: 50px;
+        }
 
-    .pe-content3 h2 {
-        font-size: 18px;
-    }
+        .pe-content3 h2 {
+            font-size: 18px;
+        }
 
-    .pe-content3 h3{
-        font-size: 16px;
-    }
+        .pe-content3 h3{
+            font-size: 16px;
+        }
 
-    .pe-content3 p{
-        font-size: 14px;
-    }
+        .pe-content3 p{
+            font-size: 14px;
+        }
 
-    .item1{ 
-        background-color: #2a2728;
-         background-image: url('assets/images/photos/45Sergi.jpg');
-    }
 
-    .item2{
-        background-color: #3f5782;
-    }
-
-    .item2 p {
-        padding-bottom: 35px;
-    }
-   
-    .item3{
-    background-color: #6b7d7d;
-   }
-
-   .item4{
-    background-color:#3d5061;
-   }
-
-   .item4 p{
-    padding-top: 10px;
-    padding-bottom: 62px;
-   }
-
-   .item5{
-    background-color: #4682b4;
-   }
-
-   .item5 p {
-    padding-top: 10px;
-    padding-bottom: 62px;
-   }
 
     /* Contact  */
     .contact{
@@ -634,55 +612,7 @@
     }
 
     /* Personas */
-    .personas{
-        color:#fff;
-    }
-
-    .pe-content{
-        padding: 80px 127px;
-    }
-
-    .pe-content h2 {
-        font-size: 18px;
-    }
-
-    .pe-content h3{
-        font-size: 16px;
-    }
-
-    .pe-content p{
-        font-size: 14px;
-    }
-
-    .pe-content3 {
-        padding: 50px;
-    }
-
-    .pe-content3 h2 {
-        font-size: 18px;
-    }
-
-    .pe-content3 h3{
-        font-size: 16px;
-    }
-
-    .pe-content3 p{
-        font-size: 14px;
-    }
-
-    .item2 p {
-        padding-bottom: 35px;
-    }
    
-   .item4 p{
-    padding-top: 10px;
-    padding-bottom: 62px;
-   }
-
-   .item5 p {
-    padding-top: 10px;
-    padding-bottom: 62px;
-   }
     /* Contact */
     .contact{
         padding: 60px 390px;
@@ -738,13 +668,178 @@
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px){
 
+
 }
 
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1240px){
 
-     /*  Navbar  */
+    .btn-request> a {
+        font-size: 15px;
+    }
+
+    .btn-request2 {
+        font-size: 16px;
+    }
+
+    /*  Jumbotron  */
+    .jumbotron h1{
+        width: 596px;
+        font-size: 42px;
+        line-height: 49px;
+    }
+
+    .jumbotron p {
+        font-size: 18px;
+    }
+
+    /*  Sponsors Section  */
+   
+
+    /* Testimonials */
+    .t-content h3 {
+        font-size: 16px;
+    }
+
+    .t-content p{
+        font-size: 14px;
+    }
+
+    /* Platform  */
+    .illustration1{
+        left: 70px;
+    }
+
+    .illustration2{
+        right: 30px;
+    }
+    .p-content h1{
+        font-size: 30px;
+    }
+
+    .p-content h2 {
+        font-size: 16px;
+    }
+
+    .p-content p {
+        font-size: 14px;
+    }
+
+    #p-body  {
+        padding: 0 200px;
+    }
+
+    /* Beekeeper */
+    .beekeeper{
+        padding: 40px 0;
+    }
+    .b-content {
+        padding-right: 181px;
+        line-height: 40px;
+    }
+
+    .b-content h1 {
+        font-size: 30px;
+    }
+
+    .b-content li{
+        font-size: 16px;
+    }
+
+    /*  Benefits */
+    .benefits {
+        padding: 40px 123px;
+    }
+
+    .be-content h1{
+        font-size: 30px;
+    }
+
+    .be-features{
+        padding: 35px 30px;
+    }
+
+    .be-features h3 {
+        font-size: 16px;
+    }
+
+    .be-features p{
+        font-size: 14px;
+    }
+
+    /* Personas */
+    .personas{
+ 
+    }
+
+    .pe-content{
+        padding: 80px 189px;
+    }
+
+    .nav-tabs>li>a{
+        font-size: 16px;
+    }
+
+    .tab-content{
+        color: #000;
+    }
+    /* Contact */
+    .contact h1{
+        font-size: 30px;
+    }
+
+    .contact p{
+        font-size: 14px;
+    }
+
+    /* FOOTER */
+    .social{
+        text-align:left;
+    }
+
+    .social h2 {
+        font-size: 12px;
+    }
+
+    .social ul {
+        padding-left: 0;
+        display: inline-block;
+    }
+
+    .social>ul li {
+        float: left;
+        list-style: none;
+        padding-right: 5px;
+    }
+
+    .newsletter h2{
+        text-align: left;
+    }
+
+    /* Form Control */
+
+    .btn-navbar {
+        padding-top: 10px;
+    }
+    .btn-navbar a {
+        font-size: 16px;
+        color: #fff;
+    }
+    .btn-navbar a:hover {
+        color: #00addb;
+    }
+
+    .copyright p {
+        font-size: 10px;
+    }
+
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 2060px){
+
+      /*  Navbar  */
 
     .navbar-default{
         margin-bottom: 0;
@@ -837,7 +932,6 @@
         font-size: 20px;
     }
 
-
     /* Beekeeper */
     .beekeeper{
         padding: 90px 0;
@@ -883,59 +977,7 @@
     }
 
     /* Personas */
-    .personas{
-        color:#fff;
-    }
-
-    .pe-content{
-        padding: 80px 189px;
-    }
-
-    .pe-content h2 {
-        font-size: 28px;
-    }
-
-    .pe-content h3{
-        font-size: 25px;
-    }
-
-    .pe-content p{
-        font-size: 20px;
-    }
-
-    .pe-content3 {
-        padding: 50px;
-    }
-
-    .pe-content3 h2 {
-        font-size: 28px;
-    }
-
-    .pe-content3 h3{
-        font-size: 25px;
-    }
-
-    .pe-content3 p{
-        font-size: 20px;
-    }
-
-    .item2 h3{
-        padding: 4px;
-    }
-
-   .item3 h3 {
-    padding: 1px;
-   }
-
-   .item4 p{
-    padding-top: 10px;
-    padding-bottom: 62px;
-   }
-
-   .item5 p {
-    padding-top: 10px;
-    padding-bottom: 90px;
-   }
+   
     /* Contact */
     .contact{
         padding: 60px 554px;
@@ -991,15 +1033,9 @@
         font-size: 14px;
     }
 
-    
-
-}
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 2060px){
-
  /*  Navbar  */
 
-    .btn-request {
+  /*  .btn-request {
         margin: 17px;
         padding: 15px 20px;
         display: inline-block;
@@ -1017,7 +1053,7 @@
     }
 
     /*  Jumbotron  */
-    .jumbotron h1{
+   /* .jumbotron h1{
         width: 800px;
         font-size: 75px;
         padding-top: 20px;
@@ -1032,7 +1068,7 @@
     /*  Sponsors Section  */
   
     /*  Platform    */
-    .platform{
+  /*  .platform{
         margin-right: -100px;
         margin-left: -100px;
         padding: 40px 0;
@@ -1072,7 +1108,7 @@
 
 
     /* Beekeeper */
-    .beekeeper{
+  /*  .beekeeper{
         background-color: #f0f8ff;
      
     }
@@ -1093,7 +1129,7 @@
 
 
      /*  Benefits */
-    .benefits {
+  /*  .benefits {
         padding: 90px 160px;
         text-align: center;
     }
@@ -1124,7 +1160,7 @@
 
 
      /* Personas */
-    .personas{
+  /*  .personas{
         padding: 90px 120px;
     }
 
@@ -1133,9 +1169,8 @@
     }
   
   
-
      /* Contact */
-    .contact{
+   /* .contact{
         padding: 60px 390px;
     }
 
@@ -1149,7 +1184,7 @@
     }
 
     /* FOOTER */
-    .social h2 {
+  /*  .social h2 {
         font-size: 18px
     }
 
@@ -1159,7 +1194,7 @@
 
     /* Form Control */
 
-    .btn-navbar {
+   /* .btn-navbar {
         padding-top: 10px;
     }
     .btn-navbar a {
