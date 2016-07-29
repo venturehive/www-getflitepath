@@ -206,23 +206,24 @@
     }
 
     .item1{ 
-    background-color: #252c2c;
+        background-color: #2a2728;
+         background-image: url('assets/images/photos/45Sergi.jpg');
     }
 
     .item2{
-        background-color: #6495ed;
+        background-color: #3f5782;
     }
 
     .item2 p {
         padding-bottom: 35px;
     }
    
-   .item3{
-    background-color: #009999;
+    .item3{
+    background-color: #6b7d7d;
    }
 
    .item4{
-    background-color:#acc000;
+    background-color:#3d5061;
    }
 
    .item4 p{
@@ -669,33 +670,13 @@
         font-size: 14px;
     }
 
-    .item1{ 
-         background-image: url('/assets/images/photos/45Sergi.jpg');
-    }
-
-    .item2{
-        background-color: #6495ed;
-    }
-
     .item2 p {
         padding-bottom: 35px;
     }
    
-   .item3{
-    background-color: #009999;
-   }
-
-   .item4{
-    background-color:#acc000;
-   }
-
    .item4 p{
     padding-top: 10px;
     padding-bottom: 62px;
-   }
-
-   .item5{
-    background-color: #4682b4;
    }
 
    .item5 p {
@@ -907,7 +888,7 @@
     }
 
     .pe-content{
-        padding: 80px 127px;
+        padding: 80px 189px;
     }
 
     .pe-content h2 {
@@ -938,36 +919,17 @@
         font-size: 20px;
     }
 
-    .item1{ 
-    }
-
-    .item2{
-        background-color: #6495ed;
-    }
-
     .item2 h3{
         padding: 4px;
     }
-   
-   .item3{
-    background-color: #009999;
-   }
 
    .item3 h3 {
     padding: 1px;
    }
 
-   .item4{
-    background-color:#acc000;
-   }
-
    .item4 p{
     padding-top: 10px;
     padding-bottom: 62px;
-   }
-
-   .item5{
-    background-color: #4682b4;
    }
 
    .item5 p {
