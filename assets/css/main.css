@@ -45,7 +45,7 @@
 
     /* Main content */
 
-    /* === Navbar === */
+    /*  NAVBAR */
 
     .navbar-header{
         padding: 10px;
@@ -71,7 +71,7 @@
         border-color: #00addb;
       }
 
-    /* === Jumbotron === */
+    /* JUMBOTRON */
 
     .container .jumbotron, .container-fluid .jumbotron{
         border-radius: 0;
@@ -96,7 +96,7 @@
      .btn-request2 {
         margin: 0 auto;
         padding: 10px 80px;
-        font-size: 12px;
+        font-size: 14px;
         display: block;
         border-radius: 20px;
         background-color: #2a2728;
@@ -109,29 +109,35 @@
      }
 
     .btn-request2> a{
-        font-size: 12px;
+        font-size: 14px;
         color: #ffffff;
         text-decoration: none;
     }
 
-    /*  Sponsors Section  */
+    /*  SPONSORS  */
 
     .sponsors{
         margin: -45px -12px;
     }
 
-    /* Testimonials */
+    /* TESTIMONIALS */
     .testimonials {
-        padding: 30px 80px;
+        padding: 30px 10px;
         display: inline-block;
         background-color: #f5f5f5;
     }
-
-    .header {
-        text-align: center;
+    .t-content p{
+        margin-bottom: 0px;
+        padding-bottom: 7px;
+        font-size: 12px;
     }
 
-    /*  Platform  */
+    .t-content h3{
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    /*  PLATFORM  */
     .p-content{
         padding: 0 20px;
         text-align: center;
@@ -145,7 +151,7 @@
         font-size: 18px;
     }
 
-    /*  Beekeeper  */
+    /*  BEEKEEPER */
     .beekeeper{
         padding: 30px 0;
         background-color: #f5f5f5;
@@ -161,15 +167,13 @@
         list-style-type: none;
     }
 
-    /*  Benefits */
+    /*  BENEFITS */
     .benefits {
         color: #000;
         text-align: center;
     }
 
-
-    /* Personas */
-     /* Personas */
+     /* PERSONAS */
     .personas{
         background-color: #bec5c8;
     }
@@ -216,8 +220,7 @@
         }
 
 
-
-    /* Contact  */
+    /* CONTACT  */
     .contact{
         padding: 25px;
         text-align: center;
@@ -232,29 +235,48 @@
     }
 
 
-    /* =========== FOOTER ============ */
+    /* = FOOTER = */
 
     .footer-nav{
         padding: 20px;
-        background: #2a2728;
+        background-color: #2a2728;
     }
 
-    .footer-nav #logo{
+    .footer-nav a {
+        color: #fff;
+        font-family:'Raleway', sans-serif; ;
+        font-size: 8px;
+    }
+
+   .logo img{
         margin-left: auto;
         margin-right: auto;
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
+    .menu{
+        margin-bottom: 0;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .nav>li>a{
+        padding: 0;
+    }
+
+    .nav>li>a:focus, .nav>li>a:hover{
+        background-color: transparent;
+    }
+
     .social{
+        font-size: 8px;
         text-align: center;
         color: #ffffff;
     }
 
-    .social h2 {
-        font-size: 10px;
-        font-weight: 800;
-        text-transform: uppercase;
+    .social a {
+        font-size: 11px;
     }
 
     .social ul {
@@ -272,25 +294,14 @@
         background-color: #00aced;
     }
 
-    .newsletter h2 {
+     .social p {
+        padding-bottom: 0;
         font-size: 10px;
-        font-weight: 800;
-        color: #fff;
-        text-transform: uppercase;
-        text-align: center;
     }
 
-
-    /* === Form Control ==== */
-    .form-control{
-        background-color: #fff;
-        border-radius: 0;
-        display: inline-block;
-        border:1px solid rgba(204, 204, 204, 0);
-    }
-
+    /* COPYRIGHT */
     .copyright {
-        padding: 20px;
+        padding: 10px 20px;
         color: #ffffff;
         background-color: #252223;
     }
@@ -300,144 +311,6 @@
         text-align: center;
     }
 
-    /* btn */
-
-    .btn-navbar a {
-        color: #fff;
-        font-size: 9px;
-    }
-
-    .btn-navbar a:hover {
-        color: #00addb;
-    }
-
-
-    /* Subscription Form  */
-
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
-
-    .cont {
-        /*  width: 300px; */
-        margin: auto;
-    }
-
-    .login_bar {
-        width: 300px;
-        height: 40px;
-        background: white;
-        border-radius: 0px;
-        top: 20%;
-        position: relative;
-        z-index: 1;
-        overflow: hidden;
-    }
-
-    .login {
-        background: transparent;
-        position: absolute;
-        height: 100%;
-        width: 190px;
-        text-align: right;
-        line-height: 42px;
-        vertical-align: middle;
-        z-index: 10;
-        -webkit-transition: transform 0.2s ease-in-out 0s;
-        -moz-transition: transform 0.2s ease-in-out 0s;
-        -o-transition: transform 0.2s ease-in-out 0s;
-        transition: transform 0.2s ease-in-out 0s;
-    }
-
-    .login_active {
-        -webkit-transform: translateX(300px);
-        -moz-transform: translateX(300px);
-        -ms-transform: translateX(300px);
-        -o-transform: translateX(300px);
-        transform: translateX(300px);
-    }
-
-    .subscribe_button:hover{
-        background-color: #00addb;
-        cursor:pointer;
-    }
-
-    .subscribe_button {
-        background: #00addb;
-        position: absolute;
-        top: -54px;
-        left: 200px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        height: 150px;
-        width: 100px;
-        text-align: center;
-        line-height: 150px;
-        vertical-align: middle;
-        color: white;
-        -webkit-transition: transform 0.5s ease 0s;
-        -moz-transition: transform 0.5s ease 0s;
-        -o-transition: transform 0.5s ease 0s;
-        transition: transform 0.5s ease 0s;
-    }
-
-    .subscribe_button_active{
-        -webkit-transform: translateY(50px);
-        -moz-transform: translateY(50px);
-        -ms-transform: translateY(50px);
-        -o-transform: translateY(50px);
-        transform: translateY(50px);
-    }
-
-    .subscribing{
-        background: #CDD4DC;
-        height: 100%;
-        width: 300px;
-        z-index: 5;
-        position: absolute;
-        left:-300px;
-        display: inline-block;
-        -webkit-transition: transform 1s ease 0s ;
-        -moz-transition: transform 1s ease 0s ;
-        -o-transition: transform 1s ease 0s ;
-        transition: transform 1s ease 0s ;
-    }
-
-    .subscribing_active {
-        -webkit-transform: translateX(300px);
-        -moz-transform: translateX(300px);
-        -ms-transform: translateX(300px);
-        -o-transform: translateX(300px);
-        transform: translateX(300px);
-    }
-
-    .thanks{
-        background: transparent;
-        height: 100%;
-        width: 300px;
-        z-index: 5;
-        text-align: left;
-        line-height: 50px;
-        vertical-align: middle;
-        padding-left: 10px;
-        position: absolute;
-        top:46px;
-        display: inline-block;
-        -webkit-transition: transform 0.5s ease 0s ;
-        -moz-transition: transform 0.5s ease 0s ;
-        -o-transition: transform 0.5s ease 0s ;
-        transition: transform 0.5s ease 0s ;
-    }
-
-    .thanks_active {
-        -webkit-transform: translateY(-50px);
-        -moz-transform: translateY(-50px);
-        -ms-transform: translateY(-50px);
-        -o-transform: translateY(-50px);
-        transform: translateY(-50px);
-    }
-
-    #mc-embedded-subscribe{
-        margin-left: -13px;
-    }
 
 }
 
@@ -449,27 +322,6 @@
         margin-top: 0px;
         margin-left: -50px;
     }
-
-    /* Subscription Input */
-    .subscribe_button {
-        background: #00addb;
-        position: absolute;
-        top: -54px;
-        left: 200px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        height: 150px;
-        width: 100px;
-        text-align: center;
-        line-height: 150px;
-        vertical-align: middle;
-        color: white;
-        -webkit-transition: transform 0.5s ease 0s;
-        -moz-transition: transform 0.5s ease 0s;
-        -o-transition: transform 0.5s ease 0s;
-        transition: transform 0.5s ease 0s;
-    }
-
 }
 
 /* Small Devices, Tablets */
@@ -566,7 +418,6 @@
         font-size: 16px;
     }
 
-
     /* Beekeeper */
     .beekeeper{
         padding: 90px 0;
@@ -642,9 +493,8 @@
         background-color: #f5f5f5;
     }
 
-
    
-    /* Contact */
+    /* CONTACT */
     .contact{
         padding: 60px 390px;
         font-size: 18px;
@@ -654,13 +504,33 @@
         font-size: 36px;
     }
 
+
     /* FOOTER */
+     .logo img{
+        padding-top: 60px;
+    }
+
+    .menu{
+        padding-top: 40px;
+    }
+
+    .menu a{
+        font-size: 11px;
+    }
+
     .social{
+        padding-top: 40px;
         text-align:left;
     }
 
-    .social h2 {
+    .social p {
         font-size: 12px;
+    }
+
+    .social a {
+        padding-right: 10px;
+        font-size: 11px;
+        float: left;
     }
 
     .social ul {
@@ -672,23 +542,6 @@
         float: left;
         list-style: none;
         padding-right: 5px;
-    }
-
-    .newsletter h2{
-        text-align: left;
-    }
-
-    /* Form Control */
-
-    .btn-navbar {
-        padding-top: 10px;
-    }
-    .btn-navbar a {
-        font-size: 10px;
-        color: #fff;
-    }
-    .btn-navbar a:hover {
-        color: #00addb;
     }
 
 
@@ -706,6 +559,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1240px){
 
+    /* NAVBAR */
     .btn-request> a {
         font-size: 15px;
     }
@@ -714,7 +568,7 @@
         font-size: 16px;
     }
 
-    /*  Jumbotron  */
+    /*  JUMBOTRON  */
     .jumbotron h1{
         width: 596px;
         font-size: 42px;
@@ -725,10 +579,10 @@
         font-size: 18px;
     }
 
-    /*  Sponsors Section  */
+    /*  SPONSORS */
    
 
-    /* Testimonials */
+    /* TESTIMONIALS */
     .t-content h3 {
         font-size: 16px;
     }
@@ -737,7 +591,7 @@
         font-size: 14px;
     }
 
-    /* Platform  */
+    /* PLATFORM  */
     .illustration1{
         left: 70px;
     }
@@ -761,14 +615,14 @@
         padding: 0 200px;
     }
 
-    /* Beekeeper */
+    /* BEEKEEPER */
     .beekeeper{
         padding: 40px 0;
     }
     .b-content {
         padding-top: 40px;
         padding-right: 116px;
-        line-height: 40px;
+        line-height: 43px;
     }
 
     .b-content h1 {
@@ -779,7 +633,7 @@
         font-size: 16px;
     }
 
-    /*  Benefits */
+    /*  BENEFITS */
     .benefits {
         padding: 40px 123px;
     }
@@ -800,7 +654,7 @@
         font-size: 14px;
     }
 
-    /* Personas */
+    /* PERSONAS */
   
     .pe-content{
         padding: 40px 102px;
@@ -813,7 +667,7 @@
     .tab-content{
         color: #000;
     }
-    /* Contact */
+    /* CONTACT */
     .contact h1{
         font-size: 30px;
     }
@@ -842,22 +696,8 @@
         padding-right: 5px;
     }
 
-    .newsletter h2{
-        text-align: left;
-    }
-
-    /* Form Control */
-
-    .btn-navbar {
-        padding-top: 10px;
-    }
-    .btn-navbar a {
-        font-size: 16px;
-        color: #fff;
-    }
-    .btn-navbar a:hover {
-        color: #00addb;
-    }
+ 
+    /* COPYRIGHT */
 
     .copyright p {
         font-size: 10px;
@@ -868,7 +708,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 2060px){
 
-      /*  Navbar  */
+      /*  NAVBAR */
 
     .navbar-default{
         margin-bottom: 0;
@@ -899,7 +739,7 @@
         font-size: 20px;
     }
 
-    /*  Jumbotron  */
+    /*  JUMBOTRON  */
     .jumbotron{
         padding: 110px;
     }
@@ -914,12 +754,12 @@
         font-size: 25px;
     }
 
-    /*  Sponsors Section  */
+    /*  SPONSORS  */
     .sponsors{
         margin: -45px 30px;
     }
 
-    /* Testimonials */
+    /* TESTIMONIALS */
     .testimonials {
         margin-top: 20px;
     }
@@ -939,7 +779,7 @@
         font-size: 18px;
     }
 
-    /* Platform  */
+    /* PLATFORM */
     .p-content{
         padding: 15px 135px
     }
@@ -961,7 +801,7 @@
         font-size: 20px;
     }
 
-    /* Beekeeper */
+    /* BEEKEEPER */
     .beekeeper{
         padding: 90px 0;
     }
@@ -980,7 +820,7 @@
         font-size: 20px;
     }
 
-    /*  Benefits */
+    /*  BENEFITS */
     .benefits {
         padding: 60px 180px;
         text-align: center;
@@ -1005,9 +845,9 @@
         font-size: 20px;
     }
 
-    /* Personas */
+    /* PERSONAS */
    
-    /* Contact */
+    /* CONTACT */
     .contact{
         padding: 60px 554px;
         font-size: 18px;
@@ -1045,199 +885,10 @@
         text-align: left;
     }
 
-    /* Form Control */
-
-    .btn-navbar {
-        padding-top: 10px;
-    }
-    .btn-navbar a {
-        font-size: 16px;
-        color: #fff;
-    }
-    .btn-navbar a:hover {
-        color: #00addb;
-    }
-
+    /* COPYRIGHT */
     .copyright p {
         font-size: 14px;
     }
-
- /*  Navbar  */
-
-  /*  .btn-request {
-        margin: 17px;
-        padding: 15px 20px;
-        display: inline-block;
-    }
-
-    .btn-request> a {
-        font-size: 30px;
-    }
-
-    .btn-request2 {
-        margin: 17px 0;
-        padding: 15px 20px;
-        display: inline-block;
-        font-size: 29px;
-    }
-
-    /*  Jumbotron  */
-   /* .jumbotron h1{
-        width: 800px;
-        font-size: 75px;
-        padding-top: 20px;
-        line-height: 83px;
-    }
-
-    .jumbotron p{
-        width: 900px;
-        font-size: 40px;
-    }
-
-    /*  Sponsors Section  */
-  
-    /*  Platform    */
-  /*  .platform{
-        margin-right: -100px;
-        margin-left: -100px;
-        padding: 40px 0;
-    }
-
-    .p-content {
-        padding: 0;
-    }
-
-    .p-content:nth-of-type(1){
-        right: 80px;
-    }
-
-      .p-content:nth-of-type(2){
-        left: 90px;
-    }
-
-    
-    .p-content h1{
-        font-size: 95px;
-        font-weight: 800;
-    }
-
-    .p-content h2 {
-        font-size: 55px;
-    }
-
-    .p-content p {
-        font-size: 40px;
-    }
-
-    #p-body  {
-        padding-right: 1px;
-        padding-left: 1px;
-        padding-bottom: 40px;
-    }
-
-
-    /* Beekeeper */
-  /*  .beekeeper{
-        background-color: #f0f8ff;
-     
-    }
-    .b-content {
-        padding-right: 167px;
-        padding-left: 120px;
-        line-height: 75px;
-    }
-
-    .b-content h1 {
-        font-size: 75px;
-    }
-
-
-    .b-content li{
-        font-size: 35px;
-    }
-
-
-     /*  Benefits */
-  /*  .benefits {
-        padding: 90px 160px;
-        text-align: center;
-    }
-
-    .be-content{
-        padding-bottom: 30px;
-    }
-
-    .be-content h1{
-        font-size: 75px;
-        padding: 0 125px 80px 125px;
-    }
-
-    .be-features{
-        padding-right: 45px;
-        padding-left: 45px;
-        text-align: left;
-    }
-
-    .be-features h3 {
-        font-size: 45px;
-    }
-
-    .be-features p{
-        padding-top: 8px;
-        font-size: 40px;
-    }
-
-
-     /* Personas */
-  /*  .personas{
-        padding: 90px 120px;
-    }
-
-    .personas h1 {
-        font-size: 75px;
-    }
-  
-  
-     /* Contact */
-   /* .contact{
-        padding: 60px 390px;
-    }
-
-    .contact h1{
-        font-size: 75px;
-    }
-
-    .contact p {
-        padding: 0 180px;
-        font-size: 35px;
-    }
-
-    /* FOOTER */
-  /*  .social h2 {
-        font-size: 18px
-    }
-
-    .newsletter h2{
-        font-size: 18px;
-    }
-
-    /* Form Control */
-
-   /* .btn-navbar {
-        padding-top: 10px;
-    }
-    .btn-navbar a {
-        font-size: 18px;
-        color: #fff;
-    }
-    .btn-navbar a:hover {
-        color: #00addb;
-    }
-
-    .copyright p{
-        font-size: 17px;
-    }
-
 
 }
 
