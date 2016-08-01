@@ -86,7 +86,7 @@
 
     .jumbotron h1{
         font-size: 25px;
-        line-height: 36px;
+        line-height: 30px;
     }
 
     .jumbotron p {
@@ -139,7 +139,7 @@
     }
     /*  PLATFORM  */
     .p-content{
-        padding: 0 20px;
+        padding: 0 13px;
         text-align: center;
     }
 
@@ -147,7 +147,11 @@
         font-size: 25px;
     }
 
-    .p-content h2 {
+    .p-content p{
+        font-size: 16px;
+    }
+
+    .p-content h3 {
         font-size: 18px;
     }
 
@@ -158,32 +162,55 @@
         color: #000;
     }
 
+    .b-content h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
     .b-content li{
         padding-bottom: 5px;
+        font-size: 14px;
+        line-height: 30px;
         list-style-type: disc;
     }
 
     .b-content li:last-child{
+        padding-top: 7px;
         list-style-type: none;
     }
 
     /*  BENEFITS */
     .benefits {
+        padding: 30px 0;
         color: #000;
         text-align: center;
     }
 
+    .be-content h1 {
+        font-size: 25px;
+    }  
+
+    .be-features h3{
+        font-size: 18px;
+    }  
+
+    .be-features p{
+        font-size: 16px;
+    }
+
      /* PERSONAS */
     .personas{
+        padding: 30px 0;
         background-color: #bec5c8;
     }
 
     .p-head h1{
-           text-align: center;
+        font-size: 25px;
+        text-align: center;
     }
 
     .pe-content{
-        padding: 80px 145px;
+        padding: 0 15px;
     }
 
     .pe-content a{
@@ -195,34 +222,60 @@
         font-size: 18px;
     }
 
-        .pe-content h3{
-            font-size: 16px;
-        }
+    .pe-content h3{
+        font-size: 16px;
+    }
 
-        .pe-content p{
-            font-size: 14px;
-        }
+    .pe-content p{
+        font-size: 14px;
+    }
 
-        .pe-content3 {
-            padding: 50px;
-        }
+    .pe-content3 {
+        padding: 50px;
+    }
 
-        .pe-content3 h2 {
-            font-size: 18px;
-        }
+    .pe-content3 h2 {
+        font-size: 18px;
+    }
 
-        .pe-content3 h3{
-            font-size: 16px;
-        }
+    .pe-content3 h3{
+        font-size: 16px;
+    }
 
-        .pe-content3 p{
-            font-size: 14px;
-        }
+    .pe-content3 p{
+        font-size: 14px;
+    }
+
+    .collapse {
+        padding: 0 20px;
+    }
+
+    #collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive{
+        padding: 0 20px;
+    }
+
+    .panel {
+        margin-bottom: 0;
+    }
+
+    .panel-default>.panel-heading{
+        background-image: none;
+    }
+
+    .panel-heading{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a:hover{
+        text-decoration: none;
+    }
+
 
 
     /* CONTACT  */
     .contact{
-        padding: 25px;
+        padding: 30px 0; 
         text-align: center;
     }
 
@@ -477,15 +530,23 @@
         border: none;
     }
 
-    .nav-tabs>li>a{
-        margin-right: 1.28px;
-        padding: 15px 8px;
+    .tab-pane{
+        color: #000;
+    }
+
+     .nav-tabs>li>a{
         color: #000;
         border-radius: 0;
     }
 
-    .tab-pane{
-        color: #000;
+    .tab-content>.active{
+        padding: 10px 16px;
+        background-color: #f5f5f5;
+    }
+
+    .nav-tabs>li>a{
+        margin-right: 1.28px;
+        padding: 15px 8px;
     }
 
     .tab-content>.active{
@@ -520,7 +581,7 @@
 
     .social{
         padding-top: 40px;
-        text-align:left;
+        text-align:center;
     }
 
     .social p {
