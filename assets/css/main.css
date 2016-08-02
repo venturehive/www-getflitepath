@@ -288,7 +288,53 @@
     }
 
 
-    /* = FOOTER = */
+    /* ---------- Team Page --------- */
+
+    /* Thumbnail */
+    .team{
+           margin: 50px 0;
+    }
+
+    .t-header {
+        margin-right: 145px;
+        margin-left: 145px;
+        margin-bottom: 50px;
+        padding: 0 180px;
+        border-bottom: 1px solid #d4d4d5;
+    }
+
+    .t-header h1 {
+        font-style: 55px;
+        text-align: center;
+    }
+
+    .thumbnail {
+  
+        position: relative;
+        padding: 0;
+        margin: -20px;
+        border: 0;
+    }
+
+    .thumbnail img {
+
+        width: 100%;
+        -webkit-filter: brightness(30%); 
+    }
+
+    .thumbnail .caption{
+        color: #fff;
+    }
+
+    .caption {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /*  FOOTER  */
 
     .footer-nav{
         padding: 20px;
@@ -591,7 +637,6 @@
     .social a {
         padding-right: 10px;
         font-size: 11px;
-        float: left;
     }
 
     .social ul {
@@ -618,7 +663,7 @@
 
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1240px){
+@media only screen and (min-width : 1200px){
 
     /* NAVBAR */
     .btn-request> a {
@@ -738,10 +783,6 @@
     }
 
     /* FOOTER */
-    .social{
-        text-align:left;
-    }
-
     .social h2 {
         font-size: 12px;
     }
@@ -762,6 +803,11 @@
 
     .copyright p {
         font-size: 10px;
+    }
+
+    /* Thumbnails */
+    .container{
+        width: 970px;
     }
 
 
@@ -923,10 +969,6 @@
     }
 
     /* FOOTER */
-    .social{
-        text-align:left;
-    }
-
     .social h2 {
         font-size: 28px;
     }
