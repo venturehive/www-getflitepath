@@ -132,6 +132,29 @@
         font-size: 12px;
     }
 
+    .circle-img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px; 
+        float: left;
+        margin-right: 12px;
+         background-size: cover;
+         display: block;
+        /* width and height can be anything, as long as they're equal */
+    }
+
+    .img-one{
+         background-image: url('../images/headshots/andrea.jpg');
+    }
+
+    .img-two{
+         background-image: url('../images/headshots/Jim.png');
+    }
+
+    .img-three{
+         background-image: url('../images/headshots/andrea.jpg');
+    }
+
     .t-content h3{
         margin-top: 0;
         margin-bottom: 20px;
@@ -529,7 +552,9 @@
 
     .b-content h1 {
         font-size: 36px;
+        text-align: left;
     }
+
 
     .b-content li{
         font-size: 16px;
@@ -561,44 +586,17 @@
     }
 
     /* Personas */
+    .personas{
+        padding: 40px 0;
+        text-align: left;
+    }
     .p-head{
         padding-top: 30px;
     }
 
-    .nav-tabs>li{
-        padding-bottom: 0;
-        background-color: #fff;
-    }
-
-    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-        color: #000;
-        background-color: #f5f5f5;
-        border: none;
-    }
-
-    .tab-pane{
-        color: #000;
-    }
-
-     .nav-tabs>li>a{
-        color: #000;
-        border-radius: 0;
-    }
-
-    .tab-content>.active{
-        padding: 10px 16px;
-        background-color: #f5f5f5;
-    }
-
-    .nav-tabs>li>a{
-        margin-right: 1.28px;
-        padding: 15px 8px;
-    }
-
-    .tab-content>.active{
-        padding: 10px 16px;
-        background-color: #f5f5f5;
-    }
+   .pe-content h1{
+        font-size: 22px;
+   }
 
    
     /* CONTACT */
@@ -761,11 +759,6 @@
     }
 
     /* PERSONAS */
-  
-    .pe-content{
-        padding: 40px 102px;
-    }
-
     .nav-tabs>li>a{
         font-size: 16px;
     }
