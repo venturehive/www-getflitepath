@@ -224,7 +224,7 @@
      /* PERSONAS */
     .personas{
         padding: 30px 0;
-        background-color: #bec5c8;
+        background-color: #f5f5f5;
     }
 
     .p-head h1{
@@ -310,32 +310,48 @@
         font-size: 14px;
     }
 
+    /* ---------- About Page --------- */
+
+    .about{
+        padding: 80px 30px;
+    }
+
+    .about p{
+        font-size: 16px;
+        line-height: 31px;
+    }
+
 
     /* ---------- Team Page --------- */
 
     /* Thumbnail */
     .team{
-           margin: 50px 0;
+           margin: 80px 0;
     }
 
     .t-header {
-        margin-right: 145px;
-        margin-left: 145px;
+        margin-right: 295px;
+        margin-left: 245px;
         margin-bottom: 50px;
         padding: 0 180px;
         border-bottom: 1px solid #d4d4d5;
     }
 
     .t-header h1 {
-        font-style: 55px;
+        font-style: 22px;
         text-align: center;
+    }
+
+    .team p{
+        padding-bottom: 50px;
+        font-size: 16px;
     }
 
     .thumbnail {
   
         position: relative;
         padding: 0;
-        margin: -20px;
+      /*      margin: -20px; */
         border: 0;
     }
 
@@ -588,14 +604,18 @@
     /* Personas */
     .personas{
         padding: 40px 0;
-        text-align: left;
+        text-align: center;
     }
     .p-head{
         padding-top: 30px;
     }
 
+    .p-head h1{
+        font-size: 36px;
+    }
+
    .pe-content h1{
-        font-size: 22px;
+        font-size: 16px;
    }
 
    
@@ -759,12 +779,8 @@
     }
 
     /* PERSONAS */
-    .nav-tabs>li>a{
-        font-size: 16px;
-    }
-
-    .tab-content{
-        color: #000;
+    .p-head h1{
+        font-size: 36px;
     }
     /* CONTACT */
     .contact h1{
