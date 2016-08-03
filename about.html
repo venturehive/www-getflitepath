@@ -50,7 +50,7 @@
 
     <!-- start: navbar-->
     <div class="row">
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -109,7 +109,7 @@
     </div>
     <!-- end-->
 
-      
+
     <div class="container">
         <div class="row about">
             <p>
@@ -225,13 +225,16 @@
 </script>
 
 
-<!-- tab.js -->
-    <script type="text/javascript">
-        $('#myTabs a').click(function (e) {
-            e.preventDefault()
-            $(this).tab('show')
-        })
-    </script>
+<!-- Animated top header on scroll -->
+<script type="text/javascript">
+        // Initialize affix and add an offset to add affix class on scroll
+            $('#mainNav').affix({
+              offset: {
+                top: 100
+              }
+            })
+</script>    
+
 
 
 <!-- Scripts

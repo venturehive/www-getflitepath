@@ -6,7 +6,6 @@
     }
 
     h1{
-        padding-bottom: 15px;
         font-weight: 900;
     }
 
@@ -91,7 +90,15 @@
     .jumbotron {
           margin: 50px 0;
           color: #ffffff;
-          background-image: url("../images/slide.jpg");
+    }
+
+    .index-page{
+         background-image: url("../images/slide0.jpg");
+          background-size: cover;
+    }
+
+    .team-page{
+         background-image: url("../images/slide2.jpg");
           background-size: cover;
     }
 
@@ -252,9 +259,12 @@
 
     }
 
+    .pe-content h1{
+        color: #00acdd;
+    }
+
     .pe-content h3{
         font-size: 16px;
-        color: #5f9ea0;
     }
 
     .pe-content p{
@@ -337,7 +347,7 @@
            margin: 80px 0;
     }
 
-    .t-header {
+    .te-header {
         margin-right: 295px;
         margin-left: 245px;
         margin-bottom: 50px;
@@ -345,8 +355,8 @@
         border-bottom: 1px solid #d4d4d5;
     }
 
-    .t-header h1 {
-        font-style: 22px;
+    .te-header h1 {
+        font-size: 22px;
         text-align: center;
     }
 
@@ -623,10 +633,10 @@
     }
 
    .pe-content h1{
+        padding-bottom: -15px;
         font-size: 16px;
    }
 
-   
     /* CONTACT */
     .contact{
         padding: 60px 390px;
@@ -635,6 +645,70 @@
 
     .contact h1{
         font-size: 36px;
+    }
+
+
+ /* ---------- About Page --------- */
+
+    .about{
+        padding: 80px 30px;
+    }
+
+    .about p{
+        font-size: 16px;
+        line-height: 31px;
+    }
+
+
+    /* ---------- Team Page --------- */
+
+    /* Thumbnail */
+    .team{
+           margin: 80px 0;
+    }
+
+    .te-header {
+        margin-right: 295px;
+        margin-left: 245px;
+        margin-bottom: 50px;
+        padding: 0 180px;
+        border-bottom: 1px solid #d4d4d5;
+    }
+
+    .te-header h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .team p{
+        padding-bottom: 50px;
+        font-size: 16px;
+    }
+
+    .thumbnail {
+  
+        position: relative;
+        padding: 0;
+      /*      margin: -20px; */
+        border: 0;
+    }
+
+    .thumbnail img {
+
+        width: 100%;
+        -webkit-filter: brightness(30%); 
+    }
+
+    .thumbnail .caption{
+        color: #fff;
+    }
+
+    .caption {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        width: 100%;
+        text-align: center;
     }
 
 

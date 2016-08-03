@@ -50,7 +50,7 @@
 
     <!-- start: navbar-->
     <div class="row">
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -77,9 +77,9 @@
 
     <!-- start: Jumbotron -->
     <div class="row">
-        <div class="jumbotron">
-            <h1>Simplify operations and sharing of information between startups, mentors, 
-            investors, and partners
+        <div class="jumbotron team-page">
+            <h1>Our Team is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+            standard
             </h1>
             <p>Meet BeeKeeper: Our integrated approach to managing entrepreneurship education and programs</p>
             <p><a class="btn btn-primary btn-lg btn-request2" href="#" role="button">REQUEST A DEMO</a></p>
@@ -91,18 +91,27 @@
     <!-- Sub-Pages Section
     ================================================== -->
 
+    <!-- Gallery -->
+    <div class="row gallery">
+        <div class="col-xs-12 col-sm-6">
+             <img src="assets/images/photos/45Sergi.jpg" alt="image" class="img-responsive">
+        </div>
+         <div class="col-xs-12 col-sm-6">
+             <img src="assets/images/photos/SA.jpg" alt="Headshot" class="img-responsive">
+        </div>
+    </div>
 
     <!-- start: Team -->
     <div class="team">
 
-    <div class="t-header">
+    <div class="te-header">
         <h1>The Venture Hive Team</h1>
     </div>
 
     <div class="container" id="tourpackages-carousel">  
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
 
-      <div class="row t-body">
+      <div class="row te-body">
         <div class="col-xs-18 col-sm-6 col-md-3">
           <div class="thumbnail haxa">
             <img src="assets/images/headshots/Susan.png" alt="Headshot" class="img-responsive">
@@ -147,7 +156,7 @@
       
 
 
-      <div class="row t-body">
+      <div class="row te-body">
         
         <div class="col-xs-18 col-sm-6 col-md-3">
           <div class="thumbnail">
@@ -276,6 +285,15 @@
 </div><!-- end: container -fluid -->
 
 <!-- ======================== Scripts ==================== -->
+<!-- Animated top header on scroll -->
+<script type="text/javascript">
+        // Initialize affix and add an offset to add affix class on scroll
+            $('#mainNav').affix({
+              offset: {
+                top: 100
+              }
+            })
+</script>    
 
 
 
