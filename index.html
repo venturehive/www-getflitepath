@@ -50,7 +50,7 @@
 
     <!-- start: navbar-->
     <div class="row">
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -305,21 +305,7 @@
 
         
             <div class="container">
-
-             <div class="row pe-content hidden-xs">
-                <div class="col-xs-12 col-sm-6">
-                    <p><img src="assets/images/icons/mentor.png" alt="icon" class="img-responsive center-block"></p>
-                    <h1>Mentors</h1>
-                          <h3>Tracking of entrepreneur/venture engagement  </h3>
-                          <p>Facilitate communications and knowledge sharing between startups, mentors, partners, investors and key stack </p>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                      <p><img src="assets/images/icons/investor.png" alt="icon" class="img-responsive center-block"></p>
-                      <h1>Investors</h1>
-                          <h3>Access to venture and cohort performance data</h3>
-                          <p>Tracking of venture metrics including burn rate, run rate, funds raised, milestone attainment (planned vs actual) </p>
-                </div>
-            </div>    
+   
 
             <div class="row pe-content hidden-xs">
                     <div class="col-xs-12 col-sm-4">
@@ -342,6 +328,21 @@
                             <p>Our platform includes curated, world-class content delivered through documents and videos focused on providing entrepreneurs with the guidance needed to successfully scale their businesses. </p> 
                     </div>
             </div>
+
+            <div class="row pe-content hidden-xs">
+                <div class="col-xs-12 col-sm-6">
+                    <p><img src="assets/images/icons/mentor.png" alt="icon" class="img-responsive center-block"></p>
+                    <h1>Mentors</h1>
+                          <h3>Tracking of entrepreneur/venture engagement  </h3>
+                          <p>Facilitate communications and knowledge sharing between startups, mentors, partners, investors and key stack </p>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                      <p><img src="assets/images/icons/investor.png" alt="icon" class="img-responsive center-block"></p>
+                      <h1>Investors</h1>
+                          <h3>Access to venture and cohort performance data</h3>
+                          <p>Tracking of venture metrics including burn rate, run rate, funds raised, milestone attainment (planned vs actual) </p>
+                </div>
+            </div> 
 
         </div>
 
@@ -483,6 +484,16 @@
             $(this).tab('show')
         })
     </script>
+
+<!-- -->
+<script type="text/javascript">
+        // Initialize affix and add an offset to add affix class on scroll
+            $('#mainNav').affix({
+              offset: {
+                top: 100
+              }
+            })
+</script>    
 
 
 <!-- Scripts
