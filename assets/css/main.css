@@ -196,11 +196,11 @@
         font-size: 18px;
     }
 
-    /*  BEEKEEPER */
+    /*  FEATURES */
     .beekeeper{
         padding: 30px 0;
-        background-color: #f5f5f5;
-        color: #000;
+        background-color: #4b8fb6;
+        color: #fff;
     }
 
     .b-content h1 {
@@ -210,8 +210,10 @@
 
     .b-content li{
         padding-bottom: 5px;
+        padding-top: 10px;
         font-size: 14px;
-        line-height: 30px;
+        color: #fff;
+        line-height: 38px;
         list-style-type: disc;
     }
 
@@ -316,8 +318,10 @@
 
     /* CONTACT  */
     .contact{
-        padding: 30px 0; 
+        padding: 30px 0;
+        background-color: #4b8fb6; 
         text-align: center;
+        color: #fff;
     }
 
     .contact h1{
@@ -580,7 +584,7 @@
     }
     .b-content {
         padding-right: 140px;
-        padding-left: 80px;
+        padding-left: 120px;
         line-height: 35px;
     }
 
