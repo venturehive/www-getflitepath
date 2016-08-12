@@ -58,6 +58,7 @@
      }
 
     .navbar-header{
+        margin-bottom: 20px;
         padding: 10px;
     }
 
@@ -78,8 +79,8 @@
      }
 
     .btn-request:hover {
-        background-color: #00addb;
-        border-color: #00addb;
+        background-color: #009999;
+        border-color: #009999;
       }
 
     /* JUMBOTRON */
@@ -89,7 +90,8 @@
     }
       
     .jumbotron {
-          margin: 50px 0;
+          margin: 60px 0;
+          padding-top: 100px;
           color: #ffffff;
     }
 
@@ -206,7 +208,7 @@
 
     .b-content h1 {
         font-size: 25px;
-        text-align: center;
+        text-align: left;
     }
 
     .b-content li{
@@ -263,7 +265,7 @@
     }
 
     .pe-content h1{
-        color: #00acdd;
+        color: #84898a;
     }
 
     .pe-content h3{
@@ -319,7 +321,7 @@
 
     /* CONTACT  */
     .contact{
-        padding: 30px 0;
+        padding: 30px 10px;
         background-color: #009999; 
         text-align: center;
         color: #fff;
@@ -502,6 +504,10 @@
         margin-left: 20px;
     }
 
+     .navbar-header{
+        padding: 0;
+    }
+
     .btn-request {
         margin: 17px;
         padding: 7px 20px;
@@ -635,6 +641,7 @@
 
     .p-head h1{
         font-size: 36px;
+        padding-bottom: 20px;
     }
 
    .pe-content h1{
