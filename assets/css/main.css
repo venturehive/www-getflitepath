@@ -207,7 +207,7 @@
     }
 
     .b-content h1 {
-        font-size: 25px;
+        /*font-size: 25px;*/
         text-align: left;
     }
 
@@ -590,13 +590,13 @@
         padding: 90px 0;
     }
     .b-content {
-        padding-right: 140px;
+        /*padding-right: 140px;*/
         padding-left: 120px;
         line-height: 35px;
     }
 
     .b-content h1 {
-        font-size: 36px;
+        /*font-size: 36px;*/
         text-align: left;
     }
 
@@ -837,13 +837,13 @@
         padding: 40px 0;
     }
     .b-content {
-        padding-top: 40px;
+        padding-top: 20px;
         padding-right: 116px;
         line-height: 43px;
     }
 
     .b-content h1 {
-        font-size: 30px;
+        /*font-size: 30px;*/
     }
 
     .b-content li{
@@ -1016,13 +1016,13 @@
     }
     .b-content {
         padding-top: 50px;
-        padding-right: 340px;
+        /*padding-right: 340px;*/
         padding-left: 130px;
         line-height: 55px;
     }
 
     .b-content h1 {
-        font-size: 40px;
+        /*font-size: 40px;*/
     }
 
     .b-content li{
