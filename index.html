@@ -101,23 +101,37 @@
         <div class="s-content col-xs-12">
 
             <div class="autoplay">
-                <!-- TODO: Add other logos -->
-                <!-- IAMCPT (WIT), STEMULUS (CNM), LBCC, WW, VA, ODU, MS, WB, AVC, STATE, USAID, GSI, MIAMIDADE, DDA, KNIGHT, MWC?, DLA, CB -->
+                <!-- Dept of Veterans Affairs -->
                 <div> <img src="assets/images/partners/VA.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Microsoft -->
                 <div> <img src="assets/images/partners/microsoft.png" alt="Logo" class="img-responsive" > </div>
+                <!-- InfoDev -->
                 <div> <img src="assets/images/partners/infodev.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Miami DDA -->
                 <div> <img src="assets/images/partners/dda.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Miami Dade County -->
                 <div> <img src="assets/images/partners/miamidade.png" alt="Logo" class="img-responsive" > </div>
+                <!-- IAMCP -->
                 <div> <img src="assets/images/partners/iamcp.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Knight Foundation -->
                 <div> <img src="assets/images/partners/knight.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Old Dominion University -->
                 <div> <img src="assets/images/partners/ODU.png" alt="Logo" class="img-responsive" > </div>
+                <!-- US Dept of State -->
                 <div> <img src="assets/images/partners/state.png" alt="Logo" class="img-responsive" > </div>
+                <!-- USAID -->
                 <div> <img src="assets/images/partners/usaid.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Stemulus Center (CNM) -->
                 <div> <img src="assets/images/partners/stemulus.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Green Screen Institute -->
                 <div> <img src="assets/images/partners/greenscreen.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Arkansas Venture Center -->
                 <div> <img src="assets/images/partners/VC0.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Long Beach City College -->
                 <div> <img src="assets/images/partners/lbcc.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Wearable IOT World -->
                 <div> <img src="assets/images/partners/wworld.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Cherry Baekert -->
                 <div> <img src="assets/images/partners/cherryc.png" alt="Logo" class="img-responsive" > </div>
             </div>
                 
@@ -200,12 +214,15 @@
         <div class="col-xs-12 col-sm-6 b-content">
             <h1>Features</h1>
             <ul>
-                <!-- TODO: Take list from https://docs.venturehive.com/flitepath/ -->
                 <li>Venture profile creation and setup</li>
-                <li>Educational content and usage</li>
-                <li>Portfolio management</li>
+                <li>Educational content and usage (ours or yours or both)</li>
+                <li>Portfolio Management (Entrepreneur and venture level)</li>
+                <li>Event/Meeting/Deliverable management - Calendars/iCal</li>
                 <li>Management of mentor network</li>
                 <li>Reporting and Analytics</li>
+                <li>Venture- and Product-level Metrics</li>
+                <li>Notifications</li>
+                <li>Slack integration (<i>Coming soon!</i>)</li>
                 <li><a class="btn btn-primary btn-lg btn-request2" href="https://goo.gl/forms/5TuYnCHUrI1ENYJU2" role="button" style="margin-left: -18px" target="_blank">REQUEST A DEMO</a></li>
             </ul>
         </div>
@@ -493,7 +510,8 @@
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 1500,
+      centerMove: true
     });       
 </script>
 
@@ -507,26 +525,23 @@
     });
 </script>
 
-
 <!-- tab.js -->
-    <script type="text/javascript">
-        $('#myTabs a').click(function (e) {
-            e.preventDefault()
-            $(this).tab('show')
-        })
-    </script>
+<script type="text/javascript">
+    $('#myTabs a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    })
+</script>
 
 <!-- Animated top header on scroll -->
 <script type="text/javascript">
-        // Initialize affix and add an offset to add affix class on scroll
-            $('#mainNav').affix({
-              offset: {
-                top: 100
-              }
-            })
-</script>    
-
-
+    // Initialize affix and add an offset to add affix class on scroll
+    $('#mainNav').affix({
+      offset: {
+        top: 100
+      }
+    })
+</script>
 <!-- Scripts
   ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
