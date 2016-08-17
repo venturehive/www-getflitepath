@@ -101,14 +101,38 @@
         <div class="s-content col-xs-12">
 
             <div class="autoplay">
-                <!-- TODO: Add other logos -->
-                <!-- IAMCPT (WIT), STEMULUS (CNM), LBCC, WW, VA, ODU, MS, WB, AVC, STATE, USAID, GSI, MIAMIDADE, DDA, KNIGHT, MWC?, DLA, CB -->
-                <div> <img src="assets/images/partners/US.png" alt="Logo" class="img-responsive" > </div>
-                <div> <img src="assets/images/partners/microsoft.png" alt="Logo" class="img-responsive" > </div>
-                <div> <img src="assets/images/partners/TWB.png" alt="Logo" class="img-responsive" > </div>
-                <div> <img src="assets/images/partners/ODU.png" alt="Logo" class="img-responsive" > </div>
-                <div> <img src="assets/images/partners/VC0.png" alt="Logo" class="img-responsive" > </div>
-                <div> <img src="assets/images/partners/cherryc.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Dept of Veterans Affairs -->
+                <div title="US Dept of veterans Affairs"> <img src="assets/images/partners/VA.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Microsoft -->
+                <div title="Microsoft"> <img src="assets/images/partners/microsoft.png" alt="Logo" class="img-responsive" > </div>
+                <!-- InfoDev -->
+                <div title="InfoDev"> <img src="assets/images/partners/infodev.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Miami DDA -->
+                <div title="Miami Downton Development Authority"> <img src="assets/images/partners/dda.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Miami Dade County -->
+                <div title="Miami-Dade County"> <img src="assets/images/partners/miamidade.png" alt="Logo" class="img-responsive" > </div>
+                <!-- IAMCP -->
+                <div title="IAMCP"> <img src="assets/images/partners/iamcp.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Knight Foundation -->
+                <div title="Knight Foundation"> <img src="assets/images/partners/knight.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Old Dominion University -->
+                <div title="Old Dominion University"> <img src="assets/images/partners/ODU.png" alt="Logo" class="img-responsive" > </div>
+                <!-- US Dept of State -->
+                <div title="US Department of State"> <img src="assets/images/partners/state.png" alt="Logo" class="img-responsive" > </div>
+                <!-- USAID -->
+                <div title="USAid"> <img src="assets/images/partners/usaid.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Stemulus Center (CNM) -->
+                <div title="The STEMulus Center (Central New Mexico)"> <img src="assets/images/partners/stemulus.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Green Screen Institute -->
+                <div title="The Green Screen Institute"> <img src="assets/images/partners/greenscreen.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Arkansas Venture Center -->
+                <div title="Arkansas Venture Center"> <img src="assets/images/partners/VC0.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Long Beach City College -->
+                <div title="Long Beach City College"> <img src="assets/images/partners/lbcc.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Wearable IOT World -->
+                <div title="Wearable IOT World"> <img src="assets/images/partners/wworld.png" alt="Logo" class="img-responsive" > </div>
+                <!-- Cherry Bekaert -->
+                <div title="Cherry Bekaert"> <img src="assets/images/partners/cherryc.png" alt="Logo" class="img-responsive" > </div>
             </div>
                 
         </div><!-- col-xs-12 -->
@@ -188,14 +212,17 @@
         </div>
 
         <div class="col-xs-12 col-sm-6 b-content">
-            <h1>Features</h1>
+            <h1 style="padding-top:0px;">Features</h1>
             <ul>
-                <!-- TODO: Take list from https://docs.venturehive.com/flitepath/ -->
                 <li>Venture profile creation and setup</li>
-                <li>Educational content and usage</li>
-                <li>Portfolio management</li>
+                <li>Educational content and usage (ours or yours or both)</li>
+                <li>Portfolio Management (Entrepreneur and venture level)</li>
+                <li>Event/Meeting/Deliverable management - Calendars/iCal</li>
                 <li>Management of mentor network</li>
                 <li>Reporting and Analytics</li>
+                <li>Venture- and Product-level Metrics</li>
+                <li>Notifications</li>
+                <li>Slack integration (<i>Coming soon!</i>)</li>
                 <li><a class="btn btn-primary btn-lg btn-request2" href="https://goo.gl/forms/5TuYnCHUrI1ENYJU2" role="button" style="margin-left: -18px" target="_blank">REQUEST A DEMO</a></li>
             </ul>
         </div>
@@ -483,7 +510,8 @@
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 1500,
+      centerMove: true
     });       
 </script>
 
@@ -497,26 +525,23 @@
     });
 </script>
 
-
 <!-- tab.js -->
-    <script type="text/javascript">
-        $('#myTabs a').click(function (e) {
-            e.preventDefault()
-            $(this).tab('show')
-        })
-    </script>
+<script type="text/javascript">
+    $('#myTabs a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    })
+</script>
 
 <!-- Animated top header on scroll -->
 <script type="text/javascript">
-        // Initialize affix and add an offset to add affix class on scroll
-            $('#mainNav').affix({
-              offset: {
-                top: 100
-              }
-            })
-</script>    
-
-
+    // Initialize affix and add an offset to add affix class on scroll
+    $('#mainNav').affix({
+      offset: {
+        top: 100
+      }
+    })
+</script>
 <!-- Scripts
   ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->

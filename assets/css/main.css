@@ -5,14 +5,15 @@
         font-family: 'Open Sans Condensed', sans-serif;
     }
 
-    h1{
+    h1 {
         font-weight: 900;
     }
 
 
-    p, li{  padding-bottom: 15px;
+    p, li {
+        padding-bottom: 15px;
        /* font-family: 'Montserrat', sans-serif; */
-        font-family: 'Raleway', sans-serif; 
+        font-family: 'Raleway', sans-serif;
         font-size: 20px;
         font-weight: 100;
     }
@@ -20,18 +21,19 @@
     li {
        list-style-type: none;
     }
+
 /* General Bootstrap styles */
-    .btn-default{
+    .btn-default {
         background-image: linear-gradient(to bottom,#FFFFFF 0,#FFFFFF 100%);
         text-shadow: none;
     }
 
-/*  Burger Menu */
-    .navbar-default .navbar-toggle{
+/* Burger Menu */
+    .navbar-default .navbar-toggle {
         border-color: #FFFFFF;
     }
 
-    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
         background-color: #f5f5f5;
     }
 
@@ -39,7 +41,7 @@
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px){
+@media only screen and (min-width : 320px) {
 
     /* Main content */
 
@@ -57,7 +59,7 @@
         /* Add additional styles here for the COLLAPSED state */
      }
 
-    .navbar-header{
+    .navbar-header {
         margin-bottom: 20px;
         padding: 10px;
     }
@@ -72,7 +74,7 @@
          background-image: none;
      }
 
-    .btn-request> a{
+    .btn-request> a {
          font-size: 12px;
          color: #ffffff;
          text-decoration: none;
@@ -85,7 +87,7 @@
 
     /* JUMBOTRON */
 
-    .container .jumbotron, .container-fluid .jumbotron{
+    .container .jumbotron, .container-fluid .jumbotron {
         border-radius: 0;
     }
       
@@ -95,17 +97,17 @@
           color: #ffffff;
     }
 
-    .index-page{
+    .index-page {
          background-image: url("../images/slide2.jpg");
           background-size: cover;
     }
 
-    .team-page{
+    .team-page {
          background-image: url("../images/slide2.jpg");
           background-size: cover;
     }
 
-    .jumbotron h1{
+    .jumbotron h1 {
         font-size: 25px;
         line-height: 30px;
     }
@@ -124,12 +126,12 @@
         background-image: none;
     }
 
-     .btn-request2:hover{
+     .btn-request2:hover {
          background-color: #000;
          border-color: #000;
      }
 
-    .btn-request2> a{
+    .btn-request2> a {
         font-size: 14px;
         color: #ffffff;
         text-decoration: none;
@@ -137,17 +139,19 @@
 
     /*  SPONSORS  */
 
-    .sponsors{
+    .sponsors {
         margin: -45px -12px;
     }
 
     /* TESTIMONIALS */
+
     .testimonials {
         padding: 30px 10px;
         display: inline-block;
         background-color: #f5f5f5;
     }
-    .t-content p{
+
+    .t-content p {
         margin-bottom: 0px;
         padding-bottom: 7px;
         font-size: 12px;
@@ -164,25 +168,25 @@
         /* width and height can be anything, as long as they're equal */
     }
 
-    .img-one{
+    .img-one {
          background-image: url('../images/headshots/leew.jpg');
     }
 
-    .img-two{
+    .img-two {
          background-image: url('../images/headshots/Jim.png');
     }
 
-    .img-three{
+    .img-three {
          background-image: url('../images/headshots/andrea.jpg');
     }
 
-    .t-content h3{
+    .t-content h3 {
         margin-top: 0;
         margin-bottom: 20px;
         font-size: 14px;
     }
     /*  PLATFORM  */
-    .p-content{
+    .p-content {
         padding: 0 13px;
         text-align: center;
     }
@@ -191,7 +195,7 @@
         font-size: 25px;
     }
 
-    .p-content p{
+    .p-content p {
         font-size: 16px;
     }
 
@@ -200,7 +204,7 @@
     }
 
     /*  FEATURES */
-    .Flitepath{
+    .Flitepath {
         padding: 30px 0;
         background-color: #009999;
         color: #fff;
@@ -211,17 +215,17 @@
         text-align: left;
     }
 
-    .b-content li{
-        padding-bottom: 5px;
-        padding-top: 10px;
+    .b-content li {
+        padding-bottom: 0px;
+        padding-top: 0px;
         font-size: 14px;
         color: #fff;
-        line-height: 38px;
+        line-height: 26px;
         list-style-type: disc;
     }
 
-    .b-content li:last-child{
-        padding-top: 7px;
+    .b-content li:last-child {
+        /*padding-top: 7px;*/
         list-style-type: none;
     }
 
@@ -236,43 +240,43 @@
         font-size: 25px;
     }  
 
-    .be-features h3{
+    .be-features h3 {
         font-size: 18px;
     }  
 
-    .be-features p{
+    .be-features p {
         font-size: 16px;
     }
 
      /* PERSONAS */
-    .personas{
+    .personas {
         padding: 30px 0;
         background-color: #f5f5f5; 
     }
 
-    .p-head h1{
+    .p-head h1 {
         font-size: 25px;
         text-align: center;
     }
 
-    .pe-content{
+    .pe-content {
         padding: 0 15px;
     }
 
-    .pe-content a{
+    .pe-content a {
         font-size: 14px;
 
     }
 
-    .pe-content h1{
+    .pe-content h1 {
         color: #84898a;
     }
 
-    .pe-content h3{
+    .pe-content h3 {
         font-size: 16px;
     }
 
-    .pe-content p{
+    .pe-content p {
         font-size: 14px;
     }
 
@@ -284,11 +288,11 @@
         font-size: 18px;
     }
 
-    .pe-content3 h3{
+    .pe-content3 h3 {
         font-size: 16px;
     }
 
-    .pe-content3 p{
+    .pe-content3 p {
         font-size: 14px;
     }
 
@@ -296,7 +300,7 @@
         padding: 0 20px;
     }
 
-    #collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive{
+    #collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive {
         padding: 0 20px;
     }
 
@@ -304,30 +308,30 @@
         margin-bottom: 0;
     }
 
-    .panel-default>.panel-heading{
+    .panel-default>.panel-heading {
         background-image: none;
     }
 
-    .panel-heading{
+    .panel-heading {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
 
-    .panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a:hover{
+    .panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a:hover {
         text-decoration: none;
     }
 
 
 
     /* CONTACT  */
-    .contact{
+    .contact {
         padding: 30px 10px;
         background-color: #009999; 
         text-align: center;
         color: #fff;
     }
 
-    .contact h1{
+    .contact h1 {
         font-size: 22px;
     }
 
@@ -337,20 +341,19 @@
 
     /* ---------- About Page --------- */
 
-    .about{
+    .about {
         padding: 80px 30px;
     }
 
-    .about p{
+    .about p {
         font-size: 16px;
         line-height: 31px;
     }
 
-
     /* ---------- Team Page --------- */
 
     /* Thumbnail */
-    .team{
+    .team {
            margin: 80px 0;
     }
 
@@ -367,7 +370,7 @@
         text-align: center;
     }
 
-    .team p{
+    .team p {
         padding-bottom: 50px;
         font-size: 16px;
     }
@@ -386,7 +389,7 @@
         -webkit-filter: brightness(30%); 
     }
 
-    .thumbnail .caption{
+    .thumbnail .caption {
         color: #fff;
     }
 
@@ -400,7 +403,7 @@
 
     /*  FOOTER  */
 
-    .footer-nav{
+    .footer-nav {
         padding: 20px;
         background-color: #2a2728;
     }
@@ -411,28 +414,28 @@
         font-size: 8px;
     }
 
-   .logo img{
+   .logo img {
         margin-left: auto;
         margin-right: auto;
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
-    .menu{
+    .menu {
         margin-bottom: 0;
         padding-bottom: 15px;
         text-align: center;
     }
 
-    .nav>li>a{
+    .nav>li>a {
         padding: 0;
     }
 
-    .nav>li>a:focus, .nav>li>a:hover{
+    .nav>li>a:focus, .nav>li>a:hover {
         background-color: transparent;
     }
 
-    .social{
+    .social {
         font-size: 8px;
         text-align: center;
         color: #ffffff;
@@ -453,7 +456,7 @@
         padding-right: 5px;
     }
 
-    #twitter:hover{
+    #twitter:hover {
         background-color: #00aced;
     }
 
@@ -473,26 +476,22 @@
         font-size: 9px;
         text-align: center;
     }
-
-
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px){
-
-
+@media only screen and (min-width : 480px) {
     .btn {
         margin-top: 0px;
-        margin-left: -50px;
+        /*margin-left: -50px;*/
     }
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
 
     /*  Navbar  */
 
-    .navbar-default{
+    .navbar-default {
         margin-bottom: 0;
         background-image: linear-gradient(to bottom,#FFFFFF 0,#FFFFFF 100%);
         background-color: #FFFFFF;
@@ -500,7 +499,7 @@
         border-radius: 0;
     }
 
-    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
         margin-left: 20px;
     }
 
@@ -520,13 +519,14 @@
 
     .btn-request2 {
         margin: 0;
+        margin-top: 26px;
         padding: 10px 20px;
         display: inline-block;
         font-size: 15px;
     }
 
     /*  Jumbotron  */
-    .jumbotron h1{
+    .jumbotron h1 {
         width: 550px;
         font-size: 45px;
         letter-spacing: 1px;
@@ -539,7 +539,7 @@
     }
 
     /*  Sponsors Section  */
-    .sponsors{
+    .sponsors {
         margin: -45px 30px;
     }
 
@@ -547,7 +547,7 @@
     .testimonials {
         margin-top: 20px;
     }
-    .t-body{
+    .t-body {
         padding: 20px;
     }
 
@@ -559,15 +559,15 @@
         font-size: 16px;
     }
 
-    .t-content p{
+    .t-content p {
         font-size: 14px;
     }
 
     /* Platform  */
-    .p-content{
+    .p-content {
         padding: 20px 80px;
     }
-    .p-content h1{
+    .p-content h1 {
         font-size: 36px;
         font-weight: 900;
     }
@@ -580,13 +580,13 @@
         font-size: 14px;
     }
 
-    #p-body  {
+    #p-body {
         padding: 0 240px;
         font-size: 16px;
     }
 
     /* Flitepath */
-    .Flitepath{
+    .Flitepath {
         padding: 90px 0;
     }
     .b-content {
@@ -601,7 +601,7 @@
     }
 
 
-    .b-content li{
+    .b-content li {
         font-size: 16px;
     }
 
@@ -611,12 +611,12 @@
         text-align: center;
     }
 
-    .be-content h1{
+    .be-content h1 {
         font-size: 36px;
         padding: 0 38px 30px 9px;
     }
 
-    .be-features{
+    .be-features {
         padding:0 35px;
         text-align: left;
     }
@@ -625,56 +625,55 @@
         font-size: 18px;
     }
 
-    .be-features p{
+    .be-features p {
         padding-top: 8px;
         font-size: 14px;
     }
 
     /* Personas */
-    .personas{
+    .personas {
         padding: 40px 0;
         text-align: center;
     }
-    .p-head{
+    .p-head {
         padding-top: 30px;
     }
 
-    .p-head h1{
+    .p-head h1 {
         font-size: 36px;
         padding-bottom: 20px;
     }
 
-   .pe-content h1{
+   .pe-content h1 {
         padding-bottom: -15px;
    }
 
     /* CONTACT */
-    .contact{
+    .contact {
         padding: 60px 390px;
         font-size: 18px;
     }
 
-    .contact h1{
+    .contact h1 {
         font-size: 36px;
     }
 
 
  /* ---------- About Page --------- */
 
-    .about{
+    .about {
         padding: 80px 30px;
     }
 
-    .about p{
+    .about p {
         font-size: 16px;
         line-height: 31px;
     }
 
-
     /* ---------- Team Page --------- */
 
     /* Thumbnail */
-    .team{
+    .team {
            margin: 80px 0;
     }
 
