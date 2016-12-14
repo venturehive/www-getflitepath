@@ -1,5 +1,5 @@
 # Intellij
-.idea/
+.idea
 *.iml
 .slcache
 
@@ -17,6 +17,8 @@
 .idea/sqlDataSources.xml
 .idea/dynamic.xml
 .idea/uiDesigner.xml
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
 
 # Gradle:
 .idea/gradle.xml
