@@ -397,7 +397,7 @@
     <div class="col-md-2"></div>
     <div class="col-md-8">
         <div class="panel-default" style="padding-top:50px;padding-bottom:50px;">
-            <div class="video-container">
+            <div class="video-container" id="video-frame">
                 <iframe src="https://player.vimeo.com/video/179816662?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0"></iframe>
             </div>
         </div>
@@ -501,6 +501,11 @@
 
 <!-- slick -->
 <script type="text/javascript">
+    $(document).ready(function() {
+        $('html,body').animate({
+            scrollTop: $("#video-frame").offset().top
+        }, 'slow');
+    });
     $('.autoplay').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
