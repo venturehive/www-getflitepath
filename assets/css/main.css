@@ -140,7 +140,7 @@
         font-size: 14px;
         display: block;
         border-radius: 20px;
-        background-color: #2a2728;
+        background-color: #B1C321;
         background-image: none;
     }
 
@@ -224,7 +224,7 @@
     /*  FEATURES */
     .Flitepath {
         padding: 30px 0;
-        background-color: #009999;
+        background-color: #2a2728;
         color: #fff;
     }
 
@@ -917,7 +917,7 @@
     /* COPYRIGHT */
 
     .copyright p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     /* Thumbnails */
