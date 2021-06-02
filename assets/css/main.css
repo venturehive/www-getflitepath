@@ -87,14 +87,14 @@
          padding: 7px 80px;
          display: block;
          border-radius: 20px;
-         background-color: #b1c21c;
+         background-color: #BACE22;
          border-color: transparent;
          background-image: none;
      }
 
     .btn-request> a {
          font-size: 12px;
-         color: #ffffff;
+         color: #333333;
          text-decoration: none;
      }
 
@@ -140,7 +140,8 @@
         font-size: 14px;
         display: block;
         border-radius: 20px;
-        background-color: #B1C321;
+        background-color: #BACE22;
+        color: #333333;
         background-image: none;
     }
 
@@ -151,7 +152,7 @@
 
     .btn-request2> a {
         font-size: 14px;
-        color: #ffffff;
+        color: #333333;
         text-decoration: none;
     }
 
